@@ -1,0 +1,163 @@
+/*
+  Localizable.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+"language" = "ja";
+"unit_t" = "C";
+
+
+"tab_time" = "時間";
+"tab_day" = "日";
+"tab_month" = "月";
+"tab_year" = "年";
+"tab_more" = "もっと";
+
+
+"leap" = "閏";
+
+"morning" = "a.m.";
+"afternoon" = "p.m.";
+
+"sunrise_sunset" = "日の出と日の入り";
+"civil_dawn_dusk" = "夜明けと夕暮れ（市民）";
+"nautical_dawn_dusk" = "夜明けと夕暮れ（航海）";
+"astro_dawn_dusk" = "夜明けと夕暮れ（天文）";
+"illumination" = "イルミネーション";
+"sun_rise" = "日の出";
+"sun_set" = "日の入";
+"moon_rise" = "月の出";
+"moon_set" = "月の入";
+"moon_age" = "月の齢";
+
+"planet" = "惑星";
+"constellation" = "星座";
+"star" = "スター";
+
+
+
+"apparent_ecliptic_longitude" = "太陽の黄道経度";
+
+"solunar" = "Solunar";
+"calendar" = "カレンダー";
+"public_holiday" = "祝日";
+"calendar_festival" = "カレンダーフェスティバル";
+"year" = "年";
+"month" = "月";
+"day" = "日";
+"default" = "デフォルト：";
+"working_days" = "営業日";
+
+
+"holidays" = "祝日";
+"sun" = "太陽";
+"moon" = "月";
+"eclipse" = "食";
+"solar_eclipse" = "日食";
+"lunar_eclipse" = "月食";
+"astronomy" = "天文学";
+
+"date" = "日付";
+"rise" = "出";
+"set" = "入";
+"transit" = "トランジット";
+
+
+"mercury" = "水星";
+"venus" = "金星";
+"mars" = "火星";
+"jupiter" = "木星";
+"saturn" = "土星";
+"uranus" = "天王星";
+"neptune" = "海王星";
+"pluto" = "冥王星";
+
+"dawn_civil" = "夜明け（市民）";
+"dusk_civil" = "夕暮れ（市民）";
+
+
+"days" = "日";
+"era" = "時代";
+
+
+
+"unit" = "ユニット";
+"buy_membership" = "メンバーシップを購入";
+"restore" = "復元";
+"select_units" = "単位の選択";
+"lan_setting" = "言語設定";
+"privacy_policy" = "プライバシーポリシー";
+"terms_of_service" = "利用規約";
+"rate_on_app_store" = "アプリストアでの評価";
+"version" = "バージョン";
+"share_to_friends" = "友達に共有";
+
+"app_url" = "https://itunes.apple.com/us/app/id1281770398?mt=8";
+"app_name" = "時計と年鑑";
+"service_url" = "http://www.astronomyobserver.net/h5/lishu/user/en";
+"privacy_url" = "http://www.astronomyobserver.net/h5/lishu/privacy/en";
+
+
+
+
+
+"cancel" = "キャンセル";
+
+
+
+
+
+"solar_eclipse_total" = "皆既食";
+"solar_eclipse_annular" = "金環食";
+"solar_eclipse_hybrid" = "ハイブリッド日食";
+"solar_eclipse_partical" = "部分食";
+
+
+
+
+"lunar_eclipse_penumbral" = "半影食";
+"lunar_eclipse_partial" = "部分月食";
+"lunar_eclipse_total" = "皆既月食";
+"lunar_eclipse_central" = "中央の月食";
+
+
+
+
+"name" = "名前";
+"current_location" = "現在の場所";
+"timezone" = "タイムゾーン";
+"latitude" = "緯度";
+"longitude" = "経度";
+
+"note" = "メモ";
+
+
+
+
+"constellation_and_star" = "星座と星";
+
+
+
+
+
+"location_service" = "このアプリケーションの位置情報アクセス許可は閉じられました。この機能を引き続き使用する必要がある場合は、[設定]-[プライバシー]-[位置情報サービス]インターフェイスで位置情報を開いてください。";
+"go_to_setting" = "設定に移動";
+"キャンセル" = "キャンセル";
+
+"none" = "なし";
+"define" = "定義";
+"got_it" = "了解しました";
+"location_manage" = "ロケーション管理";
+"enter_city_name" = "都市名を入力してください";
+
+
+
+
+
+"location_manage_max_tip"="追加できる場所は5つまでです";
+
+"delete" = "デリート";
+

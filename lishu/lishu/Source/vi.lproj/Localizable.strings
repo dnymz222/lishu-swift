@@ -1,0 +1,163 @@
+/*
+  Localizable.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+
+"language" = "vi";
+"unit_t" = "C";
+
+
+"tab_time" = "Thời gian";
+"tab_day" = "Ngày";
+"tab_month" = "Tháng";
+"tab_year" = "Năm";
+"tab_more" = "Thêm";
+
+
+"leap" = "nhuận";
+
+"morning" = "a.m.";
+"afternoon" = "p.m.";
+
+"sunrise_sunset" = "Bình minh và Hoàng hôn";
+"civil_dawn_dusk" = "Dawn And Dusk （Civil）";
+"nautical_dawn_dusk" = "Dawn And Dusk （Nautical）";
+"astro_dawn_dusk" = "Dawn And Dusk （Astronomical）";
+"illumination" = "Sự chiếu sáng";
+"sun_rise" = "Mặt trời mọc";
+"sun_set" = "Hoàng hôn";
+"moon_rise" = "Moonrise";
+"moon_set" = "Moonset";
+"moon_age" = "Moonage";
+
+"planet" = "Hành tinh";
+"constellation" = "Chòm sao";
+"star" = "Ngôi sao";
+
+
+
+"apparent_ecliptic_longitude" = "Kinh độ hoàng đạo của Mặt trời";
+
+"solunar" = "Solunar";
+"calendar" = "Lịch";
+"public_holiday" = "Ngày nghỉ lễ";
+"calendar_festival" = "Lễ hội Lịch";
+"year" = "Năm";
+"month" = "Tháng";
+"day" = "Ngày";
+"default" = "Mặc định:";
+"working_days" = "Ngày làm việc";
+
+
+"holidays" = "Ngày nghỉ";
+"sun" = "Mặt trời";
+"moon" = "Mặt trăng";
+"eclipse" = "Nhật thực";
+"solar_eclipse" = "Nhật thực";
+"lunar_eclipse" = "Nguyệt thực";
+"astronomy" = "Thiên văn học";
+
+"date" = "Ngày";
+"rise" = "trỗi dậy";
+"set" = "đổ bộ";
+"transit" = "Điểm cao nhất";
+
+
+"mercury" = "Thủy ngân";
+"venus" = "Sao Kim";
+"mars" = "Sao Hỏa";
+"jupiter" = "Sao Mộc";
+"saturn" = "Sao Thổ";
+"uranus" = "Sao Thiên Vương";
+"neptune" = "Sao Hải Vương";
+"pluto" = "Sao Diêm Vương";
+
+"dawn_civil"=" Bình minh (Dân sự) ";
+"dusk_civil" = "Dusk (Dân dụng)";
+
+
+"days" = "Ngày";
+"era" = "Kỷ nguyên";
+
+
+
+"unit" = "Đơn vị";
+"buy_membership" = "Mua tư cách thành viên";
+"restore" = "Khôi phục";
+"select_units" = "Chọn đơn vị";
+"lan_setting" = "Cài đặt Ngôn ngữ";
+"privacy_policy" = "Chính sách Bảo mật";
+"terms_of_service" = "Điều khoản Dịch vụ";
+"rate_on_app_store" = "Xếp hạng trên App Store";
+"version" = "Phiên bản";
+"share_to_friends" = "Chia sẻ với bạn bè";
+
+"app_url" = "https://itunes.apple.com/us/app/id1281770398?mt=8";
+"app_name" = "đồng hồ và lịch";
+"service_url" = "http://www.astronomyobserver.net/h5/lishu/user/en";
+"privacy_url" = "http://www.astronomyobserver.net/h5/lishu/privacy/en";
+
+
+
+
+
+"cancel" = "Hủy bỏ";
+
+
+
+
+
+"solar_eclipse_total" = "Nhật thực toàn phần";
+"solar_eclipse_annular" = "Nhật thực hàng năm";
+"solar_eclipse_hybrid" = "Nhật thực lai";
+"solar_eclipse_partical" = "Nhật thực một phần";
+
+
+
+
+"lunar_eclipse_penumbral" = "Nguyệt thực hình tròn";
+"lunar_eclipse_partial" = "Nguyệt thực một phần";
+"lunar_eclipse_total" = "Nguyệt thực toàn phần";
+"lunar_eclipse_central" = "Trung tâm nguyệt thực";
+
+
+
+
+"name" = "Tên";
+"current_location" = "Vị trí Hiện tại";
+"timezone" = "TimeZone";
+"latitude" = "Vĩ độ";
+"longitude" = "Kinh độ";
+
+"note" = "Ghi chú";
+
+
+
+
+"constellation_and_star" = "Chòm sao và Ngôi sao";
+
+
+
+
+
+
+"location_service" = "Quyền định vị của ứng dụng này đã bị đóng. Nếu bạn cần tiếp tục sử dụng chức năng này, vui lòng mở vị trí trong giao diện Cài đặt-Quyền riêng tư-Dịch vụ Vị trí.";
+"go_to_setting" = "chuyển đến cài đặt";
+"cancel" = "Hủy bỏ";
+
+"none" = "Không có";
+"define" = "Xác định";
+"got_it" = "Đã hiểu";
+"location_manage" = "Quản lý Vị trí";
+"enter_city_name" = "Vui lòng nhập tên thành phố";
+
+
+
+"location_manage_max_tip"="Bạn chỉ có thể thêm tối đa 5 địa điểm";
+"delete" = "Xóa bỏ";
+
+

@@ -1,0 +1,161 @@
+/*
+  Localizable.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+
+"language" = "ru";
+"unit_t" = "C";
+
+
+"tab_time" = "Время";
+"tab_day" = "День";
+"tab_month" = "Месяц";
+"tab_year" = "Год";
+"tab_more" = "Еще";
+
+
+"leap" = "Прыжок";
+
+"morning" = "a.m.";
+"afternoon" = "p.m.";
+
+"sunrise_sunset" = "Восход и закат";
+"civil_dawn_dusk" = "Рассвет и закат (гражданские)";
+"nautical_dawn_dusk" = "Рассвет и пыль (морской)";
+"astro_dawn_dusk" = "Рассвет и закат (астрономические данные)";
+"illumination" = "Освещение";
+"sun_rise" = "Восход";
+"sun_set" = "Закат";
+"moon_rise" = "Восход луны";
+"moon_set" = "Закат Луны";
+"moon_age" = "Возраст Луны";
+
+"planet" = "Планета";
+"constellation" = "Созвездие";
+"star" = "Звезда";
+
+
+
+"apparent_ecliptic_longitude" = "Эклиптическая долгота Солнца";
+
+"solunar" = "Solunar";
+"calendar" = "Календарь";
+"public_holiday" = "Государственный праздник";
+"calendar_festival" = "Фестиваль календаря";
+"year" = "Год";
+"month" = "Месяц";
+"day" = "День";
+"default" = "По умолчанию:";
+"working_days" = "Рабочие дни";
+
+
+"holidays" = "Праздники";
+"sun" = "Солнце";
+"moon" = "Луна";
+"eclipse" = "Затмение";
+"solar_eclipse" = "Солнечное затмение";
+"lunar_eclipse" = "Лунное затмение";
+"astronomy" = "Астрономия";
+
+"date" = "Дата";
+"rise" = "Взлететь";
+"set" = "Установить";
+"transit" = "Транзит";
+
+
+"mercury" = "Меркурий";
+"venus" = "Венера";
+"mars" = "Марс";
+"jupiter" = "Юпитер";
+"saturn" = "Сатурн";
+"uranus" = "Уран";
+"neptune" = "Нептун";
+"pluto" = "Плутон";
+
+"dawn_civil" = "Рассвет (гражданский)";
+"dusk_civil" = "Сумерки (гражданские)";
+
+
+"days" = "Дни";
+"era" = "Эра";
+
+"buy_membership" = "Купить членство";
+"restore" = "Восстановить";
+"lan_setting" = "Настройка языка";
+"privacy_policy" = "Политика конфиденциальности";
+"terms_of_service" = "Условия использования";
+"rate_on_app_store" = "Оценить в App Store";
+"version" = "Версия";
+"share_to_friends" = "Поделиться с друзьями";
+
+"app_url" = "https://itunes.apple.com/us/app/id1281770398?mt=8";
+"app_name" = "Часы и альманах";
+"service_url" = "http://www.astronomyobserver.net/h5/lishu/user/en";
+"privacy_url" = "http://www.astronomyobserver.net/h5/lishu/privacy/en";
+
+
+
+
+
+"cancel" = "Отменить";
+
+
+
+
+
+"solar_eclipse_total" = "Полное затмение";
+"solar_eclipse_annular" = "Кольцевое затмение";
+"solar_eclipse_hybrid" = "Гибридное затмение";
+"solar_eclipse_partical" = "Частичное затмение";
+
+
+
+
+"lunar_eclipse_penumbral" = "Полутеневое лунное затмение";
+"lunar_eclipse_partial" = "Частичное лунное затмение";
+"lunar_eclipse_total" = "Полное лунное затмение";
+"lunar_eclipse_central" = "Центральное лунное затмение";
+
+
+
+
+"name" = "Имя";
+"current_location" = "Текущее местоположение";
+"timezone" = "Часовой пояс";
+"latitude" = "Широта";
+"longitude" = "Долгота";
+
+"note" = "Примечание";
+"location_manage_tip" = "Обычные пользователи могут добавить только один адрес";
+"go_to_buy" = "Перейти к покупке";
+
+"lock_tip" = "Недоступно для обычных пользователей";
+"unlock" = "Разблокировать";
+
+
+
+
+"constellation_and_star" = "Созвездие и звезда";
+
+
+
+
+
+"location_service" = "Разрешение на определение местоположения этого приложения было закрыто. Если вам нужно продолжить использование этой функции, откройте местоположение в интерфейсе Настройки-Конфиденциальность-Службы определения местоположения.";
+"go_to_setting" = "перейти к настройке";
+"cancel" = "Отменить";
+
+"none" = "Нет";
+"define" = "Определить";
+"got_it" = "Понятно";
+"location_manage" = "Управление местоположением";
+"enter_city_name" = "Введите название города";
+
+
+"location_manage_max_tip"="Вы можете добавить не более 5 локаций";
+"delete" = "Удалить";
+

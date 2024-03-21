@@ -1,0 +1,16 @@
+/*
+  InfoPlist.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+
+CFBundleDisplayName = "Uhr und Almanach";
+NSLocationWhenInUseUsageDescription = "Uhr und Almanach benötigen Standortberechtigungen, Breiten- und Längengrad, um Zeitzonen- und Standortinformationen anzufordern";
+
+
+
+//NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+

@@ -1,0 +1,167 @@
+/*
+  Localizable.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+
+
+"language"="de";
+"unit_t" = "C";
+
+
+"tab_time" = "Zeit";
+"tab_day" = "Tag";
+"tab_month" = "Monat";
+"tab_year" = "Jahr";
+"tab_more" = "Mehr";
+
+
+"leap" = "Sprung";
+
+"morning" ="am.";
+"afternoon" = "p.m.";
+
+"sunrise_sunset" = "Sonnenaufgang und Sonnenuntergang";
+"civil_dawn_dusk" = "Morgendämmerung und Abenddämmerung (Zivil)";
+"nautical_dawn_dusk" = "Morgendämmerung und Abenddämmerung (Nautik)";
+"astro_dawn_dusk" = "Morgendämmerung und Abenddämmerung (Astronomisch)";
+"Beleuchtung" = "Beleuchtung";
+"sun_rise" = "Sonnenaufgang";
+"sun_set" = "Sonnenuntergang";
+"moon_rise"="Mondaufgang";
+"moon_set" = "Mondset";
+"moon_age" ="Mondalter";
+
+"planet" = "Planet";
+"constellation" = "Konstellation";
+"star" = "Stern";
+
+
+
+"apparent_ecliptic_longitude" ="Längengrad der Sonne der Ekliptik";
+
+"solunar" = "solunar";
+"calender" ="Kalender";
+"public_holiday" = "Öffentlicher Feiertag";
+"calendar_festival" = "Kalenderfest";
+"year" = "Jahr";
+"month" = "Monat";
+"day" ="Tag";
+"default"="Standard:";
+"working_days" = "Arbeitstage";
+
+
+"holidays" ="Ferien";
+"sun" = "Sonne";
+"moon" ="Mond";
+"eclipse" = "finsternis";
+"solar_eclipse" = "Sonnenfinsternis";
+"lunar_eclipse" = "Mondfinsternis";
+"astronomy" ="Astronomie";
+
+"date" = "Datum";
+"rise" = "Aufstieg";
+"set" = "Landung";
+"transit" = "Höchster Punkt";
+
+
+"mercury" = "Quecksilber";
+"venus" = "Venus";
+"mars" ="Mars";
+"jupiter"="Jupiter";
+"saturn"="Saturn";
+"uranus"="Uranus";
+"neptune"="Neptun";
+"pluto"="Pluto";
+
+"dawn_civil" = "Dawn(Zivil)";
+"dusk_civil" = "Dämmerung(Zivil)";
+
+
+"days" = "Tage";
+"era" = "Ära";
+
+
+
+"buy_membership"= "Mitgliedschaft kaufen";
+"restore" = "Wiederherstellen";
+"lan_setting" = "Spracheinstellung";
+"privacy_policy" = "Datenschutzerklärung";
+"terms_of_service" = "Nutzungsbedingungen";
+"rate_on_app_store" = "Im App Store bewerten";
+"version"="Version";
+"share_to_friends" = "An Freunde weitergeben";
+
+"app_url" ="https://itunes.apple.com/us/app/id1281770398?mt=8";
+"app_name" = "Uhr und Almanach";
+"service_url" = "http://www.astronomyobserver.net/h5/lishu/user/en";
+"privacy_url" = "http://www.astronomyobserver.net/h5/lishu/privacy/en";
+
+
+
+
+
+"cancel" = "Abbrechen";
+
+"restore_success" = "Erfolg wiederherstellen";
+"purchase_success" = "Kauferfolg";
+"purchase_failed" = "Kauf fehlgeschlagen";
+"user_cancelled" = "Benutzer abgebrochen";
+"unrestored_projects" ="Nicht wiederhergestellte Projekte";
+"already_restore_purchase" = "Sie haben bereits ein Abonnement und müssen es nicht wiederherstellen";
+"already_purchase" = "Mitgliedschaft wurde gekauft";
+
+
+
+"solar_eclipse_total" = "Totale Sonnenfinsternis";
+"solar_eclipse_annular" = "Ringförmige Sonnenfinsternis";
+"solar_eclipse_hybrid" = "Hybrid-Finsternis";
+"solar_eclipse_partical" = "Partielle Sonnenfinsternis";
+
+
+
+
+"lunar_eclipse_penumbral" ="Halbschatten-Mondfinsternis";
+"lunar_eclipse_partial" = "Partielle Mondfinsternis";
+"lunar_eclipse_total" = "Totale Mondfinsternis";
+"lunar_eclipse_central" ="Zentrale Mondfinsternis";
+
+
+
+
+"name" = "Name";
+"current_location" = "Aktueller Standort";
+"timezone" = "Zeitzone";
+"latitude"="Breitengrad";
+"longitude" = "Längengrad";
+
+"note" = "Anmerkung";
+
+
+
+
+
+"constellation_and_star" = "Konstellation und Stern";
+
+
+
+
+
+"location_service" = "Die Standortberechtigung dieser Anwendung wurde geschlossen. Wenn Sie diese Funktion weiterhin verwenden möchten, öffnen Sie bitte den Standort in der Benutzeroberfläche Einstellungen-Datenschutz-Standortdienste.";
+"go_to_setting" ="gehe zur Einstellung";
+"cancel" = "Abbrechen";
+
+"none" = "keine";
+"define" = "Definieren";
+"got_it" = "Verstanden";
+"location_manage" = "Standortverwaltung";
+"enter_city_name" = "Bitte geben Sie den Stadtnamen ein";
+
+
+"location_manage_max_tip"="Sie können nur bis zu 5 Standorte hinzufügen";
+"delete" = "Löschen";
+
+

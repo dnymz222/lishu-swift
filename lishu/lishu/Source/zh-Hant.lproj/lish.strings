@@ -1,0 +1,1046 @@
+/*
+  lish.strings
+  lishu
+
+  Created by xueping on 2021/5/30.
+  
+*/
+
+"AR" = "阿根廷";
+"AU" ="澳大利亞";
+"AT" ="奧地利";
+"BE" = "比利時";
+"BR"="巴西";
+"BG" ="保加利亞";
+"CA"="加拿大";
+"CL"="智利";
+"CN"="中國";
+"CO"="哥倫比亞";
+"CZ" ="捷克共和國";
+"DK"="丹麥";
+"DE"="德國";
+"ES" = "西班牙";
+"FI" ="芬蘭";
+"FR"="法國";
+"GR"="希臘";
+"HK" ="中國香港";
+"HU" = "匈牙利";
+"IN"="印度";
+"IL"="以色列";
+"IT"="意大利";
+"JP"="日本";
+"LU"="盧森堡";
+"MO"="中國澳門";
+"MX"="墨西哥";
+"MC"="摩納哥";
+"NL"="荷蘭";
+"NZ"="新西蘭";
+"NO"="挪威";
+"PE"="秘魯";
+"PL"="波蘭";
+"PT"="葡萄牙";
+"RO"="羅馬尼亞";
+"RU"="俄羅斯";
+"SG"="新加坡";
+"SK"="斯洛伐克";
+"ZA"="南非";
+"KR"="韓國";
+"CH"="瑞士";
+"SE"="瑞典";
+"TW"="中國台灣";
+"TR"="土耳其";
+"UA"="烏克蘭";
+"GB"="英國和愛爾蘭";
+"US"="美國";
+"VE"="委內瑞拉";
+"VI"="越南";
+
+
+"AR_default" = "";
+"AU_default" ="Australian Capital Territory";
+"AT_default" ="Wien";
+"BE_default" = "";
+"BR_default"="Feriados nacionais";
+"BG_default" ="";
+"CA_default" ="Ontario";
+"CL_default" ="";
+"CN_default" ="";
+"CO_default" ="";
+"CZ_default" ="";
+"DK_default" ="";
+"DE_default" ="Berlin";
+"ES_default" = "Andalucía";
+"FI_default" ="";
+"FR_default" = "Calendrier civil";
+"GR_default"="";
+"HK_default" ="";
+"HU_default" = "";
+"IN_default"="";
+"IL_default"="";
+"IT_default"="";
+"JP_default"="";
+"LU_default"="Calendrier civil usuel";
+"MO_default"="";
+"MX_default"="";
+"MC_default"="";
+"NL_default"="";
+"NZ_default"="Auckland";
+"NO_default"="";
+"PE_default"="";
+"PL_default"="";
+"PT_default"="Feriados Nacionais";
+"RO_default"="";
+"RU_default"="";
+"SG_default"="";
+"SK_default"="";
+"ZA_default"="";
+"KR_default"="";
+"CH_default"="Zürich";
+"SE_default"="";
+"TW_default"="";
+"TR_default"="";
+"UA_default"="";
+"GB_default"="England";
+"US_default"="Federal holidays";
+"VE_default"="";
+"VI_default"="";
+
+
+
+
+
+"New Year's Day"="元旦";
+"Chinese New Year week" ="春節";
+"Qing Ming Festival"="清明節";
+"Labour Day" ="勞動節";
+"Dragon Boat Festival"="端午節";
+"Mid-Autumn Festival" ="中秋節";
+"National day" ="國慶節";
+
+
+
+"Chinese New Year" = "春節";
+"Lantern Festival" = "元宵節";
+"Longtaitou Festival" = "龍抬頭";
+"Shangsi Festival"="上巳節";
+"Qingming Festival"="清明節";
+"Cold Food Festival"="寒食節";
+"Buddha's Birthday"="佛誕";
+"Duanwu Festival"="端午節";
+"Qixi Festival"="七夕";
+"Ghost Festival"="中元節";
+"Mid-Autumn Festival"="中秋節";
+"Double Ninth Festival"="重陽節";
+"Dongzhi Festival"="冬至";
+"Laba Festival"=" 臘八節";
+"Chinese New Year’s Eve"="除夕";
+
+
+
+
+"Jia"="甲";
+"Yi"="乙";
+"Bing"="丙";
+"Ding"="丁";
+"Wu"="戊";
+"Ji"="己";
+"Geng"="庚";
+"Xin"="辛";
+"Ren"="壬";
+"Gui"="癸";
+
+
+"zi"="子";
+"chou"="丑";
+"yin"="寅";
+"mao"="卯";
+"chen"="辰";
+"si"="巳";
+"wu"="午";
+"wei"="未";
+"shen"="申";
+"you"="酉";
+"xu"="戌";
+"hai"="亥";
+
+
+
+
+"Andromeda"="仙女座";
+"Antlia"="唧筒座";
+"Apus"="天燕座";
+"Aquila"="天鷹座";
+"Aquarius"="寶瓶座";
+"Ara"="天坛座";
+"Aries"="白羊座";
+"Auriga"="御夫座";
+"Boötes"="牧夫座";
+"Caelum"="雕具座";
+"Camelopardalis"="鹿豹座";
+"Capricornus"="摩羯座";
+"Carina"="船底座";
+"Cassiopeia"="仙后座";
+"Centaurus"="半人马座";
+"Cepheus"="仙王座";
+"Cetus"="鲸鱼座";
+"Chamaeleon"="蝘蜓座";
+"Circinus"="圆规座";
+"Canis Major"="大犬座";
+"Canis Minor"="小犬座";
+"Cancer"="巨蟹座";
+"Columba"="天鸽座";
+"Coma Berenices"="后发座";
+"Corona Australis"="南冕座";
+"Corona Borealis"="北冕座";
+"Crater"="巨爵座";
+"Crux"="南十字座";
+"Corvus"="乌鸦座";
+"Canes Venatici"="猎犬座";
+"Cygnus"="天鹅座";
+"Delphinus"="海豚座";
+"Dorado"="劍魚座";
+"Draco"="天龙座";
+"Equuleus"="小马座";
+"Eridanus"="波江座";
+"Fornax"="天炉座";
+"Gemini"="双子座";
+"Grus"="天鹤座";
+"Hercules"="武仙座";
+"Horologium"="时钟座";
+"Hydra"="长蛇座";
+"Hydrus"="水蛇座";
+"Indus"="印第安座";
+"Lacerta"="蝎虎座";
+"Leo"="狮子座";
+"Lepus"="天兔座";
+"Libra"="天秤座";
+"Leo Minor"="小狮座";
+"Lupus"="豺狼座";
+"Lynx"="天猫座";
+"Lyra"="天琴座";
+"Mensa"="山案座";
+"Microscopium"="显微镜座";
+"Monoceros"="麒麟座";
+"Musca"="苍蝇座";
+"Norma"="矩尺座";
+"Octans"="南极座";
+"Ophiuchus"="蛇夫座";
+"Orion"="獵戶座";
+"Pavo"="孔雀座";
+"Pegasus"="飞马座";
+"Perseus"="英仙座";
+"Phoenix"="凤凰座";
+"Pictor"="绘架座";
+"Piscis Austrinus"="南魚座";
+"Pisces"="双鱼座";
+"Puppis"="船尾座";
+"Pyxis"="罗盘座";
+"Reticulum"="网罟座";
+"Sculptor"="玉夫座";
+"Scorpius"="天蝎座";
+"Scutum"="盾牌座";
+"Serpens Caput"="巨蛇座";
+"Serpens Cauda"="巨蛇座";
+"Sextans"="六分仪座";
+"Sagitta"="天箭座";
+"Sagittarius"="人马座";
+"Taurus"="金牛座";
+"Telescopium"="望远镜座";
+"Triangulum Australe"="南三角座";
+"Triangulum"="三角座";
+"Tucana"="杜鵑座";
+"Ursa Major"="大熊座";
+"Ursa Minor"="小熊座";
+"Vela"="船帆座";
+"Virgo"="室女座";
+"Volans"="飞鱼座";
+"Vulpecula"="狐狸座";
+
+
+
+
+"Achernar"="水委一";
+"Denebola"="五帝座一";
+"Alpha Crucis"="十字架二";
+"Alpha Crucis"="十字架二";
+"Gamma Crucis"="十字架一";
+"Gamma Centauri"="庫樓七";
+"Beta Crucis"="十字架三";
+"Epsilon Ursae Majoris"="玉衡 (恒星)";
+"Spica"="角宿一";
+"Eta Ursae Majoris"="瑤光";
+"Beta Centauri"="馬腹一";
+"Theta Centauri"="庫樓三";
+"Arcturus"="大角星";
+"Gamma Andromedae"="天大将军一";
+"Alpha Centauri"="南門二";
+"Alpha Arietis"="娄宿三";
+"Beta Ursae Minoris"="北極二";
+"Antares"="心宿二";
+"Alpha Trianguli Australis"="三角形三";
+"Lambda Scorpii"="尾宿八";
+"Theta Scorpii"="尾宿五";
+"Alpha Ophiuchi"="候 (恒星)";
+"Epsilon Sagittarii"="箕宿三";
+"Vega"="織女一";
+"Sigma Sagittarii"="斗宿四";
+"Altair"="河鼓二";
+"Algol"="大陵五";
+"Alpha Pavonis"="孔雀十一";
+"Deneb"="天津四";
+"Alpha Persei"="天船三";
+"Alpha Gruis"="鶴一";
+"Beta Gruis"="鶴二";
+"Fomalhaut"="北落师门";
+"Aldebaran"="畢宿五";
+"Capella (star)"="五車二";
+"Rigel"="參宿七";
+"Bellatrix"="参宿五";
+"Beta Tauri"="五車五";
+"Alpha Andromedae"="壁宿二";
+"Mintaka"="參宿三";
+"Alnilam"="參宿二";
+"Alnitak"="參宿一";
+"Saiph"="参宿六";
+"Betelgeuse"="參宿四";
+"Beta Aurigae"="五车三";
+"Beta Ceti"="土司空";
+"Beta Canis Majoris"="軍市一";
+"Canopus"="老人星";
+"Gamma Geminorum"="井宿三";
+"Sirius"="天狼星";
+"Epsilon Canis Majoris"="弧矢七";
+"Gamma Cassiopeiae"="策 (恆星)";
+"Delta Canis Majoris"="大犬座δ";
+"Castor (star)"="北河二";
+"Procyon"="南河三";
+"Pollux (star)"="北河三";
+"Gamma Velorum"="天社一";
+"Beta Andromedae"="奎宿九";
+"Epsilon Carinae"="海石一";
+"Delta Velorum"="天社三";
+"Beta Carinae"="南船五";
+"Alphard"="星宿一";
+"Regulus"="軒轅十四";
+"Polaris"="勾陳一";
+"Alpha Ursae Majoris"="天樞";
+
+
+
+"Taika"="大化";
+"Hakuchi"="白雉";
+""="";
+"Shuchou"="朱鳥";
+"Taihou"="大宝";
+"Keiun"="慶雲";
+"Wadou"="和銅";
+"Reiki"="霊亀";
+"Yourou"="養老";
+"Jinki"="神亀";
+"Tempyou"="天平";
+"TempyouKampou"="天平感宝";
+"TempyouSyouhou"="天平勝宝";
+"TempyouHouji"="天平宝字";
+"TempyouJingo"="天平神護";
+"JingoKeiun"="神護景雲";
+"Houki"="宝亀";
+"Tennou"="天応";
+"Enryaku"="延暦";
+"Daidou"="大同";
+"Kounin"="弘仁";
+"Tenchou"="天長";
+"Jouwa"="承和";
+"Kashou"="嘉祥";
+"Ninju"="仁寿";
+"Saikou"="斉衡";
+"Tennan"="天安";
+"Jougan"="貞観";
+"Gangyou"="元慶";
+"Ninna"="仁和";
+"Kampyou"="寛平";
+"Syoutai"="昌泰";
+"Engi"="延喜";
+"Enchou"="延長";
+"Jouhei"="承平";
+"Tengyou"="天慶";
+"Tenryaku"="天暦";
+"Tentoku"="天徳";
+"Ouwa"="応和";
+"Kouhou"="康保";
+"Anna"="安和";
+"Tenroku"="天禄";
+"Tenen"="天延";
+"Jougen"="貞元";
+"Tengen"="天元";
+"Eikan"="永観";
+"Kanna"="寛和";
+"Eien"="永延";
+"Eiso"="永祚";
+"Syouryaku"="正暦";
+"Choutoku"="長徳";
+"Chouhou"="長保";
+"Kankou"="寛弘";
+"Chouwa"="長和";
+"Kannin"="寛仁";
+"Jian"="治安";
+"Manju"="万寿";
+"Chougen"="長元";
+"Chouryaku"="長暦";
+"Choukyuu"="長久";
+"Kantoku"="寛徳";
+"Eishou"="永承";
+"Tenki"="天喜";
+"Kouhei"="康平";
+"Jiryaku"="治暦";
+"Enkyuu"="延久";
+"Jouhou"="承保";
+"Jouryaku"="承暦";
+"Eihou"="永保";
+"Outoku"="応徳";
+"Kanji"="寛治";
+"Kahou"="嘉保";
+"Eichou"="永長";
+"Joutoku"="承徳";
+"Kouwa"="康和";
+"Chouji"="長治";
+"Kashou"="嘉承";
+"Tennin"="天仁";
+"Tennei"="天永";
+"Eikyuu"="永久";
+"Gennei"="元永";
+"Houan"="保安";
+"Tenji"="天治";
+"Daiji"="大治";
+"Tenshou"="天承";
+"Choushou"="長承";
+"Houen"="保延";
+"Eiji"="永治";
+"Kouji"="康治";
+"Tennyou"="天養";
+"Kyuuan"="久安";
+"Ninmpei"="仁平";
+"Kyuuju"="久寿";
+"Hougen"="保元";
+"Heiji"="平治";
+"Eiryaku"="永暦";
+"Ouhou"="応保";
+"Choukan"="長寛";
+"Eiman"="永万";
+"Ninnan"="仁安";
+"Kaou"="嘉応";
+"Syouan"="承安";
+"Angen"="安元";
+"Jishou"="治承";
+"Youwa"="養和";
+"Juei"="寿永";
+"Genryaku"="元暦";
+"Bunji"="文治";
+"Kenkyuu"="建久";
+"Syouji"="正治";
+"Kennin"="建仁";
+"Genkyuu"="元久";
+"Kennei"="建永";
+"Jougen"="承元";
+"Kenryaku"="建暦";
+"Kempou"="建保";
+"Joukyuu"="承久";
+"Jouou"="貞応";
+"Gennin"="元仁";
+"Karoku"="嘉禄";
+"Antei"="安貞";
+"Kanki"="寛喜";
+"Jouei"="貞永";
+"Tempuku"="天福";
+"Bunryaku"="文暦";
+"Katei"="嘉禎";
+"Ryakunin"="暦仁";
+"Ennou"="延応";
+"Ninji"="仁治";
+"Kangen"="寛元";
+"Houji"="宝治";
+"Kenchou"="建長";
+"Kougen"="康元";
+"Syouka"="正嘉";
+"Syougen"="正元";
+"Bunnou"="文応";
+"Kouchou"="弘長";
+"Bunnei"="文永";
+"Kenji"="建治";
+"Kouan"="弘安";
+"Syouou"="正応";
+"Einin"="永仁";
+"Syouan"="正安";
+"Kengen"="乾元";
+"Kagen"="嘉元";
+"Tokuji"="徳治";
+"Enkyou"="延慶";
+"Ouchou"="応長";
+"Syouwa"="正和";
+"Bumpou"="文保";
+"Gennou"="元応";
+"Gennkou"="元亨";
+"Syouchuu"="正中";
+"Karyaku"="嘉暦";
+"Ouei"="応永";
+"Syouchou"="正長";
+"Eikyou"="永享";
+"Kakitsu"="嘉吉";
+"Bunnann"="文安";
+"Houtoku"="宝徳";
+"Kyoutoku"="享徳";
+"Koushou"="康正";
+"Chouroku"="長禄";
+"Kannshou"="寛正";
+"Bunnshou"="文正";
+"Ouninn"="応仁";
+"Bunnmei"="文明";
+"Choukyou"="長享";
+"Entoku"="延徳";
+"Meiou"="明応";
+"Bunnki"="文亀";
+"Eishou"="永正";
+"Daiei"="大永";
+"Kyouroku"="享禄";
+"Tennbunn"="天文";
+"Kouji"="弘治";
+"Eiroku"="永禄";
+"Gennki"="元亀";
+"Tennshou"="天正";
+"Bunnroku"="文禄";
+"Keichou"="慶長";
+"Genna"="元和";
+"Kannei"="寛永";
+"Syouhou"="正保";
+"Keian"="慶安";
+"Jouou"="承応";
+"Meireki"="明暦";
+"Manji"="万治";
+"Kannbunn"="寛文";
+"Empou"="延宝";
+"Tenna"="天和";
+"Joukyou"="貞享";
+"Genroku"="元禄";
+"Houei"="宝永";
+"Syoutoku"="正徳";
+"Kyouhou"="享保";
+"Gennbunn"="元文";
+"Kampou"="寛保";
+"Enkyou"="延享";
+"Kannenn"="寛延";
+"Houreki"="宝暦";
+"Meiwa"="明和";
+"Annei"="安永";
+"Tennmei"="天明";
+"Kannsei"="寛政";
+"Kyouwa"="享和";
+"Bunnka"="文化";
+"Bunnsei"="文政";
+"Tenmpou"="天保";
+"Kouka"="弘化";
+"Kaei"="嘉永";
+"Ansei"="安政";
+"Mannei"="万延";
+"Bunnkyuu"="文久";
+"Genji"="元治";
+"Keiou"="慶応";
+"Meiji"="明治";
+"Taishou"="大正";
+"Shouwa"="昭和";
+"Heisei"="平成";
+"Reiwa"="令和";
+"Gentoku"="元徳";
+"Genkou"="元弘";
+"Kenmu"="建武";
+"Engen"="延元";
+"Koukoku"="興国";
+"Syouhei"="正平";
+"Kentoku"="建徳";
+"Bunchuu"="文中";
+"Tenju"="天授";
+"Kouwa"="弘和";
+"Genchuu"="元中";
+"Gentoku"="元徳";
+"Shoukyou"="正慶";
+"Kenmu"="建武";
+"Ryakuou"="暦応";
+"Kouei"="康永";
+"Jouwa"="貞和";
+"Kannou"="観応";
+"Bunna"="文和";
+"Enbun"="延文";
+"Kouan"="康安";
+"Jouji"="貞治";
+"Ouan"="応安";
+"Eiwa"="永和";
+"Kouryaku"="康暦";
+"Eitoku"="永徳";
+"Sitoku"="至徳";
+"Kakyou"="嘉慶";
+"Kouou"="康応";
+"Meitoku"="明徳";
+
+
+
+
+"Fire"="火";
+"Earth"="土";
+"Iron"="鐵";
+"Water"="水";
+"Wood"="木";
+
+"Hare"="兔";
+"Dragon"="龍";
+"Snake"="蛇";
+"Horse" = "馬";
+"Sheep"="羊";
+"Monkey"="猴";
+"Bird"="雞";
+"Dog"="狗";
+"Boar"="豬";
+"Rat"="鼠";
+"Ox"="牛";
+"Tiger"="虎";
+
+
+
+
+
+
+
+"month_1" ="1月";
+"month_2" ="2月";
+"month_3" ="3月";
+"month_4" ="4月";
+"month_5" ="5月";
+"month_6" ="6月";
+"month_7" ="7月";
+"month_8" ="8月";
+"month_9" ="9月";
+"month_10" ="10月";
+"month_11" ="11月";
+"month_12" ="12月";
+
+
+
+
+"islamic_month_1"  ="1:穆哈蘭姆月";
+"islamic_month_2"  ="2:色法爾月";
+"islamic_month_3"  ="3:賴比爾·敖外魯月";
+"islamic_month_4"  ="4:賴比爾·阿色尼月";
+"islamic_month_5"  ="5:主馬達·敖外魯月";
+"islamic_month_6"  ="6:主馬達·阿色尼月";
+"islamic_month_7"  ="7:賴哲卜月";
+"islamic_month_8"  ="8:舍爾邦月";
+"islamic_month_9"  ="9:賴買丹月";
+"islamic_month_10"  ="10:閃瓦魯月";
+"islamic_month_11"  ="11:都爾喀爾德月";
+"islamic_month_12"  ="12:都爾黑哲月";
+
+
+"islamic_holiday_1" = "新年";
+"islamic_holiday_2" = "阿舒拉日";
+"islamic_holiday_3" = "聖紀節（遜尼派）";
+"islamic_holiday_4" = "聖紀節（什葉派）";
+"islamic_holiday_5" = "登霄夜";
+"islamic_holiday_6" = "拜拉特夜";
+"islamic_holiday_7" = "蓋德爾夜";
+"islamic_holiday_8" = "開齋節";
+"islamic_holiday_9" = "古爾邦節";
+"islamic_holiday_10" = "齋月第一天";
+
+
+
+
+"hebrew_month_1"  ="1:尼散月";
+"hebrew_month_2"  ="2:以珥月";
+"hebrew_month_3"  ="3:西彎月";
+"hebrew_month_4"  ="4:搭模斯月";
+"hebrew_month_5"  ="5:埃波月";
+"hebrew_month_6"  ="6:以祿月";
+"hebrew_month_7"  ="7:提斯利月";
+"hebrew_month_8"  ="8:瑪西班月";
+"hebrew_month_9"  ="9:基斯流月";
+"hebrew_month_10"  ="10:提別月";
+"hebrew_month_11"  ="11:細罷特月";
+"hebrew_month_12"  ="12:亞達月";
+
+
+"iran_month_1"  ="1:Farvardin";
+"iran_month_2"  ="2:Ordibehesht";
+"iran_month_3"  ="3:Khordad";
+"iran_month_4"  ="4:Tir";
+"iran_month_5"  ="5:Mordad";
+"iran_month_6"  ="6:Shahrivar";
+"iran_month_7"  ="7:Mehr";
+"iran_month_8"  ="8:Aban";
+"iran_month_9"  ="9:Azar";
+"iran_month_10"  ="10:Dey";
+"iran_month_11"  ="11:Bahman";
+"iran_month_12"  ="12:Esfand";
+
+
+
+"afhan_month_1"  ="1:Hamal";
+"afhan_month_2"  ="2:Sawr";
+"afhan_month_3"  ="3:Jawza";
+"afhan_month_4"  ="4:Saraṭan";
+"afhan_month_5"  ="5:Asad";
+"afhan_month_6"  ="6:Sonbola";
+"afhan_month_7"  ="7:Mizan";
+"afhan_month_8"  ="8:Aqrab(";
+"afhan_month_9"  ="9:Qaws";
+"afhan_month_10"  ="10:Jady";
+"afhan_month_11"  ="11:Dalv";
+"afhan_month_12"  ="12:Hout";
+
+
+"indian_month_1"="1:白羊";
+"indian_month_2"="2:金牛";
+"indian_month_3"="3:雙子";
+"indian_month_4"="4:巨蟹";
+"indian_month_5"="5:獅子";
+"indian_month_6"="6:處女";
+"indian_month_7"="7:天秤";
+"indian_month_8"="8:天蠍";
+"indian_month_9"="9:射手";
+"indian_month_10"="10:摩羯";
+"indian_month_11"="11:寶瓶";
+"indian_month_12"="12:雙魚";
+
+
+
+"chinese_month_1" ="正月";
+"chinese_month_2" ="二月";
+"chinese_month_3" ="三月";
+"chinese_month_4" ="四月";
+"chinese_month_5" ="五月";
+"chinese_month_6" ="六月";
+"chinese_month_7" ="七月";
+"chinese_month_8" ="八月";
+"chinese_month_9" ="九月";
+"chinese_month_10" ="十月";
+"chinese_month_11" ="冬月";
+"chinese_month_12" ="臘月";
+
+"chinese_day_1" = "初一";
+"chinese_day_2" = "初二";
+"chinese_day_3" = "初三";
+"chinese_day_4" = "初四";
+"chinese_day_5" = "初五";
+"chinese_day_6" = "初六";
+"chinese_day_7" = "初七";
+"chinese_day_8" = "初八";
+"chinese_day_9" = "初九";
+"chinese_day_10" = "初十";
+"chinese_day_11" = "十一";
+"chinese_day_12" = "十二";
+"chinese_day_13" = "十三";
+"chinese_day_14" = "十四";
+"chinese_day_15" = "十五";
+"chinese_day_16" = "十六";
+"chinese_day_17" = "十七";
+"chinese_day_18" = "十八";
+"chinese_day_19" = "十九";
+"chinese_day_20" = "廿十";
+"chinese_day_21" = "廿一";
+"chinese_day_22" = "廿二";
+"chinese_day_23" = "廿三";
+"chinese_day_24" = "廿四";
+"chinese_day_25" = "廿五";
+"chinese_day_26" = "廿六";
+"chinese_day_27" = "廿七";
+"chinese_day_28" = "廿八";
+"chinese_day_29" = "廿九";
+"chinese_day_30" = "三十";
+
+
+
+"solar_term_1" = "春分";
+"solar_term_2" = "清明";
+"solar_term_3" = "穀雨";
+"solar_term_4" = "立夏";
+"solar_term_5" = "小滿";
+"solar_term_6" = "芒種";
+"solar_term_7" = "夏至";
+"solar_term_8" = "小暑";
+"solar_term_9" = "大暑";
+"solar_term_10" = "立秋";
+"solar_term_11" = "處暑";
+"solar_term_12" = "白露";
+"solar_term_13" = "秋分";
+"solar_term_14" = "寒露";
+"solar_term_15" = "霜降";
+"solar_term_16" = "立冬";
+"solar_term_17" = "小雪";
+"solar_term_18" = "大雪";
+"solar_term_19" = "冬至";
+"solar_term_20" = "小寒";
+"solar_term_21" = "大寒";
+"solar_term_22" = "立春";
+"solar_term_23" = "雨水";
+"solar_term_24" = "驚蟄";
+
+
+
+"week_0_s" = "日";
+"week_1_s" = "一";
+"week_2_s" = "二";
+"week_3_s" = "三";
+"week_4_s" = "四";
+"week_5_s" = "五";
+"week_6_s" = "六";
+
+
+
+"week_0_f" = "星期日";
+"week_1_f" = "星期一";
+"week_2_f" = "星期二";
+"week_3_f" = "星期三";
+"week_4_f" = "星期四";
+"week_5_f" = "星期五";
+"week_6_f" = "星期六";
+
+
+
+"month_1_s" ="1月";
+"month_2_s" ="2月";
+"month_3_s" ="3月";
+"month_4_s" ="4月";
+"month_5_s" ="5月";
+"month_6_s" ="6月";
+"month_7_s" ="7月";
+"month_8_s" ="8月";
+"month_9_s" ="9月";
+"month_10_s" ="10月";
+"month_11_s" ="11月";
+"month_12_s" ="12月";
+
+
+
+
+"month_1_f" ="1月";
+"month_2_f" ="2月";
+"month_3_f" ="3月";
+"month_4_f" ="4月";
+"month_5_f" ="5月";
+"month_6_f" ="6月";
+"month_7_f" ="7月";
+"month_8_f" ="8月";
+"month_9_f" ="9月";
+"month_10_f" ="10月";
+"month_11_f" ="11月";
+"month_12_f" ="12月";
+
+
+
+
+"tibetan_month_1"="1:神變月";
+"tibetan_month_2"="2:苦行月";
+"tibetan_month_3"="3:具香月";
+"tibetan_month_4"="4:薩嘎月";
+"tibetan_month_5"="5:作淨月";
+"tibetan_month_6"="6:明淨月";
+"tibetan_month_7"="7:具醉月";
+"tibetan_month_8"="8:具賢月";
+"tibetan_month_9"="9:天降月";
+"tibetan_month_10"="10:持眾月";
+"tibetan_month_11"="11:莊嚴月";
+"tibetan_month_12"="12:滿意月";
+
+
+
+
+"World Logic Day"="世界邏輯日";
+"International Day of Education" = "國際教育日";
+"World Day for African and Afrodescendant Culture" = "世界非洲和非洲裔文化日";
+"International Day of Commemoration in Memory of the Victims of the Holocaust"="緬怀大屠殺受難者國際紀念日";
+
+"International Day of Women and Girls in Science"="婦女和女童參與科學國際日";
+"World Radio Day"="世界廣播日";
+"International Mother Language Day"="國際母語日";
+
+"World Engineering Day for Sustainable Development" = "促進可持續發展世界工程日";
+"International Women’s Day"="國際婦女節";
+"International Day of Mathematics"="國際數學日";
+"International Francophonie Day"="國際法語世界日";
+"World Poetry Day"="世界詩歌日";
+"International Day for the Elimination of Racial Discrimination"="消除種族歧視國際日";
+"International Day of Nowruz"="國際諾魯孜節";
+"World Water Day"="世界水日 ";
+
+"International Day of Sport for Development and Peace"="體育促進發展與和平國際日";
+"World Art Day"="世界藝術日 ";
+"World Book and Copyright Day"="世界圖書和版權日";
+"International Jazz Day"="國際爵士樂日";
+
+"World Press Freedom Day"="世界新聞自由日";
+"African World Heritage Day"="非洲世界遺產日 ";
+"World Portuguese Language Day"="國際葡萄牙語世界日";
+"International Day of Light"="國際光日";
+"International Day of Living Together in Peace"="國際和平共處日";
+"World Day for Cultural Diversity for Dialogue and Development"="世界文化多樣性促進對話和發展日";
+"International Day for Biological Diversity"="生物多樣性國際日";
+
+"World Environment Day"="世界環境日";
+"World Oceans Day"="世界海洋日";
+"World Day to Combat Desertification and Drought"="防治荒漠化和乾旱世界日";
+
+"Nelson Mandela International Day"="納爾遜·曼德拉國際日";
+"International Day for the Conservation of the Mangrove Ecosystem"="保護紅樹林生態系統國際日";
+
+"International Day of the World's Indigenous People"="世界土著人民國際日";
+"International Youth Day"="國際青年日";
+"International Day for the Remembrance of the Slave Trade and its Abolition"="販賣黑奴及其廢除國際紀念日";
+
+"International Literacy Day"="國際掃盲日";
+"International Day of Democracy"="國際民主日";
+"International Day of University Sport"="國際大學生體育運動日";
+"International Day of Peace"="國際和平日";
+"International Day for the Universal Access to Information"="普遍獲取信息國際日";
+
+"World Teachers' Day"="世界教師日";
+"International Day of the Girl Child"="國際女童日";
+"International Day for Disaster Reduction"="國際減災日";
+"International Day for the Eradication of Poverty"="消除貧窮國際日";
+"United Nations Day"="聯合國日";
+"World Day for Audiovisual Heritage"="世界音像遺產日";
+
+"International Day Against Violence and Bullying at School, including Cyberbullying"="反對校園暴力和欺凌包括網絡欺凌國際日";
+"International Day to End Impunity for Crimes against Journalists"="終止針對記者犯罪不受懲罰現像國際日";
+"World Day of Romani Language"="世界羅姆語日";
+"World Tsunami Awareness Day"="世界海嘯意識日";
+"World Science Day for Peace and Development"="爭取和平與發展世界科學日";
+"World Philosophy Day"="世界哲學日";
+"International Day against Illicit Trafficking in Cultural Property"="禁止非法販運文化財產國際日";
+"International Day for Tolerance"="國際寬容日";
+"International Day of Islamic Art"="伊斯蘭藝術國際日";
+"International Day for the Elimination of Violence against Women"="消除對婦女的暴力行為國際日";
+"World Olive Tree Day"="世界橄欖樹日";
+"International Day of Solidarity with the Palestinian People"="聲援巴勒斯坦人民國際日";
+
+"World AIDS Day"="世界艾滋病日";
+"International Day of Persons with Disabilities"="國際殘疾人日";
+"Human Rights Day"="人權日";
+"International Migrants Day"="國際移徙者日";
+"World Arabic Language Day"="世界阿拉伯文日";
+
+
+
+
+
+"Purim"="普珥節";
+"Passover"="逾越節";
+"Shavuot"="七七節";
+"Tisha B'Av"="聖殿被毀日";
+"Rosh Hashanah"="猶太新年";
+"Yom Kippur"="贖罪日";
+"Sukkot"="住棚節";
+"Shemini Atzeret"="聖會節";
+"Simchat Torah"="西赫托拉節";
+"Hanukkah"="光明節";
+
+
+"Theophany"="主領洗節";
+"Presentation of the Lord"="主進堂節";
+"Annunciation"="聖母領報節";
+"Palm Sunday"="棕枝主日";
+"Pascha"="復活節";
+"Ascension"="主升天節";
+"Pentecost"="五旬節";
+"Transfiguration"="主顯聖容節";
+"Dormition"="聖母安息節";
+"Nativity of the Theotokos"="聖母聖誕節";
+"Elevation of the Holy Cross"="舉容聖架節";
+"Presentation of the Theotokos"="聖母進堂節";
+"Nativity of the Lord"="主降生節";
+
+
+"Solemnity of Mary"="天主之母節";
+"Epiphany"="主顯節";
+"Septuagesima Sunday" = "七旬齋";
+"Ash Wednesday"="大齋首日";
+
+"Holy Thursday"="濯足節";
+"Good Friday"="聖週五";
+"Holy Saturday"="聖週六";
+"Easter"="復活節";
+"Divine Mercy Sunday"="Divine Mercy Sunday";
+"Rogation Sunday"="Rogation Sunday";
+
+"Trinity Sunday"="聖三一主日";
+"Corpus Christi"="基督聖體聖血節";
+"Assumption of Mary"="聖母升天";
+"All Saints’Day"="諸聖節";
+"First Sunday of Advent"="First Sunday of Advent";
+"Feast of the Immaculate Conception"="聖母無染原罪瞻禮";
+"Christmas"="聖誕節";
+
+
+
+
+"calendar_gregorian" = "公曆";
+"calendar_chinese" = "農曆";
+"calendar_chinese_old" = "天干地支";
+"calendar_chinese_buddhism" = "農曆(佛教)";
+"calendar_zangli" = "藏歷";
+
+
+"calendar_japanese" = "日本歷";
+"calendar_indian" = "印度歷";
+"calendar_tailand" = "泰國歷";
+"calendar_hebrew" = "希伯來歷";
+"calendar_julian" = "儒略歷";
+"calendar_islamic" = "伊斯蘭教歷";
+"calendar_islamic_civil" = "伊斯蘭民用日曆";
+"calendar_islamic_ummalqura" = "沙特阿拉伯伊斯蘭日曆";
+"calendar_islamic_tabular" = "伊斯蘭表格日曆";
+
+"calendar_holiday_international" = "國際日";
+"calendar_holiday_christian" = "基督教節日";
+"calendar_holiday_orthodox" = "東正教節日";
+
+
+"calendar_persian_iran" = "波斯歷（伊朗）";
+"calendar_persian_afghan" = "波斯歷（阿富汗）";
+
+
+"calendar_group_chinese" = "農曆";
+"calendar_group_gregorian" = "公曆";
+"calendar_group_japanese" = "日本歷";
+"calendar_group_indian" = "印度歷";
+"calendar_group_tailand" = "泰國歷";
+"calendar_group_hebrew" = "希伯來歷";
+"calendar_group_julian" = "儒略歷";
+"calendar_group_islamic" = "伊斯蘭歷";
+"calendar_group_persian" = "波斯歷";
+
+
+
+
+
+"Lunar New Year"="農曆新年";
+"Day following Good Friday"="耶穌受難節翌日";
+"Ching Ming Festival"="清明節";
+"Easter Monday"="復活節星期一";
+"Birthday of the Buddha"="佛誕";
+"Tuen Ng Festival"="端午節";
+"Hong Kong Special Administrative Region Establishment Day"="香港特別行政區成立紀念日";
+"National Day"="國慶日";
+"Chung Yeung Festival"="重陽節";
+"Christmas Day"="聖誕節";
+"The Day Before Easter SunDay"="復活節前日";
+
+"All Souls' Day"="追思節";
+"Immaculate Conception"="聖母無原罪瞻禮";
+"Macao Special Administrative Region Establishment Day" = "澳門特別行政區成立紀念日";
+"Winter Solstice" = "冬至";
+"Christmas Eve"="聖誕節前夜";
+
+"Chinese New Year Holiday" = "春節";
+
+"228 Peace Memorial Day" = "2.28和平紀念日";
+
+"Children's Day"="兒童節";
+
+"The Day Following Mid-Autumn Festival" ="中秋節翌日";
+

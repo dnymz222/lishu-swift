@@ -1,0 +1,14 @@
+/*
+  InfoPlist.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+
+CFBundleDisplayName = "시계 와 연감";
+NSLocationWhenInUseUsageDescription = "시계 와 연감 시간대 및 위치 정보를 요청하기 위해 위치 권한을 얻고 위도와 경도를 얻어야 합니다.";
+
+
+

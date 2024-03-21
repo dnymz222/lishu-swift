@@ -1,0 +1,17 @@
+/*
+  InfoPlist.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+CFBundleDisplayName = "時鐘曆書";
+
+NSLocationWhenInUseUsageDescription = "時鐘曆書需要獲取位置權限，獲取經緯度來請求時區和位置信息";
+
+
+
+
+
+

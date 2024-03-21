@@ -1,0 +1,15 @@
+/*
+  InfoPlist.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+
+CFBundleDisplayName = "Relógio e Almanaque";
+NSLocationWhenInUseUsageDescription = "Relógio e Almanaque precisam obter permissões de localização, obter a latitude e longitude para solicitar fuso horário e informações de localização";
+
+//NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+
+

@@ -1,0 +1,14 @@
+/*
+  InfoPlist.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+
+CFBundleDisplayName = "Clock & Almanac";
+NSLocationWhenInUseUsageDescription  = "Clock & Almanac needs to get location permissions, get the latitude and longitude to request timezone and location info";
+
+
+

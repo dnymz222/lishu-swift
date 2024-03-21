@@ -1,0 +1,14 @@
+/*
+  InfoPlist.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+
+CFBundleDisplayName = "часы и альманах";
+NSLocationWhenInUseUsageDescription = "Часы и альманах должны получить разрешения на местоположение, широту и долготу, чтобы запросить информацию о часовом поясе и местоположении";
+
+
+

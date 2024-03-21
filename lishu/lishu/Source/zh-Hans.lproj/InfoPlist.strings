@@ -1,0 +1,15 @@
+/*
+  InfoPlist.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+CFBundleDisplayName = "時計と年鑑";
+
+
+NSLocationWhenInUseUsageDescription = "時計と年鑑は位置情報の許可を取得し、緯度と経度を取得してタイムゾーンと位置情報を要求する必要があります";
+
+
+

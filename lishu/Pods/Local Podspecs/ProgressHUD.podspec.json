@@ -1,0 +1,24 @@
+{
+  "name": "ProgressHUD",
+  "version": "0.0.1",
+  "summary": "ProgressHUD local toast.",
+  "description": "progress hud form unkown person",
+  "homepage": "http://github.com/kevian/ProgressHUD",
+  "license": "MIT",
+  "authors": {
+    "dnymz222": "kevincc@163.com"
+  },
+  "source": {
+    "git": "https://github.com/kevinzhow/ProgressHUD.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "**/*.{h,m,.bundle}",
+  "exclude_files": "Exclude",
+  "resources": "**/ProgressHUD.bundle",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

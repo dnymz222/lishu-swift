@@ -1,0 +1,154 @@
+/*
+  Localizable.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+"language"="it";
+"unit_t" = "C";
+
+
+"tab_time" = "Ora";
+"tab_day" = "Giorno";
+"tab_month" = "Mese";
+"tab_year" = "Anno";
+"tab_more" = "Altro";
+
+
+"leap" = "Bisestile";
+
+"morning" ="a.m.";
+"afternoon" = "pomeriggio";
+
+"sunrise_sunset" = "Alba e tramonto";
+"civil_dawn_dusk" = "Alba e tramonto (civile)";
+"nautical_dawn_dusk" = "Alba e polvere (nautica)";
+"astro_dawn_dusk" = "Alba e tramonto (astronomia)";
+"illumination" = "illuminazione";
+"sun_rise" = "alba";
+"sun_set" = "Tramonto";
+"moon_rise"="Moonrise";
+"moon_set" = "Tramonto lunare";
+"moon_age" ="Età della luna";
+
+"planet" = "pianeta";
+"constellation" = "costellazione";
+"star" = "stella";
+
+
+
+"apparent_ecliptic_longitude" ="longitudine eclittica del Sole";
+
+"solunar" = "Solunare";
+"calendar" ="Calendario";
+"public_holiday" = "Festività pubblica";
+"calendar_festival" = "Calendario della Festa";
+"year" = "anno";
+"month" ="Mese";
+"day" ="Giorno";
+"default"="Predefinito:";
+"working_days" = "Giorni lavorativi";
+
+
+"holidays" ="Vacanze";
+"sun" ="Sole";
+"moon" ="Luna";
+"eclipse" = "Eclipse";
+"solar_eclipse" = "Eclissi solare";
+"lunar_eclipse" = "Eclissi lunare";
+"astronomy" ="Astronomia";
+
+"date" = "data";
+"rise" = "alzarsi";
+"set" = "imposta";
+"transit" = "transito";
+
+
+"mercury" = "mercurio";
+"venus" = "venere";
+"mars" ="Marte";
+"jupiter"="Giove";
+"saturn"="Saturno";
+"uranus"="Urano";
+"neptune"="Nettuno";
+"pluto"="Plutone";
+
+"dawn_civil" = "Dawn(civile)";
+"dusk_civil" = "Dusk (civile)";
+
+
+"days" = "giorni";
+"era" = "Era";
+
+
+"lan_setting" = "Impostazione lingua";
+"privacy_policy" = "Informativa sulla privacy";
+"terms_of_service" = "Termini di servizio";
+"rate_on_app_store" = "Vota su App Store";
+"version"="Versione";
+"share_to_friends" = "Condividi con gli amici";
+
+"app_url" ="https://itunes.apple.com/us/app/id1281770398?mt=8";
+"app_name" = "Orologio e Almanacco";
+"service_url" = "http://www.astronomyobserver.net/h5/lishu/user/en";
+"privacy_url" = "http://www.astronomyobserver.net/h5/lishu/privacy/en";
+
+
+
+
+
+"cancel" = "cancella";
+
+
+
+
+"solar_eclipse_total" = "Eclissi totale";
+"solar_eclipse_annular" = "Eclissi anulare";
+"solar_eclipse_hybrid" = "Eclissi ibrida";
+"solar_eclipse_partical" = "Eclissi parziale";
+
+
+
+
+"lunar_eclipse_penumbral" ="Eclissi lunare penombrale";
+"lunar_eclipse_partial" = "Eclissi lunare parziale";
+"lunar_eclipse_total" = "Eclissi lunare totale";
+"lunar_eclipse_central" ="Eclissi lunare centrale";
+
+
+
+
+"name" = "Nome";
+"current_location" = "Posizione attuale";
+"timezone" = "fuso orario";
+"latitudine"="Latitudine";
+"longitudine" ="Longitudine";
+
+"nota" = "nota";
+
+
+
+
+"constellation_and_star" = "Costellazione e Stella";
+
+
+
+
+
+"location_service" = "L'autorizzazione alla posizione di questa applicazione è stata chiusa. Se devi continuare a utilizzare questa funzione, apri la posizione nell'interfaccia Impostazioni-Privacy-Servizi di localizzazione.";
+"go_to_setting" ="vai all'impostazione";
+"cancel" = "cancella";
+
+"none" = "nessuno";
+"define" = "definire";
+"got_it" = "Capito";
+"location_manage" = "Gestisci posizione";
+"enter_city_name" = "Inserisci il nome della città";
+
+
+
+"location_manage_max_tip"="Puoi aggiungere solo fino a 5 località";
+"delete" = "Elimina";
+

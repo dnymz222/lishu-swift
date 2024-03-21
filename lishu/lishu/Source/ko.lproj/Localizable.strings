@@ -1,0 +1,156 @@
+/*
+  Localizable.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+"language"="ko";
+"unit_t" = "C";
+
+
+"tab_time" = "시간";
+"tab_day" = "요일";
+"tab_month" = "월";
+"tab_year" = "연도";
+"tab_more" = "더";
+
+
+"leap" = "도약";
+
+"morning" = "오전";
+"afternoon" = "오후";
+
+"sunrise_sunset" = "일출과 일몰";
+"civil_dawn_dusk" = "새벽과 황혼(민간)";
+"nautical_dawn_dusk" = "새벽과 먼지(해상)";
+"astro_dawn_dusk" = "새벽과 황혼(천문)";
+"illumination" = "조명";
+"sun_rise" = "일출";
+"sun_set" = "일몰";
+"moon_rise"="문라이즈";
+"moon_set" = "월몰";
+"moon_age" ="월령";
+
+"planet" = "행성";
+"constellation" = "별자리";
+"star" = "별";
+
+
+
+"apparent_ecliptic_longitude" ="태양의 황도 경도";
+
+"solunar" = "태양광";
+"calendar" ="캘린더";
+"public_holiday" = "공휴일";
+"calendar_festival" = "달력 축제";
+"year" = "연도";
+"month" ="월";
+"day" ="요일";
+"default"="기본값:";
+"working_days" = "근무일";
+
+
+"holidays" ="휴일";
+"sun" = "태양";
+"moon" ="달";
+"eclipse" = "일식";
+"solar_eclipse" = "일식";
+"lunar_eclipse" = "월식";
+"astronomy" ="천문학";
+
+"date" = "날짜";
+"rise" = "상승";
+"set" = "설정";
+"transit" = "대중교통";
+
+
+"mercury" = "수은";
+"venus" = "금성";
+"mars" ="화성";
+"jupiter"="목성";
+"saturn"="토성";
+"uranus"="천왕성";
+"neptune"="해왕성";
+"pluto"="명왕성";
+
+"dawn_civil" = "새벽(민간)";
+"dusk_civil" = "황혼(민간)";
+
+
+"days" = "일";
+"era" = "시대";
+
+
+"lan_setting" = "언어 설정";
+"privacy_policy" = "개인정보 보호정책";
+"terms_of_service" = "서비스 약관";
+"rate_on_app_store" = "App Store에서 평가";
+"version"="버전";
+"share_to_friends" = "친구에게 공유";
+
+"app_url"="https://itunes.apple.com/us/app/id1281770398?mt=8";
+"app_name" = "시계 및 연감";
+"service_url" = "http://www.astronomyobserver.net/h5/lishu/user/en";
+"privacy_url" = "http://www.astronomyobserver.net/h5/lishu/privacy/en";
+
+
+
+
+
+"cancel" = "취소";
+
+
+
+
+"solar_eclipse_total" = "개기 일식";
+"solar_eclipse_annular" = "환상 일식";
+"solar_eclipse_hybrid" = "하이브리드 일식";
+"solar_eclipse_partical" = "부분일식";
+
+
+
+
+"lunar_eclipse_penumbral" ="반음 월식";
+"lunar_eclipse_partial" = "부분월식";
+"lunar_eclipse_total" = "개기월식";
+"lunar_eclipse_central" ="중앙 월식";
+
+
+
+
+"name" = "이름";
+"current_location" = "현재 위치";
+"timezone" = "시간대";
+"latitude"="위도";
+"longitude" ="경도";
+
+"note" = "메모";
+
+
+
+
+"constellation_and_star" = "별자리와 별";
+
+
+
+
+
+"location_service" = "이 응용 프로그램의 위치 권한이 닫혔습니다. 이 기능을 계속 사용해야 하는 경우 설정-개인 정보-위치 서비스 인터페이스에서 위치를 여십시오.";
+"go_to_setting" ="설정으로 이동";
+"cancel" = "취소";
+
+"none" = "없음";
+"define" = "정의";
+"got_it" = "알았다";
+"location_manage" = "위치 관리";
+"enter_city_name" = "도시 이름을 입력하십시오";
+
+
+
+
+
+"location_manage_max_tip"="최대 5개의 위치만 추가할 수 있습니다.";
+"delete" = "삭제";
+

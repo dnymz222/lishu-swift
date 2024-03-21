@@ -1,0 +1,12 @@
+/*
+  InfoPlist.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+
+CFBundleDisplayName = "Horloge et Almanach";
+
+NSLocationWhenInUseUsageDescription = "L'horloge et almanach doivent obtenir les autorisations de localisation, obtenir la latitude et la longitude pour demander le fuseau horaire et les informations de localisation";

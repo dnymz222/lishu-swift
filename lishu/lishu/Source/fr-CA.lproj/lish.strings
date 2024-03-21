@@ -1,0 +1,982 @@
+/*
+  lish.strings
+  lishu
+
+  Created by xueping on 2021/5/30.
+  
+*/
+
+
+"AR" = "Argentine";
+"AU" = "Australie";
+"AT" = "Autriche";
+"BE" = "Belgique";
+"BR"="Brésil";
+"BG" = "Bulgarie";
+"CA"="Canada";
+"CL"="Chili";
+"CN"="Chine";
+"CO"="Colombie";
+"CZ" = "République tchèque";
+"DK"="Danemark";
+"DE"="Allemagne";
+"ES" = "Espagne";
+"FI" = "Finlande";
+"FR"="France";
+"GR"="Grèce";
+"HK" = "Hong Kong, Chine";
+"HU" = "Hongrie";
+"EN"="Inde";
+"IL"="Israël";
+"IT"="Italie";
+"JP"="Japon";
+"LU"="Luxembourg";
+"MO"="Macao, Chine";
+"MX"="Mexique";
+"MC"="Monaco";
+"NL"="Pays-Bas";
+"NZ"="Nouvelle-Zélande";
+"NO"="Norvège";
+"PE"="Pérou";
+"PL"="Pologne";
+"PT"="Portugal";
+"RO"="Roumanie";
+"RU"="Russie";
+"SG"="Singapour";
+"SK"="Slovaquie";
+"ZA"="Afrique du Sud";
+"KR"="Corée";
+"CH"="Suisse";
+"SE"="Suède";
+"TW"="Taiwan, Chine";
+"TR"="Turquie";
+"UA"="Ukraine";
+"GB"="Royaume-Uni et Irlande";
+"US"="États-Unis";
+"VE"="Venezuela";
+"VI"="Viêt Nam";
+
+
+
+
+
+
+"AR_default" = "";
+"AU_default" ="Australian Capital Territory";
+"AT_default" ="Wien";
+"BE_default" = "";
+"BR_default"="Feriados nacionais";
+"BG_default" ="";
+"CA_default" ="Ontario";
+"CL_default" ="";
+"CN_default" ="";
+"CO_default" ="";
+"CZ_default" ="";
+"DK_default" ="";
+"DE_default" ="Berlin";
+"ES_default" = "Andalucía";
+"FI_default" ="";
+"FR_default" = "Calendrier civil";
+"GR_default"="";
+"HK_default" ="";
+"HU_default" = "";
+"IN_default"="";
+"IL_default"="";
+"IT_default"="";
+"JP_default"="";
+"LU_default"="Calendrier civil usuel";
+"MO_default"="";
+"MX_default"="";
+"MC_default"="";
+"NL_default"="";
+"NZ_default"="Auckland";
+"NO_default"="";
+"PE_default"="";
+"PL_default"="";
+"PT_default"="Feriados Nacionais";
+"RO_default"="";
+"RU_default"="";
+"SG_default"="";
+"SK_default"="";
+"ZA_default"="";
+"KR_default"="";
+"CH_default"="Zürich";
+"SE_default"="";
+"TW_default"="";
+"TR_default"="";
+"UA_default"="";
+"GB_default"="England";
+"US_default"="Federal holidays";
+"VE_default"="";
+"VI_default"="";
+
+
+
+
+"Andromeda"="Andromède (constellation)";
+"Antlia"="Machine pneumatique";
+"Apus"="Oiseau de paradis (constellation)";
+"Aquila"="Aigle (constellation)";
+"Aquarius"="Verseau";
+"Ara"="Autel (constellation)";
+"Aries"="Bélier (constellation)";
+"Auriga"="Cocher (constellation)";
+"Boötes"="Bouvier (constellation)";
+"Caelum"="Burin (constellation)";
+"Camelopardalis"="Girafe (constellation)";
+"Capricornus"="Capricorne (constellation)";
+"Carina"="Carène (constellation)";
+"Cassiopeia"="Cassiopée (constellation)";
+"Centaurus"="Centaure (constellation)";
+"Cepheus"="Céphée (constellation)";
+"Cetus"="Baleine (constellation)";
+"Chamaeleon"="Caméléon (constellation)";
+"Circinus"="Compas (constellation)";
+"Canis Major"="Grand Chien";
+"Canis Minor"="Petit Chien (constellation)";
+"Cancer"="Cancer (constellation)";
+"Columba"="Colombe (constellation)";
+"Coma Berenices"="Chevelure de Bérénice";
+"Corona Australis"="Couronne australe";
+"Corona Borealis"="Couronne boréale";
+"Crater"="Coupe (constellation)";
+"Crux"="Croix du Sud";
+"Corvus"="Corbeau (constellation)";
+"Canes Venatici"="Chiens de chasse";
+"Cygnus"="Cygne (constellation)";
+"Delphinus"="Dauphin (constellation)";
+"Dorado"="Dorade (constellation)";
+"Draco"="Dragon (constellation)";
+"Equuleus"="Petit Cheval";
+"Eridanus"="Éridan (constellation)";
+"Fornax"="Fourneau (constellation)";
+"Gemini"="Gémeaux";
+"Grus"="Grue (constellation)";
+"Hercules"="Hercule (constellation)";
+"Horologium"="Horloge (constellation)";
+"Hydra"="Hydre (constellation)";
+"Hydrus"="Hydre mâle";
+"Indus"="Indien (constellation)";
+"Lacerta"="Lézard (constellation)";
+"Leo"="Lion (constellation)";
+"Lepus"="Lièvre (constellation)";
+"Libra"="Balance (constellation)";
+"Leo Minor"="Petit Lion";
+"Lupus"="Loup (constellation)";
+"Lynx"="Lynx (constellation)";
+"Lyra"="Lyre (constellation)";
+"Mensa"="Table (constellation)";
+"Microscopium"="Microscope (constellation)";
+"Monoceros"="Licorne (constellation)";
+"Musca"="Mouche (constellation)";
+"Norma"="Règle (constellation)";
+"Octans"="Octant";
+"Ophiuchus"="Ophiuchus";
+"Orion"="Orion (constellation)";
+"Pavo"="Paon (constellation)";
+"Pegasus"="Pégase (constellation)";
+"Perseus"="Persée (constellation)";
+"Phoenix"="Phénix (constellation)";
+"Pictor"="Peintre (constellation)";
+"Piscis Austrinus"="Poisson austral";
+"Pisces"="Poissons (constellation)";
+"Puppis"="Poupe (constellation)";
+"Pyxis"="Boussole (constellation)";
+"Reticulum"="Réticule (constellation)";
+"Sculptor"="Sculpteur (constellation)";
+"Scorpius"="Scorpion (constellation)";
+"Scutum"="Écu de Sobieski";
+"Serpens Caput"="Serpent (constellation)";
+"Serpens Cauda"="Serpent (constellation)";
+"Sextans"="Sextant (constellation)";
+"Sagitta"="Flèche (constellation)";
+"Sagittarius"="Sagittaire (constellation)";
+"Taurus"="Taureau (constellation)";
+"Telescopium"="Télescope (constellation)";
+"Triangulum Australe"="Triangle austral";
+"Triangulum"="Triangle (constellation)";
+"Tucana"="Toucan (constellation)";
+"Ursa Major"="Grande Ourse";
+"Ursa Minor"="Petite Ourse";
+"Vela"="Voiles (constellation)";
+"Virgo"="Vierge (constellation)";
+"Volans"="Poisson volant (constellation)";
+"Vulpecula"="Petit Renard";
+
+
+
+"Achernar"="Achernar";
+"Denebola"="Beta Leonis";
+"Alpha Crucis"="Alpha Crucis";
+"Alpha Crucis"="Alpha Crucis";
+"Gamma Crucis"="Gamma Crucis";
+"Gamma Centauri"="Gamma Centauri";
+"Beta Crucis"="Beta Crucis";
+"Epsilon Ursae Majoris"="Epsilon Ursae Majoris";
+"Spica"="Alpha Virginis";
+"Eta Ursae Majoris"="Eta Ursae Majoris";
+"Beta Centauri"="Beta Centauri";
+"Theta Centauri"="Theta Centauri";
+"Arcturus"="Arcturus";
+"Gamma Andromedae"="Gamma Andromedae";
+"Alpha Centauri"="Alpha Centauri";
+"Alpha Arietis"="Alpha Arietis";
+"Beta Ursae Minoris"="Beta Ursae Minoris";
+"Antares"="Antarès";
+"Alpha Trianguli Australis"="Alpha Trianguli Australis";
+"Lambda Scorpii"="Lambda Scorpii";
+"Theta Scorpii"="Theta Scorpii";
+"Alpha Ophiuchi"="Alpha Ophiuchi";
+"Epsilon Sagittarii"="Epsilon Sagittarii";
+"Vega"="Véga";
+"Sigma Sagittarii"="Sigma Sagittarii";
+"Altair"="Altaïr";
+"Algol"="Algol (étoile)";
+"Alpha Pavonis"="Alpha Pavonis";
+"Deneb"="Deneb";
+"Alpha Persei"="Alpha Persei";
+"Alpha Gruis"="Alpha Gruis";
+"Beta Gruis"="Beta Gruis";
+"Fomalhaut"="Fomalhaut";
+"Aldebaran"="Aldébaran";
+"Capella (star)"="Capella (étoile)";
+"Rigel"="Rigel";
+"Bellatrix"="Gamma Orionis";
+"Beta Tauri"="Beta Tauri";
+"Alpha Andromedae"="Alpha Andromedae";
+"Mintaka"="Delta Orionis";
+"Alnilam"="Epsilon Orionis";
+"Alnitak"="Zeta Orionis";
+"Saiph"="Kappa Orionis";
+"Betelgeuse"="Bételgeuse";
+"Beta Aurigae"="Beta Aurigae";
+"Beta Ceti"="Beta Ceti";
+"Beta Canis Majoris"="Beta Canis Majoris";
+"Canopus"="Canopus (étoile)";
+"Gamma Geminorum"="Gamma Geminorum";
+"Sirius"="Sirius";
+"Epsilon Canis Majoris"="Epsilon Canis Majoris";
+"Gamma Cassiopeiae"="Gamma Cassiopeiae";
+"Delta Canis Majoris"="Delta Canis Majoris";
+"Castor (star)"="Castor (étoile)";
+"Procyon"="Procyon";
+"Pollux (star)"="Pollux (étoile)";
+"Gamma Velorum"="Gamma Velorum";
+"Beta Andromedae"="Beta Andromedae";
+"Epsilon Carinae"="Epsilon Carinae";
+"Delta Velorum"="Delta Velorum";
+"Beta Carinae"="Beta Carinae";
+"Alphard"="Alpha Hydrae";
+"Regulus"="Régulus (étoile)";
+"Polaris"="Alpha Ursae Minoris";
+"Alpha Ursae Majoris"="Alpha Ursae Majoris";
+
+
+
+
+
+
+
+"Taika"="Taika";
+"Hakuchi"="Hakuchi";
+"Shuchou"="Shuchou";
+""="";
+"Taihou"="Taihou";
+"Keiun"="Keiun";
+"Wadou"="Wadou";
+"Reiki"="Reiki";
+"Yourou"="Yourou";
+"Jinki"="Jinki";
+"Tempyou"="Tempyou";
+"TempyouKampou"="TempyouKampou";
+"TempyouSyouhou"="TempyouSyouhou";
+"TempyouHouji"="TempyouHouji";
+"TempyouJingo"="TempyouJingo";
+"JingoKeiun"="JingoKeiun";
+"Houki"="Houki";
+"Tennou"="Tennou";
+"Enryaku"="Enryaku";
+"Daidou"="Daidou";
+"Kounin"="Kounin";
+"Tenchou"="Tenchou";
+"Jouwa"="Jouwa";
+"Kashou"="Kashou";
+"Ninju"="Ninju";
+"Saikou"="Saikou";
+"Tennan"="Tennan";
+"Jougan"="Jougan";
+"Gangyou"="Gangyou";
+"Ninna"="Ninna";
+"Kampyou"="Kampyou";
+"Syoutai"="Syoutai";
+"Engi"="Engi";
+"Enchou"="Enchou";
+"Jouhei"="Jouhei";
+"Tengyou"="Tengyou";
+"Tenryaku"="Tenryaku";
+"Tentoku"="Tentoku";
+"Ouwa"="Ouwa";
+"Kouhou"="Kouhou";
+"Anna"="Anna";
+"Tenroku"="Tenroku";
+"Tenen"="Tenen";
+"Jougen"="Jougen";
+"Tengen"="Tengen";
+"Eikan"="Eikan";
+"Kanna"="Kanna";
+"Eien"="Eien";
+"Eiso"="Eiso";
+"Syouryaku"="Syouryaku";
+"Choutoku"="Choutoku";
+"Chouhou"="Chouhou";
+"Kankou"="Kankou";
+"Chouwa"="Chouwa";
+"Kannin"="Kannin";
+"Jian"="Jian";
+"Manju"="Manju";
+"Chougen"="Chougen";
+"Chouryaku"="Chouryaku";
+"Choukyuu"="Choukyuu";
+"Kantoku"="Kantoku";
+"Eishou"="Eishou";
+"Tenki"="Tenki";
+"Kouhei"="Kouhei";
+"Jiryaku"="Jiryaku";
+"Enkyuu"="Enkyuu";
+"Jouhou"="Jouhou";
+"Jouryaku"="Jouryaku";
+"Eihou"="Eihou";
+"Outoku"="Outoku";
+"Kanji"="Kanji";
+"Kahou"="Kahou";
+"Eichou"="Eichou";
+"Joutoku"="Joutoku";
+"Kouwa"="Kouwa";
+"Chouji"="Chouji";
+"Kashou"="Kashou";
+"Tennin"="Tennin";
+"Tennei"="Tennei";
+"Eikyuu"="Eikyuu";
+"Gennei"="Gennei";
+"Houan"="Houan";
+"Tenji"="Tenji";
+"Daiji"="Daiji";
+"Tenshou"="Tenshou";
+"Choushou"="Choushou";
+"Houen"="Houen";
+"Eiji"="Eiji";
+"Kouji"="Kouji";
+"Tennyou"="Tennyou";
+"Kyuuan"="Kyuuan";
+"Ninmpei"="Ninmpei";
+"Kyuuju"="Kyuuju";
+"Hougen"="Hougen";
+"Heiji"="Heiji";
+"Eiryaku"="Eiryaku";
+"Ouhou"="Ouhou";
+"Choukan"="Choukan";
+"Eiman"="Eiman";
+"Ninnan"="Ninnan";
+"Kaou"="Kaou";
+"Syouan"="Syouan";
+"Angen"="Angen";
+"Jishou"="Jishou";
+"Youwa"="Youwa";
+"Juei"="Juei";
+"Genryaku"="Genryaku";
+"Bunji"="Bunji";
+"Kenkyuu"="Kenkyuu";
+"Syouji"="Syouji";
+"Kennin"="Kennin";
+"Genkyuu"="Genkyuu";
+"Kennei"="Kennei";
+"Jougen"="Jougen";
+"Kenryaku"="Kenryaku";
+"Kempou"="Kempou";
+"Joukyuu"="Joukyuu";
+"Jouou"="Jouou";
+"Gennin"="Gennin";
+"Karoku"="Karoku";
+"Antei"="Antei";
+"Kanki"="Kanki";
+"Jouei"="Jouei";
+"Tempuku"="Tempuku";
+"Bunryaku"="Bunryaku";
+"Katei"="Katei";
+"Ryakunin"="Ryakunin";
+"Ennou"="Ennou";
+"Ninji"="Ninji";
+"Kangen"="Kangen";
+"Houji"="Houji";
+"Kenchou"="Kenchou";
+"Kougen"="Kougen";
+"Syouka"="Syouka";
+"Syougen"="Syougen";
+"Bunnou"="Bunnou";
+"Kouchou"="Kouchou";
+"Bunnei"="Bunnei";
+"Kenji"="Kenji";
+"Kouan"="Kouan";
+"Syouou"="Syouou";
+"Einin"="Einin";
+"Syouan"="Syouan";
+"Kengen"="Kengen";
+"Kagen"="Kagen";
+"Tokuji"="Tokuji";
+"Enkyou"="Enkyou";
+"Ouchou"="Ouchou";
+"Syouwa"="Syouwa";
+"Bumpou"="Bumpou";
+"Gennou"="Gennou";
+"Gennkou"="Gennkou";
+"Syouchuu"="Syouchuu";
+"Karyaku"="Karyaku";
+"Ouei"="Ouei";
+"Syouchou"="Syouchou";
+"Eikyou"="Eikyou";
+"Kakitsu"="Kakitsu";
+"Bunnann"="Bunnann";
+"Houtoku"="Houtoku";
+"Kyoutoku"="Kyoutoku";
+"Koushou"="Koushou";
+"Chouroku"="Chouroku";
+"Kannshou"="Kannshou";
+"Bunnshou"="Bunnshou";
+"Ouninn"="Ouninn";
+"Bunnmei"="Bunnmei";
+"Choukyou"="Choukyou";
+"Entoku"="Entoku";
+"Meiou"="Meiou";
+"Bunnki"="Bunnki";
+"Eishou"="Eishou";
+"Daiei"="Daiei";
+"Kyouroku"="Kyouroku";
+"Tennbunn"="Tennbunn";
+"Kouji"="Kouji";
+"Eiroku"="Eiroku";
+"Gennki"="Gennki";
+"Tennshou"="Tennshou";
+"Bunnroku"="Bunnroku";
+"Keichou"="Keichou";
+"Genna"="Genna";
+"Kannei"="Kannei";
+"Syouhou"="Syouhou";
+"Keian"="Keian";
+"Jouou"="Jouou";
+"Meireki"="Meireki";
+"Manji"="Manji";
+"Kannbunn"="Kannbunn";
+"Empou"="Empou";
+"Tenna"="Tenna";
+"Joukyou"="Joukyou";
+"Genroku"="Genroku";
+"Houei"="Houei";
+"Syoutoku"="Syoutoku";
+"Kyouhou"="Kyouhou";
+"Gennbunn"="Gennbunn";
+"Kampou"="Kampou";
+"Enkyou"="Enkyou";
+"Kannenn"="Kannenn";
+"Houreki"="Houreki";
+"Meiwa"="Meiwa";
+"Annei"="Annei";
+"Tennmei"="Tennmei";
+"Kannsei"="Kannsei";
+"Kyouwa"="Kyouwa";
+"Bunnka"="Bunnka";
+"Bunnsei"="Bunnsei";
+"Tenmpou"="Tenmpou";
+"Kouka"="Kouka";
+"Kaei"="Kaei";
+"Ansei"="Ansei";
+"Mannei"="Mannei";
+"Bunnkyuu"="Bunnkyuu";
+"Genji"="Genji";
+"Keiou"="Keiou";
+"Meiji"="Meiji";
+"Taishou"="Taishou";
+"Shouwa"="Shouwa";
+"Heisei"="Heisei";
+"Reiwa"="Reiwa";
+"Gentoku"="Gentoku";
+"Genkou"="Genkou";
+"Kenmu"="Kenmu";
+"Engen"="Engen";
+"Koukoku"="Koukoku";
+"Syouhei"="Syouhei";
+"Kentoku"="Kentoku";
+"Bunchuu"="Bunchuu";
+"Tenju"="Tenju";
+"Kouwa"="Kouwa";
+"Genchuu"="Genchuu";
+"Gentoku"="Gentoku";
+"Shoukyou"="Shoukyou";
+"Kenmu"="Kenmu";
+"Ryakuou"="Ryakuou";
+"Kouei"="Kouei";
+"Jouwa"="Jouwa";
+"Kannou"="Kannou";
+"Bunna"="Bunna";
+"Enbun"="Enbun";
+"Kouan"="Kouan";
+"Jouji"="Jouji";
+"Ouan"="Ouan";
+"Eiwa"="Eiwa";
+"Kouryaku"="Kouryaku";
+"Eitoku"="Eitoku";
+"Sitoku"="Sitoku";
+"Kakyou"="Kakyou";
+"Kouou"="Kouou";
+"Meitoku"="Meitoku";
+
+
+
+
+
+
+"month_1" ="January";
+"month_2" ="February";
+"month_3" ="March";
+"month_4" ="April";
+"month_5" ="May";
+"month_6" ="June";
+"month_7" ="July";
+"month_8" ="August";
+"month_9" ="September";
+"month_10" ="October";
+"month_11" ="November";
+"month_12" ="December";
+
+"islamic_month_1"  ="1:al-muḥarram";
+"islamic_month_2"  ="2:ṣafar";
+"islamic_month_3"  ="3:rabī῾ al-awwal";
+"islamic_month_4"  ="4:rabī῾ al-ākhir";
+"islamic_month_5"  ="5:jumādà ᾿l-ūlà";
+"islamic_month_6"  ="6:jumādà ᾿l-ākhira";
+"islamic_month_7"  ="7:rajab";
+"islamic_month_8"  ="8:sha῾bān";
+"islamic_month_9"  ="9:ramaḍān";
+"islamic_month_10"  ="10:shawwāl";
+"islamic_month_11"  ="11:dhū ᾿l-qa῾da";
+"islamic_month_12"  ="12:dhū ᾿l-ḥijja";
+
+
+
+
+
+"islamic_holiday_1" = "Islamic New Year";
+"islamic_holiday_2" = "Achoura";
+"islamic_holiday_3" = "Mawlid";
+"islamic_holiday_4" = "Mawlid";
+"islamic_holiday_5" = "Isra et Miraj";
+"islamic_holiday_6" = "Laylat al-Bara'at";
+"islamic_holiday_7" = "Laylat al-Qadr";
+"islamic_holiday_8" = "Aïd el-Fitr";
+"islamic_holiday_9" = "Aïd al-Adha";
+"islamic_holiday_10" = "Ramadan";
+
+
+
+"hebrew_month_1"  ="1:Nissan";
+"hebrew_month_2"  ="2:Iyar";
+"hebrew_month_3"  ="3:Sivan";
+"hebrew_month_4"  ="4:Tammouz";
+"hebrew_month_5"  ="5:Av";
+"hebrew_month_6"  ="6:Eloul";
+"hebrew_month_7"  ="7:Tishri";
+"hebrew_month_8"  ="8:Heshvan";
+"hebrew_month_9"  ="9:Kislev";
+"hebrew_month_10"  ="10:Tevet";
+"hebrew_month_11"  ="11:Shevat";
+"hebrew_month_12"  ="12:Adar";
+
+
+
+"iran_month_1"  ="1:Farvardin";
+"iran_month_2"  ="2:Ordibehesht";
+"iran_month_3"  ="3:Khordad";
+"iran_month_4"  ="4:Tir";
+"iran_month_5"  ="5:Mordad";
+"iran_month_6"  ="6:Shahrivar";
+"iran_month_7"  ="7:Mehr";
+"iran_month_8"  ="8:Aban";
+"iran_month_9"  ="9:Azar";
+"iran_month_10"  ="10:Dey";
+"iran_month_11"  ="11:Bahman";
+"iran_month_12"  ="12:Esfand";
+
+
+
+"afhan_month_1"  ="1:Hamal(Aries)";
+"afhan_month_2"  ="2:Sawr(Taurus)";
+"afhan_month_3"  ="3:Jawzā(Gemini)";
+"afhan_month_4"  ="4:Saraṭān(Cancer)";
+"afhan_month_5"  ="5:Asad(Leo)";
+"afhan_month_6"  ="6:Sonbola(Virgo)";
+"afhan_month_7"  ="7:Mizān(Libra)";
+"afhan_month_8"  ="8:ʿAqrab(Scorpio)";
+"afhan_month_9"  ="9:Qaws (Sagittarius)";
+"afhan_month_10"  ="10:Jadi (Capricorn)";
+"afhan_month_11"  ="11:Dalvæ (Aquarius)";
+"afhan_month_12"  ="12:Hūt(Pisces)";
+
+
+
+"christian_holiday_1" = "Islamic New Year";
+"christian_holiday_2" = "Ashura";
+"christian_holiday_3" = "Arbaʽeen";
+"christian_holiday_4" = "Eid-e-Shuja";
+"christian_holiday_5" = "Mawlid an-Nabī";
+"christian_holiday_6" = "";
+"christian_holiday_7" = "";
+"christian_holiday_8" = "";
+"christian_holiday_9" = "";
+"christian_holiday_10" = "";
+"christian_holiday_11" = "";
+"christian_holiday_12" = "";
+"christian_holiday_13" = "";
+"christian_holiday_14" = "";
+"christian_holiday_15" = "";
+"christian_holiday_16" = "";
+"christian_holiday_17" = "";
+"christian_holiday_18" = "";
+"christian_holiday_19" = "";
+"christian_holiday_20" = "";
+
+
+
+
+"solar_term_1" = "Chunfen";
+"solar_term_2" = "Qingming";
+"solar_term_3" = "Guyu";
+"solar_term_4" = "Lixia";
+"solar_term_5" = "Xiaoman";
+"solar_term_6" = "Mangzhong";
+"solar_term_7" = "Xiazhi";
+"solar_term_8" = "Xiaoshu";
+"solar_term_9" = "Dashu";
+"solar_term_10" = "Liqiu";
+"solar_term_11" = "Chushu";
+"solar_term_12" = "Bailu";
+"solar_term_13" = "Qiufen";
+"solar_term_14" = "Hanlu";
+"solar_term_15" = "Shuangjiang";
+"solar_term_16" = "Lidong";
+"solar_term_17" = "Xiaoxue";
+"solar_term_18" = "Daxue";
+"solar_term_19" = "Dongzhi";
+"solar_term_20" = "Xiaohan";
+"solar_term_21" = "Dahan";
+"solar_term_22" = "Lichun";
+"solar_term_23" = "Yushui";
+"solar_term_24" = "Jingzhe";
+
+
+
+"week_0_s" = "Sun";
+"week_1_s" = "Mon";
+"week_2_s" = "Tue";
+"week_3_s" = "Wed";
+"week_4_s" = "Thur";
+"week_5_s" = "Fri";
+"week_6_s" = "Sat";
+
+
+
+"week_0_f" = "Sunday";
+"week_1_f" = "Monday";
+"week_2_f" = "Tuesday";
+"week_3_f" = "Wednesday";
+"week_4_f" = "Thursday";
+"week_5_f" = "Friday";
+"week_6_f" = "Saturday";
+
+
+
+"month_1_s" ="janv.";
+"month_2_s" ="févr.";
+"month_3_s" ="mars";
+"month_4_s" ="avr.";
+"month_5_s" ="mai";
+"month_6_s" ="juin";
+"month_7_s" ="juill.";
+"month_8_s" ="août";
+"month_9_s" ="sept.";
+"month_10_s" ="oct.";
+"month_11_s" ="nov.";
+"month_12_s" ="déc.";
+
+
+
+
+"month_1_f" ="janvier";
+"month_2_f" ="février";
+"month_3_f" ="mars";
+"month_4_f" ="avril";
+"month_5_f" ="mai";
+"month_6_f" ="juin";
+"month_7_f" ="juillet";
+"month_8_f" ="août";
+"month_9_f" ="septembre";
+"month_10_f" ="octobre";
+"month_11_f" ="novembre";
+"month_12_f" ="décembre";
+
+
+"chinese_month_1" ="janvier";
+"chinese_month_2" ="février";
+"chinese_month_3" ="mai";
+"chinese_month_4" ="avril";
+"chinese_month_5" ="mai";
+"chinese_month_6" ="juin";
+"chinese_month_7" ="juillet";
+"chinese_month_8" ="août";
+"chinese_month_9" ="septembre";
+"chinese_month_10" ="octobre";
+"chinese_month_11" ="novembre";
+"chinese_month_12" ="décembre";
+
+"chinese_day_1" = "1";
+"chinese_day_2" = "2";
+"chinese_day_3" = "3";
+"chinese_day_4" = "4";
+"chinese_day_5" = "5";
+"chinese_day_6" = "6";
+"chinese_day_7" = "7";
+"chinese_day_8" = "8";
+"chinese_day_9" = "9";
+"chinese_day_10" = "10";
+"chinese_day_11" = "11";
+"chinese_day_12" = "12";
+"chinese_day_13" = "13";
+"chinese_day_14" = "14";
+"chinese_day_15" = "15";
+"chinese_day_16" = "16";
+"chinese_day_17" = "17";
+"chinese_day_18" = "18";
+"chinese_day_19" = "19";
+"chinese_day_20" = "20";
+"chinese_day_21" = "21";
+"chinese_day_22" = "22";
+"chinese_day_23" = "23";
+"chinese_day_24" = "24";
+"chinese_day_25" = "25";
+"chinese_day_26" = "26";
+"chinese_day_27" = "27";
+"chinese_day_28" = "28";
+"chinese_day_29" = "29";
+"chinese_day_30" = "30";
+
+
+"indian_month_1"="1:Chaitra";
+"indian_month_2"="2:Vaisakha";
+"indian_month_3"="3:Jyeshta";
+"indian_month_4"="4:Aashaadha";
+"indian_month_5"="5:Shraavana";
+"indian_month_6"="6:Bhaadra";
+"indian_month_7"="7:Ashwin";
+"indian_month_8"="8:Kartika";
+"indian_month_9"="9:Agrahayana";
+"indian_month_10"="10:Pausha";
+"indian_month_11"="11:Magha";
+"indian_month_12"="12:Phalguna";
+
+"tibetan_month_1"="1:mchu";
+"tibetan_month_2"="2:dbo";
+"tibetan_month_3"="3:nag pa";
+"tibetan_month_4"="4:sa ga";
+"tibetan_month_5"="5:snron";
+"tibetan_month_6"="6:chu stod";
+"tibetan_month_7"="7:gro bzhin";
+"tibetan_month_8"="8:khrums";
+"tibetan_month_9"="9:tha skar";
+"tibetan_month_10"="10:smin drug";
+"tibetan_month_11"="11:mgo";
+"tibetan_month_12"="12:rgyal";
+
+
+"World Logic Day"="Journée mondiale de la logique";
+"International Day of Education" = "Journée internationale de l'éducation";
+"World Day for African and Afrodescendant Culture" = "Journée mondiale de la culture africaine et afro-descendante";
+"International Day of Commemoration in Memory of the Victims of the Holocaust"="Journée internationale de commémoration en mémoire des victimes de l’Holocauste";
+
+"International Day of Women and Girls in Science"="Journée internationale des femmes et des filles de science";
+"World Radio Day"="Journée mondiale de la radio";
+"International Mother Language Day"="Journée internationale de la langue maternelle";
+
+"World Engineering Day for Sustainable Development" = "Journée mondiale de l'ingénierie pour le développement durable";
+"International Women’s Day"="Journée internationale des femmes";
+"International Day of Mathematics"="Journée internationale des mathématiques";
+"International Francophonie Day"="Journée internationale de la francophonie";
+"World Poetry Day"="Journée mondiale de la poésie";
+"International Day for the Elimination of Racial Discrimination"="Journée internationale pour l’élimination de la discrimination raciale";
+"International Day of Nowruz"="Journée internationale Norouz";
+"World Water Day"="Journée mondiale de l’eau";
+
+"International Day of Sport for Development and Peace"="Journée internationale du sport au service du développement et de la paix";
+"World Art Day"="Journée mondiale de l'art";
+"World Book and Copyright Day"="Journée mondiale du livre et du droit d’auteur";
+"International Jazz Day"="Journée internationale du Jazz";
+
+"World Press Freedom Day"="Journée mondiale de la liberté presse";
+"African World Heritage Day"="Journée du patrimoine mondial africain";
+"World Portuguese Language Day"="Journée mondiale de la langue portugaise";
+"International Day of Light"="Journée internationale de la lumière";
+"International Day of Living Together in Peace"="Journée internationale du vivre-ensemble en paix";
+"World Day for Cultural Diversity for Dialogue and Development"="Journée mondiale de la diversité culturelle pour le dialogue et le développement";
+"International Day for Biological Diversity"="Journée internationale de la diversité biologique";
+
+"World Environment Day"="Journée mondiale de l’environnement";
+"World Oceans Day"="Journée mondiale de l’océan";
+"World Day to Combat Desertification and Drought"="Journée mondiale de la lutte contre la désertification et la sécheresse";
+
+"Nelson Mandela International Day"="Journée internationale Nelson Mandela";
+"International Day for the Conservation of the Mangrove Ecosystem"="Journée internationale pour la défense de l'écosystème des mangroves";
+
+"International Day of the World's Indigenous People"="Journée internationale des peuples autochtones";
+"International Youth Day"="Journée internationale de la jeunesse";
+"International Day for the Remembrance of the Slave Trade and its Abolition"="Journée internationale du souvenir de la traite négrière et de son abolition";
+
+"International Literacy Day"="Journée internationale de l'alphabétisation";
+"International Day of Democracy"="Journée internationale de la démocratie";
+"International Day of University Sport"="Journée internationale du sport universitaire";
+"International Day of Peace"="Journée internationale de la paix";
+"International Day for the Universal Access to Information"="Journée internationale de l'accès universel à l'information";
+
+"World Teachers' Day"="Journée mondiale des enseignants";
+"International Day of the Girl Child"="Journée internationale de la fille";
+"International Day for Disaster Reduction"="Journée internationale pour la prévention des catastrophes naturelles";
+"International Day for the Eradication of Poverty"="Journée internationale pour l'élimination de la pauvreté";
+"United Nations Day"="Journée des Nations Unies";
+"World Day for Audiovisual Heritage"="Journée mondiale du patrimoine audiovisuel";
+
+"International Day Against Violence and Bullying at School, including Cyberbullying"="Journée internationale contre la violence et le harcèlement en milieu scolaire, y compris le cyber-harcèlement";
+"International Day to End Impunity for Crimes against Journalists"="Journée internationale de la fin de l'impunité pour les crimes commis contre des journalistes";
+"World Day of Romani Language"="Journée mondiale de la langue romani";
+"World Tsunami Awareness Day"="Journée mondiale de sensibilisation aux tsunamis";
+"World Science Day for Peace and Development"="Journée mondiale de la science pour la paix et le développement";
+"World Philosophy Day"="Journée mondiale de la philosophie";
+"International Day against Illicit Trafficking in Cultural Property"="Journée internationale de lutte contre le trafic de biens culturels";
+"International Day for Tolerance"="Journée internationale de la tolérance";
+"International Day of Islamic Art"="Journée internationale de l’art islamique";
+"International Day for the Elimination of Violence against Women"="Journée internationale pour l’élimination de la violence à l’egard des femmes";
+"World Olive Tree Day"="Journée mondiale de l’olivier";
+"International Day of Solidarity with the Palestinian People"="Journée internationale de solidarité avec le peuple palestinien";
+
+"World AIDS Day"="Journée mondiale du SIDA";
+"International Day of Persons with Disabilities"="Journée internationale des personnes handicapées";
+"Human Rights Day"="Journée des droits de l’homme";
+"International Migrants Day"="Journée internationale des migrants";
+"World Arabic Language Day"="Journée mondiale de la langue arabe";
+
+
+
+
+"Purim"="Pourim";
+"Passover"="Pessa'h";
+"Shavuot"="Chavouot";
+"Tisha B'Av"="Tisha Beav";
+"Rosh Hashanah"="Roch Hachana";
+"Yom Kippur"="Yom Kippour";
+"Sukkot"="Souccot";
+"Shemini Atzeret"="Shemini Atzeret";
+"Simchat Torah"="Sim'hat Torah";
+"Hanukkah"="Hanoucca";
+
+
+
+"Theophany"="Épiphanie";
+"Presentation of the Lord"="Chandeleur";
+"Annunciation"="Annonciation";
+"Palm Sunday"="Dimanche des Rameaux";
+"Pascha"="Pâques";
+"Ascension"="Ascension (fête)";
+"Pentecost"="Pentecôte";
+"Transfiguration"="Transfiguration (christianisme)";
+"Dormition"="Dormition";
+"Nativity of the Theotokos"="Nativité de Marie";
+"Elevation of the Holy Cross"="Élévation de la Croix";
+"Presentation of the Theotokos"="Présentation de Marie au Temple";
+"Nativity of the Lord"="Nativité";
+
+
+
+
+"Solemnity of Mary"="Solemnity of Mary";
+"Epiphany"="Épiphanie";
+"Septuagesima Sunday" = "Septuagesima Sunday";
+"Ash Wednesday"="Mercredi des Cendres";
+
+"Holy Thursday"="Jeudi saint";
+"Good Friday"="Vendredi saint";
+"Holy Saturday"="Samedi saint";
+"Easter"="Pâques";
+"Divine Mercy Sunday"="Dimanche de la divine Miséricorde";
+"Rogation Sunday"="Jours des Rogations";
+
+"Trinity Sunday"="Fête de la Sainte Trinité";
+"Corpus Christi"="Fête-Dieu";
+"Assumption of Mary"="Assomption";
+"All Saints’Day"="Toussaint";
+"First Sunday of Advent"="Premier dimanche de l'Avent";
+"Feast of the Immaculate Conception"="Fête de l'Immaculée Conception";
+"Christmas"="Noël";
+
+
+
+
+"calendar_gregorian"  = "Calendrier grégorien";
+"calendar_chinese"  = "Calendrier chinois";
+"calendar_chinese_old" = "Cycle sexagésimal chinois";
+"calendar_chinese_buddhism" = "Chinese Calendar(for Buddhism)";
+"calendar_zangli" = "Calendrier tibétain";
+"calendar_japanese"  = "Calendrier japonais";
+"calendar_indian"  = "Calendrier national indien";
+"calendar_tailand" = "Calendrier thaïlandais";
+"calendar_hebrew" = "Calendrier hébraïque";
+"calendar_julian" = "Calendrier julien";
+"calendar_islamic"  = "Calendrier hégirien";
+"calendar_islamic_civil"  = "IslamicCivil Calendar";
+"calendar_islamic_ummalqura" = "IslamicUmmAlQura Calendar";
+"calendar_islamic_tabular" = "IslamicTabular Calendar";
+"calendar_holiday_international" = "Journées internationales";
+"calendar_holiday_christian" = "Fête chrétienne";
+"calendar_holiday_orthodox" = "Fête de l'Église Orthodoxe";
+"calendar_persian_iran" = "Calendrier persan (Iran)";
+"calendar_persian_afghan" = "Calendrier persan (Afghan)";
+"calendar_group_chinese"  = "Calendrier chinois";
+"calendar_group_gregorian"  = "Calendrier grégorien";
+"calendar_group_japanese"  = "Calendrier japonais";
+"calendar_group_indian"  = "Calendrier national indien";
+"calendar_group_tailand" = "Calendrier thaïlandais";
+"calendar_group_hebrew" = "Calendrier hébraïque";
+"calendar_group_julian" = "Calendrier julien";
+"calendar_group_islamic"  = "Calendrier hégirien";
+"calendar_group_persian" = "Calendrier persan";
+
+
+"Jia"=" Jia";
+"Yi"=" Yi";
+"Bing"=" Bing";
+"Ding"=" Ding";
+"Wu"=" Wu";
+"Ji"=" Ji";
+"Geng"=" Geng";
+"Xin"=" Xin";
+"Ren"=" Ren";
+"Gui"=" Gui";
+
+
+"zi"="zi ";
+"chou"="chou ";
+"yin"="yin ";
+"mao"="mao ";
+"chen"="chen ";
+"si"="si ";
+"wu"="wu ";
+"wei"="wei ";
+"shen"="shen ";
+"you"="you ";
+"xu"="xu ";
+"hai"="hai ";
+

@@ -1,0 +1,185 @@
+/* 
+  Localizable.strings
+  lishu
+
+  Created by xueping on 2024/3/6.
+  
+*/
+/*
+  Localizable.strings
+  lishu
+
+  Created by xueping on 2021/4/6.
+  
+*/
+
+
+"language"="zh-tw";
+"unit_t" = "C";
+
+
+
+"tab_time"  = "時";
+"tab_day" = "日";
+"tab_month" = "月";
+"tab_year" = "年";
+"tab_more" = "我";
+
+
+
+
+"leap" = "閏";
+
+
+
+
+
+
+
+"morning" ="上午";
+"afternoon" = "下午";
+
+"apparent_ecliptic_longitude" ="太陽黃道經度";
+
+"sunrise_sunset"  = "日出日落";
+"civil_dawn_dusk"  = "黎明黃昏 (民用)";
+"nautical_dawn_dusk"  = "黎明黃昏 (航海)";
+"astro_dawn_dusk"  = "黎明黃昏 (天文)";
+
+
+
+
+"solunar" = "Solunar";
+"calendar" ="日曆";
+"public_holiday" = "公共假期";
+"calendar_festival" = "日曆節日";
+"year" = "年";
+"month" ="月";
+"day" ="日";
+"default"="默認:";
+"working_days" =  "工作日";
+
+
+
+"holidays" ="節日";
+"sun" ="太陽";
+"moon" ="月亮";
+"eclipse" = "日月食";
+"solar_eclipse" = "日食";
+"lunar_eclipse" = "月食";
+"astronomy" ="天文學";
+"illumination" = "照明比例";
+"sun_rise" = "日出";
+"sun_set" = "日落";
+"moon_rise"="月出";
+"moon_set" = "月落";
+"moon_age" ="月齡";
+
+"date" = "日期";
+"rise" = "升";
+"set" = "降";
+"transit" = "中";
+
+"dawn_civil" = "黎明(民用)";
+"dusk_civil" = "黃昏(民用)";
+
+
+"days" = "天數";
+"era" = "紀年";
+
+
+
+
+"solar_eclipse_total" = "日全食";
+"solar_eclipse_annular" = "全環食";
+"solar_eclipse_hybrid" = "混合型日食";
+"solar_eclipse_partical" = "日偏食";
+
+
+
+"lunar_eclipse_penumbral" ="半影月食";
+"lunar_eclipse_partial" = "月偏食";
+"lunar_eclipse_total" = "月全食";
+"lunar_eclipse_central" ="中央月食";
+
+
+"constellation"  = "星座";
+"star" = "恆星";
+"constellation_and_star" = "星座和恆星";
+
+"mercury" ="水星";
+"venus" ="金星";
+"mars" = "火星";
+"jupiter"  = "木星";
+"saturn" = "土星";
+"uranus" = "天王星";
+"neptune" = "海王星";
+"planet" = "行星";
+"pluto" = "冥王星";
+
+
+
+
+
+
+"subscription" =  "訂閱";
+"membership" = "時鐘曆書會員";
+"restore"  =  "恢復內購";
+
+"privacy" = " 用戶隱私協議";
+"terms_of_service" = " 用戶服務協議";
+
+
+
+"privacy_policy" = "隱私政策";
+"terms_of_service" = "用戶協議";
+"rate_on_app_store" = "在 App Store 評價";
+"version"="版本";
+"share_to_friends" = "分享給好友";
+
+"lan_setting" = "語言設置";
+
+"app_name" = "時鐘曆書";
+
+"service_url" = "http://www.astronomyobserver.net/h5/lishu/user/en";
+"privacy_url" = "http://www.astronomyobserver.net/h5/lishu/privacy/en";
+
+
+"app_url" = "https://itunes.apple.com/cn/app/id1281770398?mt=8";
+
+
+
+
+
+"please_wait"  = "數據需要在第一次使用App時初始化，請稍候";
+
+
+
+
+"name" = "名稱";
+"current_location" = "當前位置";
+"timezone" = "時區";
+"longitude"="經度";
+"latitude" ="緯度";
+
+"note" = "注意";
+
+
+
+
+"location_service" = "該應用的定位權限已關閉，若需要繼續使用該功能，請在‘設置—隱私-位置’界面打開定位";
+"go_to_setting" ="去設置";
+"got_it" = "知道了";
+"cancel" = "取消";
+"define" = "確定";
+"got_it" = "知道了";
+
+"location_manage" = "位置管理";
+"enter_city_name" = "請輸入城市名稱";
+
+
+
+
+
+"location_manage_max_tip"="最多只能添加5個地址";
+"delete" = "删除";
