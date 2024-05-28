@@ -414,6 +414,16 @@ static FMDatabase *__db;
     return result;
     
 }
+
+
++ (BOOL)updateCalendarGroupWithType:(LSCalendarTypeModel *)model
+{
+    
+    BOOL result = [__db executeUpdate:@"UPDATE CalendarConfig SET groupType = ? WHERE type = ?",@(model.groupType),@(model.type)];
+    
+    return result;
+    
+}
     
 + (NSArray *)excuteCaledarConfigArraySelected:(BOOL )selected {
     

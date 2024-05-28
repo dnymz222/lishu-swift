@@ -62,6 +62,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
++ (void)SupabaseConfigWithParamater:(NSDictionary *)paramaters
+                  success:(LSSuccessBlock)successBlock
+                             failed:(LSFailedBlock)failedBlock;
+
+
+
 
 
 

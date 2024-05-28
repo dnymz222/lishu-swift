@@ -61,8 +61,8 @@
     
     self.navigationItem.titleView = view;
     
-    self.languageArray = @[@"English",@"简体中文",@"繁体中文",@"日本語",@"Français",@"Español",@"Português",@"Deutsch",@"Italiano",@"Pусский",@"한국인",@"Tiếng Việt"];
-    self.languageCodeArray = @[@"en",@"zh-cn",@"zh-tw",@"ja",@"fr",@"es",@"pt",@"de",@"it",@"ru",@"ko",@"vi"];
+    self.languageArray = @[@"English",@"简体中文",@"繁体中文",@"日本語",@"Français",@"Español",@"Português",@"Deutsch",@"Italiano",@"Pусский",@"한국인",@"Tiếng Việt",@"ไทย"];
+    self.languageCodeArray = @[@"en",@"zh-cn",@"zh-tw",@"ja",@"fr",@"es",@"pt",@"de",@"it",@"ru",@"ko",@"vi",@"th"];
     
     
     
@@ -296,6 +296,7 @@
                     [self.tableView reloadData];
                 } else {
                     [ProgressHUD showError:@"No data"];
+                    [self.tableView reloadData];
                 }
                 
             });

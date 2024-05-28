@@ -124,6 +124,9 @@
             break;
             
         case LSCalendarTypeChinese:
+        case LSCalendarTypeChineseBuddhist:
+        case LSCalendarTypeZangli:
+        case LSCalendarTypeThaiLunar:
             
         case LSCalendarTypeHebrew:
             

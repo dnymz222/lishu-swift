@@ -115,30 +115,12 @@
             self.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierIndian];
             self.name = NSLocalizedStringFromTable(@"calendar_indian",@"lish", nil);
             self.lishuname =@"calendar_indian";
-            self.groupType  =LSCalendarGroupTypeIndian;
-            self.hasFestival = YES;
-            
-            break;
-            
-        case LSCalendarTypeHinduSolar:
-            
-            self.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierIndian];
-            self.name = NSLocalizedStringFromTable(@"calendar_hindu_solar",@"lish", nil);
-            self.lishuname =@"calendar_hindu";
-            self.groupType  = LSCalendarGroupTypeIndian;
-            self.hasFestival = NO;
-            
-            
-            break;
-        case LSCalendarTypeHinduLunar:
-            
-            self.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierIndian];
-            self.name = NSLocalizedStringFromTable(@"calendar_hindu_solar",@"lish", nil);
-            self.lishuname =@"calendar_hindu";
             self.groupType  = LSCalendarGroupTypeIndian;
             self.hasFestival = NO;
             
             break;
+            
+     
             
         case LSCalendarTypeIslamic:
             
@@ -165,7 +147,7 @@
             self.name = NSLocalizedStringFromTable(@"calendar_tailand",@"lish", nil);
             self.lishuname =@"calendar_tailand";
             self.groupType = LSCalendarGroupTypeBuddhist;
-            self.hasFestival = YES;
+            self.hasFestival = NO;
        
             
             break;
@@ -290,29 +272,7 @@
  
             
             break;
-        case LSCalendarTypeChineseKorean:
-            
-            self.calendar =  [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierChinese];
-            self.name = NSLocalizedStringFromTable(@"calendar_chinese_korean",@"lish", nil);
-            self.lishuname = @"calendar_chinese_korean";
-            self.groupType  =LSCalendarGroupTypeChinese;
-            
-            
-            break;
-        case LSCalendarTypeChineseJapanese:
-            self.calendar =  [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierChinese];
-            self.name = NSLocalizedStringFromTable(@"calendar_chinese_japanese",@"lish", nil);
-            self.lishuname = @"calendar_chinese_japanese";
-            self.groupType  =LSCalendarGroupTypeChinese;
-            break;
-            
-        case LSCalendarTypeChineseVietnamese:
-            self.calendar =  [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierChinese];
-            self.name = NSLocalizedStringFromTable(@"calendar_chinese_vietnamese",@"lish", nil);
-            self.lishuname = @"calendar_chinese_vietnamese";
-            self.groupType  =LSCalendarGroupTypeChinese;
-            
-            break;
+   
 
             
             
@@ -435,6 +395,9 @@
                 
                 
                 break;
+            case LSCalendarTypeThaiLunar:
+                self.timeZone = @"Asia/Bangkok";
+                break;
             
                 
            
@@ -528,8 +491,17 @@
         LSJapanEraItemModel *itemmodel = [LSJapanEra filterDate:self.lsdate];
         if (itemmodel) {
             self.japanEraItemModel = itemmodel;
-            self.calendarYear = year-itemmodel.startDate.localYear+1;
+            self.calendarYear = year - itemmodel.startDate.localYear + 1;
         }
+    } else if( LSCalendarTypeThaiLunar ==  self.type) {
+        
+        self.taili = [[LSTaiLiModel alloc] initWithYear:year month:month day:day];
+        self.calendarDay = self.taili.calendarDay;
+        self.calendarMonth = self.taili.calendarMonth;
+        self.calendarYear = self.taili.calendarYear;
+        self.isFestival = self.taili.isFestival;
+        self.festivalString = self.taili.Festival;
+        
     }
  
     
@@ -942,6 +914,11 @@
             }
             break;
             
+        case LSCalendarTypeThaiLunar:
+            
+            
+            break;
+            
        
             
         default:
@@ -1059,11 +1036,23 @@
             case LSCalendarTypeWorldDay:
             case LSCalendarTypeOrthodoxHolidays:
             case LSCalendarTypeChristianHolidays:
+            case LSCalendarTypeCoptic:
+            case LSCalendarTypeEthiopic:
                 
             {
                 _dayString = [NSString  stringWithFormat:@"%d",self.calendarDay];
             }
                 
+                break;
+            case  LSCalendarTypeThaiLunar:
+            {
+                if(self.taili.calendarDay > 15){
+                    _dayString = [NSString stringWithFormat:@"%@ %d",[[NSBundle mainBundle] localizedStringForKey:@"thai_lunar_waning" value:@"" table:@"lish"]
+                                  ,self.taili.calendarDay - 15];
+                } else {
+                    _dayString = [NSString stringWithFormat:@"%@ %d",[[NSBundle mainBundle] localizedStringForKey:@"thai_lunar_waxing" value:@"" table:@"lish"],self.taili.calendarDay ];
+                }
+            }
                 break;
            
                 
@@ -1298,62 +1287,46 @@
                     
                     _monthString =[[NSBundle mainBundle] localizedStringForKey:string value:@"" table:@"lish"];
                     
-//                    switch (self.calendarMonth) {
-//                        case 1:
-//                            _monthString = @"حمل";
-//                            _localizedMonthString = NSLocalizedString(@"afhan_month_1", nil);
-//                            break;
-//                        case 2:
-//                            _monthString  =@"ثور";
-//                            _localizedMonthString = NSLocalizedString(@"afhan_month_2", nil);
-//                            break;
-//                        case 3:
-//                            _monthString = @"جوزا";
-//                            _localizedMonthString = NSLocalizedString(@"afhan_month_3", nil);
-//                            break;
-//                        case 4:
-//                            _monthString = @"سرطان";
-//                            _localizedMonthString = NSLocalizedString(@"afhan_month_4", nil);
-//                            break;
-//                        case 5:
-//                            _monthString = @"اسد";
-//                            _localizedMonthString = NSLocalizedString(@"afhan_month_5", nil);
-//                            break;
-//                        case 6:
-//                            _monthString = @"سنبله";
-//                            _localizedMonthString = NSLocalizedString(@"afhan_month_6", nil);
-//                            break;
-//                        case 7:
-//                            _monthString = @"میزان";
-//                            _localizedMonthString = NSLocalizedString(@"afhan_month_7", nil);
-//                            break;
-//                        case 8:
-//                            _monthString = @"عقرب";
-//                            _localizedMonthString = NSLocalizedString(@"afhan_month_8", nil);
-//                            break;
-//                        case 9:
-//                            _monthString =@"قوس";
-//                            _localizedMonthString = NSLocalizedString(@"afhan_month_9", nil);
-//                            break;
-//                        case 10:
-//                            _monthString  = @"جدی";
-//                            _localizedMonthString = NSLocalizedString(@"afhan_month_10", nil);
-//                            break;
-//                        case 11:
-//                            _monthString = @"دلو";
-//                            _localizedMonthString = NSLocalizedString(@"afhan_month_11", nil);
-//                            break;
-//                        case 12:
-//                            _monthString = @"حوت";
-//                            _localizedMonthString = NSLocalizedString(@"afhan_month_12", nil);
-//                            break;
-//                            
-//                            
-//                        default:
-//                            break;
-//                    }
+
                 }
                 
+                break;
+            case  LSCalendarTypeCoptic:
+            {
+              
+                NSString *string = [NSString stringWithFormat:@"coptic_month_%d",self.calendarMonth];
+                    
+                _monthString =[[NSBundle mainBundle] localizedStringForKey:string value:@"" table:@"lish"];
+                    
+
+              
+            }
+                break;
+            case LSCalendarTypeEthiopic:
+            {
+                
+                
+                NSString *string = [NSString stringWithFormat:@"ethiopian_month_%d",self.calendarMonth];
+                    
+                _monthString =[[NSBundle mainBundle] localizedStringForKey:string value:@"" table:@"lish"];
+            }
+                
+                break;
+            case LSCalendarTypeThaiLunar: {
+                
+                if (8 == self.taili.calendarMonth) {
+                    if (self.taili.calendarLeap) {
+                        _monthString =[[NSBundle mainBundle] localizedStringForKey:@"thai_lunar_month_8_leap" value:@"" table:@"lish"];
+                    } else {
+                        _monthString =[[NSBundle mainBundle] localizedStringForKey:@"thai_lunar_month_8" value:@"" table:@"lish"];
+                    }
+                    
+                } else {
+                    NSString *string = [NSString stringWithFormat:@"thai_lunar_month_%d",self.taili.calendarMonth];
+                    _monthString =[[NSBundle mainBundle] localizedStringForKey:string value:@"" table:@"lish"];
+                }
+                
+            }
                 break;
          
                 
@@ -1395,7 +1368,7 @@
                                              @"Jia_zi", @"Yi_chou", @"Bing_yin", @"Ding_mao",  @"Wu_chen",  @"Ji_si",  @"Gen_gwu",  @"Xin_wei",  @"Ren_shen",  @"Gui_you",
                                              @"Jia_xu",   @"Yi_hai",  @"Bing_zi",  @"Ding_chou", @"Wu_yin",   @"Ji_mao",  @"Geng_chen",  @"Xin_Ji",  @"Ren_wu",  @"Gui_wei",
                                              @"Jia_shen",   @"Yi_you",  @"Bing_xu",  @"Ding_hai",  @"Wu_zi",  @"Ji_chou",  @"Geng_yin",  @"Xin_mao",  @"Ren_chen",  @"Gui_si",
-                                             @"Jia_wu",   @"Yi_wei",  @"Bing_shen",  @"Ding_you",  @"Wu_xu",  @"Ji_hai",  @"Geng_zi",  @"Xin_chou",  @"Ren_yin",  @"Gui_mou",
+                                             @"Jia_wu",   @"Yi_wei",  @"Bing_shen",  @"Ding_you",  @"Wu_xu",  @"Ji_hai",  @"Geng_zi",  @"Xin_chou",  @"Ren_yin",  @"Gui_mao",
                                              @"Jia_chen",   @"Yi_si",  @"Bing_wu",  @"Ding_wei",  @"Wu_shen",  @"Ji_you",  @"Geng_xu",  @"Xin_hai",  @"Ren_zi",  @"Gui_chou",
                                              @"Jia_yin",   @"Yi_mao",  @"Bing_chen",  @"Ding_si",  @"Wu_wu",  @"Ji_wei",  @"Geng_shen",  @"Xin_you",  @"Ren_xu",  @"Gui_hai", nil];
                     
@@ -1461,11 +1434,18 @@
             case LSCalendarTypeWorldDay:
             case LSCalendarTypeOrthodoxHolidays:
             case LSCalendarTypeChristianHolidays:
+            case LSCalendarTypeCoptic:
+            case LSCalendarTypeEthiopic:
                 
             {
                 _yearString = [NSString  stringWithFormat:@"%d",self.calendarYear];
             }
                 
+                break;
+            case LSCalendarTypeThaiLunar:
+            {
+                _yearString = [NSString  stringWithFormat:@"%d",self.taili.calendarYear];
+            }
                 break;
            
                 
@@ -1555,6 +1535,9 @@
             case LSCalendarTypeChineseHuangli:
             case LSCalendarTypeChineseBuddhist:
                 _fullString = [NSString stringWithFormat:@"%@%@%@ %@ %@",self.eraString,self.yearString,NSLocalizedString(@"tab_year", nil),self.monthString,self.dayString];
+                break;
+            case LSCalendarTypeThaiLunar:
+                _fullString = [NSString stringWithFormat:@"%@ %@ %@ %@",self.yearString,NSLocalizedString(@"tab_year", nil),self.monthString,self.dayString];
                 break;
                 
             

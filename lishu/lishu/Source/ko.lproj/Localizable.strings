@@ -153,4 +153,6 @@
 
 "location_manage_max_tip"="최대 5개의 위치만 추가할 수 있습니다.";
 "delete" = "삭제";
+"location"="위치";
+
 

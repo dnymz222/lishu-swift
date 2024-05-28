@@ -57,6 +57,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)vipExpiredResetConfig;
 
++ (BOOL)updateCalendarGroupWithType:(LSCalendarTypeModel *)model;
+
 
 
 @end

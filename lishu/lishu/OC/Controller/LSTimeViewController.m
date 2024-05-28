@@ -47,7 +47,7 @@
 #import "LSLocationAddFooter.h"
 
 
-@interface LSTimeViewController ()<UITableViewDelegate,UITableViewDataSource,CLLocationManagerDelegate,UICollectionViewDelegate,UICollectionViewDataSource,LSDayHeaderViewDelegate,LSLocationAddFooterDelegate>
+@interface LSTimeViewController ()<UITableViewDelegate,UITableViewDataSource,CLLocationManagerDelegate,LSDayHeaderViewDelegate,LSLocationAddFooterDelegate>
 
 @property(nonatomic,strong)LSClockView *clockView;
 
@@ -76,7 +76,7 @@
 @property(nonatomic,strong)UILabel *titleLabel;
 
 @property(nonatomic,strong)UIButton *leftButton;
-@property(nonatomic,strong)UIButton *rightButton;
+//@property(nonatomic,strong)UIButton *rightButton;
 
 //@property(nonatomic,strong)LSLocation *currentLocation;
 
@@ -105,9 +105,8 @@
 @property(nonatomic,strong)LSDate *lsdate;
 
 
-@property(nonatomic,strong)UICollectionView *collectionView;
 
-@property(nonatomic,copy)NSArray *personArray;
+
 
 
 
@@ -136,12 +135,8 @@
     
     if (![[NSUserDefaults standardUserDefaults] boolForKey:@"haslocation_key"]) {
         [self locationrefresh];
-    } else{
-    
-        
-        
+      
     }
-    
     
     
     
@@ -157,26 +152,11 @@
     self.lsdate = lsdate;
     
     
-    
-    
-    
-//    [self.view addSubview:self.clockView];
-//    [self.clockView  mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.centerX.equalTo(self.view);
-//        make.top.equalTo(self.view).offset(10);
-//        make.height.equalTo(@100);
-//        make.width.equalTo(@100);
-//    }];
-//    [self.clockView configHour:3 minutes:26 seconds:50];
-//
-    
-    
     [self addTimer];
     
     if ([[NSUserDefaults standardUserDefaults] boolForKey:has_set_mertric]) {
         self.ismerTric = [[NSUserDefaults standardUserDefaults] boolForKey:is_mertric_key];
     } else {
-//        self.ismerTric = [[NSUserDefaults standardUserDefaults] boolForKey:is_mertric_key];
         self.ismerTric = [NSLocalizedString(@"unit_t", nil) isEqualToString:@"C"];
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:has_set_mertric];
         [[NSUserDefaults standardUserDefaults] setBool:self.ismerTric forKey:is_mertric_key];
@@ -184,32 +164,13 @@
     
     
     
-    
-//    BOOL removeAd = [[NSUserDefaults standardUserDefaults] boolForKey:is_vip_key];
-//
-//    self.is_vip  = removeAd;
-    
-    
-    
-//    CGFloat adheight = 0;
-//    if (removeAd) {
-//        adheight = 0;
-//    }
-//
+
     
 
     
     float scale  = 2004/(swidth);
-//    [self.view addSubview:self.mapView];
-//    self.mapView.frame  = CGRectMake(0, 0, 2004/scale, 1195/scale);
-    
-//    [self.mapView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.left.equalTo(self.view);
-//        make.right.equalTo(self.view);
-//        make.bottom.equalTo(self.view);
-//        make.height.equalTo(@(1195/scale));
-//    }];
-//
+
+
     self.mapScale  = scale;
     
     [self.view addSubview:self.tableView];
@@ -218,25 +179,16 @@
 //        make.bottom.equalTo(self.mapView.mas_top);
     }];
     
-//    NSLog(@"123333444_begin");
-    
 
-    
-
-//    [self.mapView configLocationArray:lsdate.locationArray scale:scale fix:lsdate.fix];
-//
-//    NSLog(@"123333444_end");
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:self.leftButton];
-    self.navigationItem.rightBarButtonItem   =[[UIBarButtonItem alloc] initWithCustomView:self.rightButton];
+
     
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(recieveWillEnterbackgroud:) name:UIApplicationWillEnterForegroundNotification object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(willEnterforgroud:) name:UIApplicationWillEnterForegroundNotification object:nil];
     
-
-//
     
     if (![[NSUserDefaults standardUserDefaults] boolForKey:@"config_store"]) {
         
@@ -256,10 +208,11 @@
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"config_store"];
         
         if(![[NSUserDefaults standardUserDefaults] boolForKey:@"config_store_1"]){
-            for (int i = 1; i < 27; i++) {
+            for (int i = 1; i < 22; i++) {
                 LSCalendarTypeModel *calendarModel = [[LSCalendarTypeModel alloc] initWithType:(LSCalendarType)i];
                 [LSDataBaseTool addCalendarType:calendarModel];
             }
+            
             [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"config_store_1"];
             
         }
@@ -269,10 +222,23 @@
     } else {
         
         if(![[NSUserDefaults standardUserDefaults] boolForKey:@"config_store_1"]){
-            for (int i = 19; i < 27; i++) {
+            for (int i = 19; i < 22; i++) {
                 LSCalendarTypeModel *calendarModel = [[LSCalendarTypeModel alloc] initWithType:(LSCalendarType)i];
                 [LSDataBaseTool addCalendarType:calendarModel];
             }
+            
+        
+            LSCalendarTypeModel *ChineseBuddhist = [[LSCalendarTypeModel alloc] initWithType:LSCalendarTypeChineseBuddhist];
+            [LSDataBaseTool updateCalendarGroupWithType:ChineseBuddhist];
+            
+            LSCalendarTypeModel *zangliBuddhist = [[LSCalendarTypeModel alloc] initWithType:LSCalendarTypeZangli];
+            [LSDataBaseTool updateCalendarGroupWithType:zangliBuddhist];
+            
+           
+            
+        
+            
+    
             [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"config_store_1"];
             
         }
@@ -283,13 +249,6 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receiveUnitChangeNote:) name:unit_change_note_key object:nil];
     
-
-    
-    
-    
-    
-
-    
     
     NSInteger showtimes = [[NSUserDefaults standardUserDefaults] integerForKey:@"has_showapptimes_key"];
     if (showtimes < 100) {
@@ -297,12 +256,6 @@
         [[NSUserDefaults standardUserDefaults] setInteger:showtimes forKey:@"has_showapptimes_key"];
     }
       
-
-    
-    
-    
-    
-    // Do any additional setup after loading the view.
 }
 
 
@@ -312,9 +265,9 @@
     
     if (![[NSUserDefaults standardUserDefaults] boolForKey:@"HasAllowNetworkKey"]) {
         
-          [LSNetWorkHandler requestTest];
+         [LSNetWorkHandler requestTest];
 
-              [self networkStatusListen];
+         [self networkStatusListen];
 
       
     }
@@ -322,11 +275,23 @@
     
     NSInteger showtimes = [[NSUserDefaults standardUserDefaults] integerForKey:@"has_showapptimes_key"];
     
-    if (showtimes > 5) {
+    if (showtimes > 3) {
         
         if (![[NSUserDefaults standardUserDefaults] boolForKey:@"has_Showscore_Key"]) {
-             [SKStoreReviewController requestReview];
-            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"has_Showscore_Key"];
+            NSSet<UIScene*> *scenes = [UIApplication sharedApplication].connectedScenes;
+            
+            UIScene *scene;
+            for (UIScene *ascene in scenes) {
+                if(ascene.activationState == UISceneActivationStateForegroundActive && [ascene isKindOfClass:[UIWindowScene class]]) {
+                    scene = ascene;
+                    break;
+                }
+            }
+            if (scene) {
+                [SKStoreReviewController requestReviewInScene:(UIWindowScene*)scene];
+                [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"has_Showscore_Key"];
+            }
+            
         }
     }
   
@@ -450,16 +415,6 @@
     
     NSInteger timestamp =  [date timeIntervalSince1970];
     
-    
-//    if (self.currentLocation) {
-//
-//        [self.currentLocation calcuteDate:date];
-//
-//
-//
-//    }
-    
-    
     for (LSLocation *location in self.dataArray) {
         
         [location calcuteDate:date isShow:0 == self.tabBarController.selectedIndex ];
@@ -476,11 +431,6 @@
         [lsdate calculateLocation];
         [lsdate calculateTwlightLocation];
         self.lsdate = lsdate;
-        
-//        [self.mapView configLocationArray:lsdate.locationArray scale:self.mapScale fix:lsdate.fix];
-//
-//        [self.mapView configTwilightLocationArray:lsdate.twlightLocationArray scale:self.mapScale fix:lsdate.fix];
-//
         
         self.selectMapDate = date;
         
@@ -502,13 +452,6 @@
         
     }
     
-    
-    
-    
-    
-    
-    
-    
 }
 
 -(UIButton *)leftButton {
@@ -528,30 +471,6 @@
     [self locationrefresh   ];
     
 }
-
--(UIButton *)rightButton {
-    if (!_rightButton) {
-        UIButton *button  =[UIButton buttonWithType:UIButtonTypeCustom];
-        button.bounds = CGRectMake(0, 0, 44, 44);
-        UIImage *image  = [UIImage imageNamed:@"add"];
-        [button setImage:image forState:UIControlStateNormal];
-        [button addTarget:self action:@selector(rightButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-        _rightButton  = button;
-    }
-    return _rightButton;
-}
-
--(void)rightButtonClick:(UIButton *)button {
-    
-    LSLocationManagerViewController *managerVC  = [[LSLocationManagerViewController alloc] init];
-    [self.navigationController pushViewController:managerVC animated:YES];
-    
-    
-    
-}
-
-
-
 
 - (void)fullButtonClick:(UIButton *)button {
     
@@ -604,38 +523,49 @@
 {
     
     
-    CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
+     CLAuthorizationStatus status = self.loctionmanager.authorizationStatus;
     
-    if ([CLLocationManager locationServicesEnabled]) {
-        if ([[[UIDevice currentDevice] systemVersion] floatValue] >8.0) {
-            
-            [self.loctionmanager requestWhenInUseAuthorization];
-            
-            
-        }
-        
-        
-        [self.loctionmanager startUpdatingLocation];
-        
-        if ([[NSUserDefaults standardUserDefaults] boolForKey:@"refreshed"]) {
-            if (kCLAuthorizationStatusDenied == status || kCLAuthorizationStatusRestricted == status ) {
-                
-                
-               
-                
-            }
-            
-        }
-        else{
-            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"refreshed"];
-            
-           
-        }
-        
-    
-    }
 
-    
+      if (kCLAuthorizationStatusNotDetermined == status){
+          
+            [self.loctionmanager requestWhenInUseAuthorization];
+          
+        } else if (kCLAuthorizationStatusDenied == status || kCLAuthorizationStatusRestricted == status ) {
+            
+            UIAlertController *alertcontroller = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"note", nil) message:NSLocalizedString(@"location_service", nil) preferredStyle:UIAlertControllerStyleAlert];
+            
+            UIAlertAction *alertcancelaction = [UIAlertAction actionWithTitle:NSLocalizedString(@"cancel", nil) style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+                
+            }];
+            
+            UIAlertAction *defineaction = [UIAlertAction actionWithTitle:NSLocalizedString(@"go_to_setting", nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                
+                NSURL *url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
+                if([[UIApplication sharedApplication] canOpenURL:url]) {
+                    NSURL*url =[NSURL URLWithString:UIApplicationOpenSettingsURLString];
+                    //此处可以做一下版本适配，至于为何要做版本适配，大家应该很清楚
+                    NSDictionary *options = @{UIApplicationOpenURLOptionUniversalLinksOnly : @NO};
+                    
+                    [[UIApplication sharedApplication] openURL:url options:options completionHandler:^(BOOL success) {
+                        
+                    }];
+                }
+            }];
+            
+            [alertcontroller  addAction:alertcancelaction];
+            [alertcontroller addAction:defineaction];
+            
+            
+            
+            [self presentViewController:alertcontroller animated:YES completion:^{
+                
+            }];
+            
+            
+        } else {
+            [self.loctionmanager startUpdatingLocation];
+        }
+
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
@@ -652,6 +582,40 @@
     [self requestLocationKey];
     
     [manager stopUpdatingLocation];
+}
+
+- (void)locationManagerDidChangeAuthorization:(CLLocationManager *)manager {
+    
+    if(kCLAuthorizationStatusDenied == manager.authorizationStatus || kCLAuthorizationStatusRestricted == manager.authorizationStatus){
+        
+        [self insertLondon];
+        
+    } else if (kCLAuthorizationStatusAuthorizedWhenInUse == manager.authorizationStatus) {
+  
+        [self locationrefresh];
+    }
+}
+
+
+
+- (void)insertLondon {
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"london.json" ofType:nil];
+    NSData *data = [[NSData alloc] initWithContentsOfFile:path];
+    
+    NSDictionary *dataDict = [NSJSONSerialization  JSONObjectWithData:data options:kNilOptions error:nil];
+    
+    LSLocation * currentLocation  = [LSLocation yy_modelWithJSON:dataDict];
+    
+    [LSDataBaseTool updateLocalLocation:currentLocation];
+    
+    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"haslocation_key"];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:locationchanged_note_key object:nil];
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self reloadData];
+    });
 }
 
 
@@ -684,15 +648,9 @@
         
         LSLocation * currentLocation  = [LSLocation yy_modelWithJSON:data];
         
-        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"haslocation_key"];
-        
-//        [LSHandler shareHandler].currentLocation   =  self.currentLocation;
-        
-        
-        
-        
         [LSDataBaseTool updateLocalLocation:currentLocation];
         
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"haslocation_key"];
         
         [[NSNotificationCenter defaultCenter] postNotificationName:locationchanged_note_key object:nil];
         
@@ -700,18 +658,24 @@
             [self reloadData];
         });
         
-        
-        
-        
-    } failed:^(NSError *error) {
-        
 
+    } failed:^(NSError *error) {
         
         dispatch_async(dispatch_get_main_queue(), ^{
             
             [ProgressHUD showError:error.localizedDescription];
             
+            
+            if (![[NSUserDefaults standardUserDefaults] boolForKey:@"haslocation_key"]) {
+                [self insertLondon];
+              
+            }
+            
         });
+        
+    
+        
+        
        
     }];
     
@@ -724,9 +688,6 @@
     [self.tableView reloadData];
     
 }
-
-
-
 
 
 - (UITableView *)tableView {
@@ -751,16 +712,14 @@
 
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 3;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
     if (0 == section){
         return self.dataArray.count;
-    } else if(1 == section){
-        return  self.personArray.count;
-    } else {
+    }  else {
         return  1;
     }
 
@@ -770,8 +729,6 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath  {
     if ( 0 == indexPath.section){
         return 88;
-    } else if (1 == indexPath.section){
-        return 144;
     } else {
         return  1195 / self.mapScale;
     }
@@ -799,17 +756,7 @@
         
         
         return cell;
-    } else if (1 == indexPath.section){
-        LSClockPersonCell *cell  = [tableView dequeueReusableCellWithIdentifier:@"person"];
-        if (cell == nil) {
-            cell  = [[LSClockPersonCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"person"];
-            cell.accessoryType =  UITableViewCellAccessoryDisclosureIndicator;
-            
-        }
-        
-    
-        return cell;
-    } else {
+    }  else {
         LSClockMapCell *cell  = [tableView dequeueReusableCellWithIdentifier:@"map"];
         if (cell == nil) {
             cell  = [[LSClockMapCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"map"];
@@ -827,58 +774,48 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section  {
+    if (1 == section) {
+        return  CGFLOAT_MIN;
+    }
     return 44;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     
-    LSDayHeaderView  *headerView  = [tableView  dequeueReusableHeaderFooterViewWithIdentifier:@"header"];
-    if (headerView == nil) {
-        headerView = [[LSDayHeaderView alloc] initWithReuseIdentifier:@"header"];
-        headerView.delegate = self;
-        
-    }
-    if (2 == section) {
-        [headerView.filterButton setImage:nil forState:UIControlStateNormal];
+    if (1 == section){
+        return nil;
     } else {
-        [headerView.filterButton setImage:[UIImage imageNamed:@"shaixuan"] forState:UIControlStateNormal];
-    }
-    
-    headerView.tag =  section;
-    
-    if (0 == section) {
         
-        headerView.titleLabel.text = NSLocalizedString(@"solunar", nil);
-    } else if (1 == section){
-        headerView.titleLabel.text = NSLocalizedString(@"calendar", nil);
-    } else if (2 == section){
-        headerView.titleLabel.text = NSLocalizedString(@"public_holiday", nil);
+        LSDayHeaderView  *headerView  = [tableView  dequeueReusableHeaderFooterViewWithIdentifier:@"header"];
+        if (headerView == nil) {
+            headerView = [[LSDayHeaderView alloc] initWithReuseIdentifier:@"header"];
+            headerView.delegate = self;
+            
+        }
+        
+        [headerView.filterButton setImage:nil forState:UIControlStateNormal];
+        
+        
+        headerView.tag =  section;
+        
+        
+        
+        headerView.titleLabel.text = NSLocalizedString(@"location", nil);
+        
+        
+        return headerView;
     }
-    
-    
-    return headerView;
     
 }
 
 - (void)lsDayheaderFilterButtonClickSection:(NSInteger)section {
     
-    if (0 == section) {
-        
-//        LSCalendarTypefilterViewController *filterVC  =[[LSCalendarTypefilterViewController alloc] init];
-//
-//        [self.navigationController pushViewController:filterVC animated:YES];
-//
 
-        
-    }else if (1 == section) {
-//        LSWorkingDayConfigFilterViewController *configVc = [[LSWorkingDayConfigFilterViewController alloc] init];
-//        [self.navigationController pushViewController:configVc animated:YES];
-    }
     
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
-    if (2 == section){
+    if (1 == section){
         return  CGFLOAT_MIN;
     } else {
         return 44;
@@ -886,7 +823,7 @@
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
-    if (2 == section){
+    if (1 == section){
         return nil;
     } else {
         LSLocationAddFooter *footer  = [tableView dequeueReusableHeaderFooterViewWithIdentifier:@"footer"];
@@ -926,56 +863,6 @@
 
 }
 
-//-(UIButton *)ealierButton {
-//    if (!_ealierButton) {
-//        UIButton *button  =[UIButton buttonWithType:UIButtonTypeCustom];
-//        button.bounds = CGRectMake(0, 0, 44, 44);
-//        UIImage *image   =[UIImage imageNamed:@"xiangqian"];
-//        [button setImage:image forState:UIControlStateNormal];
-//        [button addTarget:self action:@selector(earlierButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-//        _ealierButton  = button;
-//    }
-//    return _ealierButton    ;
-//}
-//
-//-(void)earlierButtonClick:(UIButton *)button {
-//
-//}
-//
-//-(UIButton *)laterButton {
-//    if (!_laterButton ) {
-//        UIButton *button  =[UIButton buttonWithType:UIButtonTypeCustom];
-//        button.bounds = CGRectMake(0, 0, 44, 44);
-//        UIImage *image   =[UIImage imageNamed:@"xianghou"];
-//        [button setImage:image forState:UIControlStateNormal];
-//        [button addTarget:self action:@selector(laterButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-//        _laterButton  = button;
-//    }
-//    return _laterButton    ;
-//}
-//
-//- (void)laterButtonClick:(UIButton *)button {
-//
-//}
-//
-//-(UIButton *)dateButton {
-//    if (!_dateButton) {
-//        UIButton *button  =[UIButton buttonWithType:UIButtonTypeCustom];
-////        button.layer.cornerRadius =  3;
-////        button.layer.borderWidth  =2;
-////        button.layer.borderColor   = UIColorFromRGB(TextDarkColor).CGColor;
-////        button.layer.masksToBounds  =  YES;
-//        button.bounds = CGRectMake(0, 0, 44, 44);
-//
-//        [button addTarget:self action:@selector(dateButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-//        _dateButton  = button;
-//    }
-//    return _dateButton;
-//}
-//
-//-(void)dateButtonClick:(UIButton *)button {
-//
-//}
 
 - (NSDictionary *)dateAttrsDict {
     if (!_dateAttrsDict) {
@@ -986,136 +873,10 @@
     return _dateAttrsDict;
 }
 
-//-(UIButton *)restoreButton {
-//    if (!_restoreButton) {
-//        UIButton *button  =[UIButton buttonWithType:UIButtonTypeCustom];
-//        button.bounds = CGRectMake(0, 0, 44, 44);
-//        UIImage *image   =[UIImage imageNamed:@"huanyuan"];
-//        [button setImage:image forState:UIControlStateNormal];
-//        [button addTarget:self action:@selector(restoreButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-//        _restoreButton  = button;
-//    }
-//    return _restoreButton    ;
-//}
-//
-//- (void)restoreButtonClick:(UIButton *)button {
-//
-//}
-
-
-
-/// Tells the delegate an ad request loaded an ad.
-//- (void)adViewDidReceiveAd:(GADBannerView *)adView {
-////  NSLog(@"adViewDidReceiveAd");
-////    [self.view bringSubviewToFront:adView];
-//}
-//
-///// Tells the delegate an ad request failed.
-//- (void)adView:(GADBannerView *)adView
-//    didFailToReceiveAdWithError:(NSError *)error {
-////    if ([self.bannerView.adUnitID isEqualToString:@"ca-app-pub-3940256099942544/2934735716"]) {
-////
-////    } else {
-////     self.bannerView.adUnitID = @"ca-app-pub-3940256099942544/2934735716";
-////     [self.bannerView loadRequest:[GADRequest request]];
-////    }
-//
-////  NSLog(@"adView:didFailToReceiveAdWithError: %@", [error localizedDescription]);
-//
-//
-//}
-//
-///// Tells the delegate that a full-screen view will be presented in response
-///// to the user clicking on an ad.
-//- (void)adViewWillPresentScreen:(GADBannerView *)adView {
-////  NSLog(@"adViewWillPresentScreen");
-//}
-//
-///// Tells the delegate that the full-screen view will be dismissed.
-//- (void)adViewWillDismissScreen:(GADBannerView *)adView {
-////  NSLog(@"adViewWillDismissScreen");
-//}
-//
-///// Tells the delegate that the full-screen view has been dismissed.
-//- (void)adViewDidDismissScreen:(GADBannerView *)adView {
-////  NSLog(@"adViewDidDismissScreen");
-//}
-//
-///// Tells the delegate that a user click will open another app (such as
-///// the App Store), backgrounding the current app.
-//- (void)adViewWillLeaveApplication:(GADBannerView *)adView {
-////  NSLog(@"adViewWillLeaveApplication");
-//}
-
-
 
 - (UIUserInterfaceStyle)overrideUserInterfaceStyle {
 
     return UIUserInterfaceStyleLight;
-}
-
-- (UICollectionView *)collectionView {
-    if (!_collectionView) {
-        UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-        layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-        _collectionView = [[UICollectionView alloc] initWithFrame:self.view.frame collectionViewLayout:layout];
-        _collectionView.dataSource = self;
-        _collectionView.delegate = self;
-        
-        [_collectionView registerClass:[LSWorldClockItemCell class] forCellWithReuseIdentifier:@"cell"];
-        
-    }
-    
-    return _collectionView;
-}
-
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return self.dataArray.count;
-}
-
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
-    return 1;
-}
-
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
-    return 1;
-}
-
-
-- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    
-    
-    
-    return CGSizeMake(collectionView.bounds.size.width /4 - 5, 88 );
-    
-}
-
-//- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section {
-//    return CGSizeZero;
-//}
-//-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForFooterInSection:(NSInteger)section {
-//    return CGSizeZero;
-//}
-
-
-
-- (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    
-    LSWorldClockItemCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
-
-    return cell;
-}
-
-- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section {
-    return CGSizeZero;
-}
-
-
-- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath{
-    
-    
-    return nil;
-    
 }
 
 

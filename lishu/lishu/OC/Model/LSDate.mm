@@ -239,7 +239,6 @@
     
      return date.Julian();
     
-//    return date2julianday(self.year, self.month, self.day, self.hour, self.minutes + self.second/60.0);
 
 }
 
@@ -253,29 +252,27 @@
     int hour  = date.Hour();
     int minutes   =date.Minute();
     double second   = date.Second();
-//
-//    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian  ];
-//    [calendar setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
+    
+    
+    NSCalendar *calendar = [NSCalendar calendarWithIdentifier: NSCalendarIdentifierGregorian];
+    calendar.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0];
+    
+    NSDateComponents *component = [[NSDateComponents alloc] init];
+    component.year = year;
 
+    component.month = month;
+    component.day = day;
+    component.hour = hour;
+    component.minute = minutes;
+    component.second = second;
     
+ 
     
-    
+    return  [calendar dateFromComponents:component];
     
           
           
-    NSDateFormatter *fomatter = [[NSDateFormatter alloc] init];
-          [fomatter setDateFormat:@"yyyy-MM-dd HH:mm:ss Z"];
-        
-        
-        
-        
-  NSString *dateString = [NSString stringWithFormat:@"%ld-%02d-%02d %02d:%02d:%02d +0000",year,month,day,hour, minutes,(int)second];
-    
 
-   NSDate *outdate  =[fomatter dateFromString:dateString];
-    
-    
-    return outdate;
     
     
     
@@ -285,34 +282,22 @@
     
     
     NSCalendar *calendar = [NSCalendar calendarWithIdentifier: NSCalendarIdentifierGregorian];
-    calendar.timeZone = [NSTimeZone timeZoneWithAbbreviation:@"GMT"];
+    calendar.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0];
     
     NSDateComponents *component = [[NSDateComponents alloc] init];
-    component.calendar = calendar;
     component.year = year;
-    component.timeZone = [NSTimeZone timeZoneWithAbbreviation:@"GMT"];
+
     component.month = month;
     component.day = day;
     component.hour = 0;
     component.minute = 0;
     component.second = 0;
     
-    if (component.date != NULL) {
-        return  component.date;
-    }
+ 
     
-  NSDateFormatter *fomatter = [[NSDateFormatter alloc] init];
-    [fomatter setDateFormat:@"yyyy-MM-dd HH:mm:ss Z"];
-  
-  
-  NSString *dateString = [NSString stringWithFormat:@"%d-%02d-%02d %02d:%02d:%02d +0000",year,month,day,0, 0,0];
-
-
-   NSDate *outdate  =[fomatter dateFromString:dateString];
-
-
-   return outdate;
-
+    return  [calendar dateFromComponents:component];
+    
+    
     
 }
 
@@ -320,23 +305,24 @@
 +(NSDate *)dateWithYear:(int)year month:(int)month day:(int)day offset:(int)offset{
     
     
-  NSDateFormatter *fomatter = [[NSDateFormatter alloc] init];
-    [fomatter setDateFormat:@"yyyy-MM-dd HH:mm:ss Z"];
-  
-  
+    NSCalendar *calendar = [NSCalendar calendarWithIdentifier: NSCalendarIdentifierGregorian];
+    calendar.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0];
     
-    NSString *fuhao  = offset> 0?@"+":@"-";
+    NSDateComponents *component = [[NSDateComponents alloc] init];
+    component.year = year;
+
+    component.month = month;
+    component.day = day;
+    component.hour = 0;
+    component.minute = 0;
+    component.second = 0;
     
-    int offsetabs = abs(offset);
-  
-  
-  NSString *dateString = [NSString stringWithFormat:@"%d-%02d-%02d %02d:%02d:%02d %@%02d%02d",year,month,day,0, 0,0,fuhao,offsetabs/3600,(offsetabs%3600)/60];
+ 
+    
+    NSDate *date = [calendar dateFromComponents:component];
 
 
-   NSDate *outdate  =[fomatter dateFromString:dateString];
-
-
-   return outdate;
+   return [NSDate dateWithTimeInterval:-offset sinceDate:date];
 
     
 }

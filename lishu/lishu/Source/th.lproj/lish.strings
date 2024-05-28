@@ -7,56 +7,55 @@
 */
 
 
-"AR" = "Argentina";
-"AU" ="Australia";
-"AT" ="Austria";
-"BE" = "Belgium";
-"BR"="Brasil";
-"BG" ="Bulgaria";
-"CA" ="Canada";
-"CL" ="Chile";
-"CN" ="China";
-"CO" ="Colombia";
-"CZ" ="Czech Republic";
-"DK" ="Denmark";
-"DE" ="Deutschland";
-"ES" = "España";
-"FI" ="Finland";
-"FR"="France";
-"GR"="Greece";
-"HK" ="Hong-Kong, China";
-"HU" = "Hungary";
-"IN"="India";
-"IL"="Israe";
-"IT"="Italia";
-"JP"="Japan";
-"LU"="Luxembourg";
-"MO"="Macao, China";
-"MX"="México";
-"MC"="Monaco";
-"NL"="Netherlands";
-"NZ"="New Zealand";
-"NO"="Norway";
-"PE"="Perú";
-"PL"="Poland";
-"PT"="Portugal";
-"RO"="Romania";
-"RU"="Russia";
-"SG"="Singapore";
-"SK"="Slovakia";
-"ZA"="South Africa";
-"KR"="South Korea";
-"CH"="Suisse";
-"SE"="Sweden";
-"TW"="Taiwan, China";
-"TR"="Turkey";
-"UA"="Ukraine";
-"GB"="United Kingdom & Ireland";
-"US"="USA";
-"VE"="Venezuela";
-"VI"="Vietnam";
 
-
+"AR" = "อาร์เจนตินา";
+"AU" ="ออสเตรเลีย";
+"AT" ="ออสเตรีย";
+"BE" = "เบลเยียม";
+"BR"="บราซิล";
+"BG" ="บัลแกเรีย";
+"CA" ="แคนาดา";
+"CL" ="ชิลี";
+"CN" ="จีน";
+"CO" ="โคลัมเบีย";
+"CZ" = "สาธารณรัฐเช็ก";
+"DK" ="เดนมาร์ก";
+"DE" ="เยอรมนี";
+"ES" = "สเปน";
+"FI" ="ฟินแลนด์";
+"FR"="ฝรั่งเศส";
+"GR"="กรีซ";
+"HK" = "ฮ่องกง จีน";
+"HU" = "ฮังการี";
+"IN"="อินเดีย";
+"IL"="อิสราเอล";
+"IT"="อิตาลี";
+"JP"="ญี่ปุ่น";
+"LU"="ลักเซมเบิร์ก";
+"MO"="มาเก๊า จีน";
+"MX"="เม็กซิโก";
+"MC"="โมนาโก";
+"NL"="เนเธอร์แลนด์";
+"NZ"="นิวซีแลนด์";
+"NO"="นอร์เวย์";
+"PE"="เปรู";
+"PL"="โปแลนด์";
+"PT"="โปรตุเกส";
+"RO"="โรมาเนีย";
+"RU"="รัสเซีย";
+"SG"="สิงคโปร์";
+"SK"="สโลวาเกีย";
+"ZA"="แอฟริกาใต้";
+"KR"="เกาหลีใต้";
+"CH"="สวิตเซอร์แลนด์";
+"SE"="สวีเดน";
+"TW"="ไต้หวัน จีน";
+"TR"="ตุรกี";
+"UA"="ยูเครน";
+"GB"="สหราชอาณาจักรและไอร์แลนด์";
+"US"="สหรัฐอเมริกา";
+"VE"="เวเนซุเอลา";
+"VI"="เวียดนาม";
 
 
 
@@ -1019,38 +1018,99 @@
 
 
 
-"calendar_gregorian"  = "Gregorian Calender";
-"calendar_chinese"  = "Chinese Calendar";
-"calendar_chinese_old" = "Sexagenary cycle";
-"calendar_chinese_buddhism" = "Chinese Calendar(for Buddhism)";
-"calendar_zangli" = "Tibetan calendar";
-"calendar_japanese"  = "Japannese Calendar";
-"calendar_indian"  = "Indian Calendar";
-"calendar_tailand" = "Thai calendar";
-"calendar_hebrew" = "Hebrew calendar";
-"calendar_julian" = "Julian Calendar";
-"calendar_islamic"  = "Islamic Calendar";
-"calendar_islamic_civil"  = "IslamicCivil Calendar";
-"calendar_islamic_ummalqura" = "IslamicUmmAlQura Calendar";
-"calendar_islamic_tabular" = "IslamicTabular Calendar";
-"calendar_holiday_international" = "International Days";
-"calendar_holiday_christian" = "Christian Holiday";
-"calendar_holiday_orthodox" = "Orthodox Church Holiday";
-"calendar_persian_iran" = "Persian Calendar (Iran)";
-"calendar_persian_afghan" = "Persian Calendar (Afghan)";
-"calendar_group_chinese"  = "Chinese Calendar";
-"calendar_group_gregorian"  = "Gregorian Calender";
-"calendar_group_japanese"  = "Japannese Calendar";
-"calendar_group_indian"  = "Indian Calendar";
-"calendar_group_tailand" = "Thai calendar";
-"calendar_group_hebrew" = "Hebrew calendar";
-"calendar_group_julian" = "Julian Calendar";
-"calendar_group_islamic"  = "Islamic Calendar";
-"calendar_group_persian" = "Persian Calendar";
+"calendar_gregorian" = "ปฏิทินเกรโกเรียน";
+"calendar_chinese" = "ปฏิทินจีน";
+"calendar_chinese_old" = "วงจรทางเพศ";
+"calendar_chinese_buddhism" = "ปฏิทินจีน (สำหรับพุทธศาสนา)";
+"calendar_zangli" = "ปฏิทินทิเบต";
+"calendar_japanese" = "ปฏิทินญี่ปุ่น";
+"calendar_indian" = "ปฏิทินอินเดีย";
+"calendar_tailand" = "ปฏิทินไทย";
+"calendar_hebrew" = "ปฏิทินภาษาฮีบรู";
+"calendar_julian" = "ปฏิทินจูเลียน";
+"calendar_islamic" = "ปฏิทินอิสลาม";
+"calendar_islamic_civil" = "ปฏิทินพลเมืองอิสลาม";
+"calendar_islamic_ummalqura" = "ปฏิทินอิสลามอุมอัลกุระ";
+"calendar_islamic_tabular" = "ปฏิทินตารางอิสลาม";
+"calendar_holiday_international" = "วันสากล";
+"calendar_holiday_christian" = "วันหยุดของชาวคริสเตียน";
+"calendar_holiday_orthodox" = "วันหยุดของคริสตจักรออร์โธดอกซ์";
+"calendar_persian_iran" = "ปฏิทินเปอร์เซีย (อิหร่าน)";
+"calendar_persian_afghan" = "ปฏิทินเปอร์เซีย (อัฟกานิสถาน)";
+"calendar_group_chinese" = "ปฏิทินจีน";
+"calendar_group_gregorian" = "ปฏิทินเกรโกเรียน";
+"calendar_group_japanese" = "ปฏิทินญี่ปุ่น";
+"calendar_group_indian" = "ปฏิทินอินเดีย";
+"calendar_group_tailand" = "ปฏิทินไทย";
+"calendar_group_hebrew" = "ปฏิทินภาษาฮีบรู";
+"calendar_group_julian" = "ปฏิทินจูเลียน";
+"calendar_group_islamic" = "ปฏิทินอิสลาม";
+"calendar_group_persian" = "ปฏิทินเปอร์เซีย";
 
 
 
 
 
+"calendar_tailand_lunar" = "ปฏิทินจันทรคติไทย";
 
 
+"thai_lunar_waxing" = "Khuen";
+"thai_lunar_waning"="Raem";
+"calendar_group_buddhist"="ปฏิทินพุทธศาสนา";
+"calendar_coptic" = "ปฏิทินคอปติก";
+"calendar_ethiopic" = "ปฏิทินเอธิโอเปีย";
+"calendar_group_coptic"="ปฏิทินคอปติก";
+
+"thai_lunar_month_1"="duean ai";
+"thai_lunar_month_2"="duean yi";
+"thai_lunar_month_3"="duean 3";
+"thai_lunar_month_4"="duean 4";
+"thai_lunar_month_5"="duean 5";
+"thai_lunar_month_6"="duean 6";
+"thai_lunar_month_7"="duean 7";
+"thai_lunar_month_8"="duean 8";
+"thai_lunar_month_8_leap"="athikamat";
+"thai_lunar_month_9"="duean 9";
+"thai_lunar_month_10"="duean 10";
+"thai_lunar_month_11"="duean 11";
+"thai_lunar_month_12"="duean 12";
+
+
+
+"coptic_month_1"="1:Thout";
+"coptic_month_2"="2:Paopi";
+"coptic_month_3"="3:Hathor";
+"coptic_month_4"="4:Koiak";
+"coptic_month_5"="5:Tobi";
+"coptic_month_6"="6:Meshir";
+"coptic_month_7"="7:Paremhat";
+"coptic_month_8"="8:Parmouti";
+"coptic_month_9"="9:Pashons";
+"coptic_month_10"="10:Paoni";
+"coptic_month_11"="11:Epip";
+"coptic_month_12"="12:Mesori";
+"coptic_month_13"="13:Pikougi Enavot";
+
+
+"ethiopian_month_1"="1:Mäskäräm";
+"ethiopian_month_2"="2:Ṭəqəmt";
+"ethiopian_month_3"="3:Ḫədar";
+"ethiopian_month_4"="4:Taḫśaś";
+"ethiopian_month_5"="5:Ṭərr";
+"ethiopian_month_6"="6:Yäkatit";
+"ethiopian_month_7"="7:Mägabit";
+"ethiopian_month_8"="8:Miyazya";
+"ethiopian_month_9"="9:Gənbo";
+"ethiopian_month_10"="10:Säne";
+"ethiopian_month_11"="11:Ḥamle";
+"ethiopian_month_12"="12:Nähase";
+"ethiopian_month_13"="13:Ṗagume";
+
+"songkran_festival"="เทศกาลวันสงกรานต์";
+"magha_puja"="วันมาฆบูชา";
+"vesak"="วิสาขบูชา";
+"asalha_puja"="อาสาฬหบูชา";
+"wan_khao_phansa"="วันเข้าพรรษา";
+"wan_ok_phansa"="วันออกพรรษา";
+"thot_kathin"="ทอดกฐิน";
+"loi_krathong"="ลอยกระทง";

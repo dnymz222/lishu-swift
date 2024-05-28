@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102874962BB02EED00D816B8 /* LSKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102874952BB02EED00D816B8 /* LSKeyManager.swift */; };
+		105FE4AC2BAD75B700A04FD7 /* LSColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105FE4AB2BAD75B700A04FD7 /* LSColorManager.swift */; };
+		1065D52C2BF9A3F600C615B1 /* LSWKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1065D52B2BF9A3F600C615B1 /* LSWKViewController.swift */; };
+		109EDEFB2BF61A350062AB31 /* lunar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109EDEFA2BF61A350062AB31 /* lunar.cpp */; };
+		10A15C2E2BF8563100B7D378 /* LSSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A15C2D2BF8563100B7D378 /* LSSettingViewController.swift */; };
+		10A15C452BF8A95F00B7D378 /* Workingdaysconfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A15C442BF8A95F00B7D378 /* Workingdaysconfig.swift */; };
+		10A15C492BF8AA9C00B7D378 /* Workingdaysmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A15C482BF8AA9C00B7D378 /* Workingdaysmodel.swift */; };
+		10B09DA02BFF5C8A00CD954A /* LSTaiLiModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10B09D9F2BFF5C8A00CD954A /* LSTaiLiModel.mm */; };
+		10BEB7C32C017E3200F7F622 /* LSDataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BEB7C22C017E3200F7F622 /* LSDataBaseManager.swift */; };
+		10BEB7C52C0181ED00F7F622 /* LSLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BEB7C42C0181ED00F7F622 /* LSLocationModel.swift */; };
+		10BEB7C72C01BE1900F7F622 /* london.json in Resources */ = {isa = PBXBuildFile; fileRef = 10BEB7C62C01BE1900F7F622 /* london.json */; };
+		10BEB7C82C01DCC300F7F622 /* LSThaiBuddhistFestival.m in Sources */ = {isa = PBXBuildFile; fileRef = 105068ED2C00A2B200EFAE4C /* LSThaiBuddhistFestival.m */; };
 		1937CCBF2B98A7AE00D453FA /* lsstar.json in Resources */ = {isa = PBXBuildFile; fileRef = 1937CCBA2B98A7AD00D453FA /* lsstar.json */; };
 		1937CCC02B98A7AE00D453FA /* lsconstellation.json in Resources */ = {isa = PBXBuildFile; fileRef = 1937CCBB2B98A7AD00D453FA /* lsconstellation.json */; };
 		1937CCC12B98A7AE00D453FA /* japanera.json in Resources */ = {isa = PBXBuildFile; fileRef = 1937CCBC2B98A7AE00D453FA /* japanera.json */; };
@@ -147,7 +159,6 @@
 		1937CE812B98A81E00D453FA /* LSDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE492B98A81E00D453FA /* LSDayViewController.m */; };
 		1937CE822B98A81E00D453FA /* LSTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE4A2B98A81E00D453FA /* LSTimeViewController.m */; };
 		1937CE832B98A81E00D453FA /* LSLocationManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE4B2B98A81E00D453FA /* LSLocationManagerViewController.m */; };
-		1937CE842B98A81E00D453FA /* LSTimeLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE4C2B98A81E00D453FA /* LSTimeLocationViewController.m */; };
 		1937CE852B98A81E00D453FA /* LSLandscapeMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE4D2B98A81E00D453FA /* LSLandscapeMapViewController.m */; };
 		1937CE862B98A81E00D453FA /* LSWkWiewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE4E2B98A81E00D453FA /* LSWkWiewViewController.m */; };
 		1937CE872B98A81E00D453FA /* LSToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE4F2B98A81E00D453FA /* LSToolsViewController.m */; };
@@ -155,7 +166,6 @@
 		1937CE892B98A81E00D453FA /* LSTimeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE542B98A81E00D453FA /* LSTimeDetailViewController.m */; };
 		1937CE8A2B98A81E00D453FA /* LSMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE562B98A81E00D453FA /* LSMonthViewController.m */; };
 		1937CE8B2B98A81E00D453FA /* LSYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE582B98A81E00D453FA /* LSYearViewController.m */; };
-		1937CE8C2B98A81E00D453FA /* LSTimeOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE5A2B98A81E00D453FA /* LSTimeOtherViewController.m */; };
 		1937CE8D2B98A81E00D453FA /* LSYearEclipseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE5C2B98A81E00D453FA /* LSYearEclipseViewController.m */; };
 		1937CE8E2B98A81E00D453FA /* LSYearHolidayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE5D2B98A81E00D453FA /* LSYearHolidayViewController.m */; };
 		1937CE8F2B98A81E00D453FA /* LSYearSunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CE5E2B98A81E00D453FA /* LSYearSunViewController.m */; };
@@ -199,7 +209,6 @@
 		1937CFA12B98A86C00D453FA /* LSBuddhistFestival.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF3A2B98A86B00D453FA /* LSBuddhistFestival.m */; };
 		1937CFA22B98A86C00D453FA /* LSAdministrativeAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF3B2B98A86B00D453FA /* LSAdministrativeAreaModel.m */; };
 		1937CFA32B98A86C00D453FA /* LSJapanEra.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF3D2B98A86B00D453FA /* LSJapanEra.m */; };
-		1937CFA42B98A86C00D453FA /* LSThaiLunarCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF412B98A86B00D453FA /* LSThaiLunarCalendar.m */; };
 		1937CFA52B98A86C00D453FA /* LSWorkingDayConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF422B98A86B00D453FA /* LSWorkingDayConfig.m */; };
 		1937CFA62B98A86C00D453FA /* LSJewish.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF472B98A86B00D453FA /* LSJewish.mm */; };
 		1937CFA72B98A86C00D453FA /* LSChristian.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF482B98A86B00D453FA /* LSChristian.mm */; };
@@ -275,14 +284,8 @@
 		1937D0A52B98B19F00D453FA /* ofxMercatorMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D08B2B98B19F00D453FA /* ofxMercatorMap.cpp */; };
 		1937D0A62B98B19F00D453FA /* HinduCalendar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D08C2B98B19F00D453FA /* HinduCalendar.cpp */; };
 		1937D0A72B98B19F00D453FA /* maptrans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D08E2B98B19F00D453FA /* maptrans.cpp */; };
-		1937D0A82B98B19F00D453FA /* lunar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D08F2B98B19F00D453FA /* lunar.cpp */; };
 		1937D0A92B98B19F00D453FA /* TibetanCalendar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0902B98B19F00D453FA /* TibetanCalendar.cpp */; };
 		1937D0AA2B98B19F00D453FA /* AHAAHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0912B98B19F00D453FA /* AHAAHelper.cpp */; };
-		1937D0AB2B98B19F00D453FA /* XL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0952B98B19F00D453FA /* XL.cpp */; };
-		1937D0AC2B98B19F00D453FA /* eph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0962B98B19F00D453FA /* eph.cpp */; };
-		1937D0AD2B98B19F00D453FA /* lunar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0972B98B19F00D453FA /* lunar.cpp */; };
-		1937D0AE2B98B19F00D453FA /* SSQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D09D2B98B19F00D453FA /* SSQ.cpp */; };
-		1937D0AF2B98B19F00D453FA /* JD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D09E2B98B19F00D453FA /* JD.cpp */; };
 		1937D0B02B98B19F00D453FA /* ThaiCalendar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0A22B98B19F00D453FA /* ThaiCalendar.cpp */; };
 		193E11D42B9C0A1C008698D2 /* lish.strings in Resources */ = {isa = PBXBuildFile; fileRef = 193E11D62B9C0A1C008698D2 /* lish.strings */; };
 		193E11E92B9C1688008698D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 193E11EB2B9C1688008698D2 /* InfoPlist.strings */; };
@@ -298,6 +301,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		102874952BB02EED00D816B8 /* LSKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSKeyManager.swift; sourceTree = "<group>"; };
+		105068EC2C00A2B200EFAE4C /* LSThaiBuddhistFestival.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSThaiBuddhistFestival.h; sourceTree = "<group>"; };
+		105068ED2C00A2B200EFAE4C /* LSThaiBuddhistFestival.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSThaiBuddhistFestival.m; sourceTree = "<group>"; };
+		105FE4AB2BAD75B700A04FD7 /* LSColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSColorManager.swift; sourceTree = "<group>"; };
+		1065D52B2BF9A3F600C615B1 /* LSWKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSWKViewController.swift; sourceTree = "<group>"; };
+		109EDEF92BF61A2D0062AB31 /* lunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lunar.h; sourceTree = "<group>"; };
+		109EDEFA2BF61A350062AB31 /* lunar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lunar.cpp; sourceTree = "<group>"; };
+		10A15C2D2BF8563100B7D378 /* LSSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSSettingViewController.swift; sourceTree = "<group>"; };
+		10A15C442BF8A95F00B7D378 /* Workingdaysconfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workingdaysconfig.swift; sourceTree = "<group>"; };
+		10A15C482BF8AA9C00B7D378 /* Workingdaysmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workingdaysmodel.swift; sourceTree = "<group>"; };
+		10B09D9E2BFF5C8A00CD954A /* LSTaiLiModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTaiLiModel.h; sourceTree = "<group>"; };
+		10B09D9F2BFF5C8A00CD954A /* LSTaiLiModel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LSTaiLiModel.mm; sourceTree = "<group>"; };
+		10BEB7C22C017E3200F7F622 /* LSDataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSDataBaseManager.swift; sourceTree = "<group>"; };
+		10BEB7C42C0181ED00F7F622 /* LSLocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSLocationModel.swift; sourceTree = "<group>"; };
+		10BEB7C62C01BE1900F7F622 /* london.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = london.json; sourceTree = "<group>"; };
 		1937CCBA2B98A7AD00D453FA /* lsstar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lsstar.json; sourceTree = "<group>"; };
 		1937CCBB2B98A7AD00D453FA /* lsconstellation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lsconstellation.json; sourceTree = "<group>"; };
 		1937CCBC2B98A7AE00D453FA /* japanera.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = japanera.json; sourceTree = "<group>"; };
@@ -570,11 +588,9 @@
 		1937CE452B98A81E00D453FA /* LSWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWeatherViewController.m; sourceTree = "<group>"; };
 		1937CE462B98A81E00D453FA /* LSMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMineViewController.h; sourceTree = "<group>"; };
 		1937CE472B98A81E00D453FA /* LSWorkingDayConfigFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWorkingDayConfigFilterViewController.m; sourceTree = "<group>"; };
-		1937CE482B98A81E00D453FA /* LSTimeOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTimeOtherViewController.h; sourceTree = "<group>"; };
 		1937CE492B98A81E00D453FA /* LSDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDayViewController.m; sourceTree = "<group>"; };
 		1937CE4A2B98A81E00D453FA /* LSTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTimeViewController.m; sourceTree = "<group>"; };
 		1937CE4B2B98A81E00D453FA /* LSLocationManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLocationManagerViewController.m; sourceTree = "<group>"; };
-		1937CE4C2B98A81E00D453FA /* LSTimeLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTimeLocationViewController.m; sourceTree = "<group>"; };
 		1937CE4D2B98A81E00D453FA /* LSLandscapeMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLandscapeMapViewController.m; sourceTree = "<group>"; };
 		1937CE4E2B98A81E00D453FA /* LSWkWiewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWkWiewViewController.m; sourceTree = "<group>"; };
 		1937CE4F2B98A81E00D453FA /* LSToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSToolsViewController.m; sourceTree = "<group>"; };
@@ -587,7 +603,6 @@
 		1937CE572B98A81E00D453FA /* LSCalendarFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCalendarFilterViewController.h; sourceTree = "<group>"; };
 		1937CE582B98A81E00D453FA /* LSYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYearViewController.m; sourceTree = "<group>"; };
 		1937CE592B98A81E00D453FA /* LSWorkingDayConfigFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWorkingDayConfigFilterViewController.h; sourceTree = "<group>"; };
-		1937CE5A2B98A81E00D453FA /* LSTimeOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTimeOtherViewController.m; sourceTree = "<group>"; };
 		1937CE5C2B98A81E00D453FA /* LSYearEclipseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYearEclipseViewController.m; sourceTree = "<group>"; };
 		1937CE5D2B98A81E00D453FA /* LSYearHolidayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYearHolidayViewController.m; sourceTree = "<group>"; };
 		1937CE5E2B98A81E00D453FA /* LSYearSunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYearSunViewController.m; sourceTree = "<group>"; };
@@ -602,7 +617,6 @@
 		1937CE672B98A81E00D453FA /* LSWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWeatherViewController.h; sourceTree = "<group>"; };
 		1937CE682B98A81E00D453FA /* LSTimeZoneMapTipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTimeZoneMapTipController.h; sourceTree = "<group>"; };
 		1937CE692B98A81E00D453FA /* LSCalendarTypefilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCalendarTypefilterViewController.m; sourceTree = "<group>"; };
-		1937CE6A2B98A81E00D453FA /* LSTimeLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTimeLocationViewController.h; sourceTree = "<group>"; };
 		1937CE6B2B98A81E00D453FA /* LSLocationManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLocationManagerViewController.h; sourceTree = "<group>"; };
 		1937CE6C2B98A81E00D453FA /* LSTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTimeViewController.h; sourceTree = "<group>"; };
 		1937CE6D2B98A81E00D453FA /* LSDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDayViewController.h; sourceTree = "<group>"; };
@@ -670,7 +684,6 @@
 		1937CF3E2B98A86B00D453FA /* LSPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPlanet.h; sourceTree = "<group>"; };
 		1937CF3F2B98A86B00D453FA /* LSLunarTermItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLunarTermItemModel.h; sourceTree = "<group>"; };
 		1937CF402B98A86B00D453FA /* LSMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMonth.h; sourceTree = "<group>"; };
-		1937CF412B98A86B00D453FA /* LSThaiLunarCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSThaiLunarCalendar.m; sourceTree = "<group>"; };
 		1937CF422B98A86B00D453FA /* LSWorkingDayConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWorkingDayConfig.m; sourceTree = "<group>"; };
 		1937CF432B98A86B00D453FA /* LSEclipseItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSEclipseItemModel.h; sourceTree = "<group>"; };
 		1937CF442B98A86B00D453FA /* LSTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTime.h; sourceTree = "<group>"; };
@@ -717,7 +730,6 @@
 		1937CF6D2B98A86B00D453FA /* LSLunar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LSLunar.mm; sourceTree = "<group>"; };
 		1937CF6E2B98A86B00D453FA /* LSEclipseItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSEclipseItemModel.m; sourceTree = "<group>"; };
 		1937CF6F2B98A86B00D453FA /* LSWorkingDayConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWorkingDayConfig.h; sourceTree = "<group>"; };
-		1937CF702B98A86B00D453FA /* LSThaiLunarCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSThaiLunarCalendar.h; sourceTree = "<group>"; };
 		1937CF712B98A86B00D453FA /* LSMonth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSMonth.m; sourceTree = "<group>"; };
 		1937CF722B98A86B00D453FA /* LSLunarTermItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLunarTermItemModel.m; sourceTree = "<group>"; };
 		1937CF732B98A86B00D453FA /* LSLunarTermModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLunarTermModel.m; sourceTree = "<group>"; };
@@ -880,22 +892,9 @@
 		1937D08C2B98B19F00D453FA /* HinduCalendar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HinduCalendar.cpp; sourceTree = "<group>"; };
 		1937D08D2B98B19F00D453FA /* ThaiCalendar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ThaiCalendar.hpp; sourceTree = "<group>"; };
 		1937D08E2B98B19F00D453FA /* maptrans.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maptrans.cpp; sourceTree = "<group>"; };
-		1937D08F2B98B19F00D453FA /* lunar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lunar.cpp; sourceTree = "<group>"; };
 		1937D0902B98B19F00D453FA /* TibetanCalendar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TibetanCalendar.cpp; sourceTree = "<group>"; };
 		1937D0912B98B19F00D453FA /* AHAAHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AHAAHelper.cpp; sourceTree = "<group>"; };
-		1937D0922B98B19F00D453FA /* lunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lunar.h; sourceTree = "<group>"; };
 		1937D0932B98B19F00D453FA /* TibetanCalendar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TibetanCalendar.hpp; sourceTree = "<group>"; };
-		1937D0952B98B19F00D453FA /* XL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XL.cpp; sourceTree = "<group>"; };
-		1937D0962B98B19F00D453FA /* eph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eph.cpp; sourceTree = "<group>"; };
-		1937D0972B98B19F00D453FA /* lunar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lunar.cpp; sourceTree = "<group>"; };
-		1937D0982B98B19F00D453FA /* XL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XL.h; sourceTree = "<group>"; };
-		1937D0992B98B19F00D453FA /* lunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lunar.h; sourceTree = "<group>"; };
-		1937D09A2B98B19F00D453FA /* SSQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSQ.h; sourceTree = "<group>"; };
-		1937D09B2B98B19F00D453FA /* eph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eph.h; sourceTree = "<group>"; };
-		1937D09C2B98B19F00D453FA /* JD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JD.h; sourceTree = "<group>"; };
-		1937D09D2B98B19F00D453FA /* SSQ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SSQ.cpp; sourceTree = "<group>"; };
-		1937D09E2B98B19F00D453FA /* JD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JD.cpp; sourceTree = "<group>"; };
-		1937D09F2B98B19F00D453FA /* const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = const.h; sourceTree = "<group>"; };
 		1937D0A02B98B19F00D453FA /* AHAAHelper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AHAAHelper.hpp; sourceTree = "<group>"; };
 		1937D0A12B98B19F00D453FA /* ofxMercatorMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxMercatorMap.h; sourceTree = "<group>"; };
 		1937D0A22B98B19F00D453FA /* ThaiCalendar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThaiCalendar.cpp; sourceTree = "<group>"; };
@@ -971,6 +970,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1065D52D2BF9AC8500C615B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10A15C272BF84C5B00B7D378 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				10A15C2D2BF8563100B7D378 /* LSSettingViewController.swift */,
+				1065D52B2BF9A3F600C615B1 /* LSWKViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		10A15C2A2BF84D5500B7D378 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				10BEB7C22C017E3200F7F622 /* LSDataBaseManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		10A15C402BF89F2400B7D378 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10A15C442BF8A95F00B7D378 /* Workingdaysconfig.swift */,
+				10A15C482BF8AA9C00B7D378 /* Workingdaysmodel.swift */,
+				10BEB7C42C0181ED00F7F622 /* LSLocationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10B09D9D2BFF40A700CD954A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		138EBCC2EEB1DD9946F08D95 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -983,6 +1023,7 @@
 		1937CCB92B98A75200D453FA /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				10BEB7C62C01BE1900F7F622 /* london.json */,
 				1937CCBC2B98A7AE00D453FA /* japanera.json */,
 				1937CCBB2B98A7AD00D453FA /* lsconstellation.json */,
 				1937CCBA2B98A7AD00D453FA /* lsstar.json */,
@@ -1274,10 +1315,6 @@
 				1937CE662B98A81E00D453FA /* LSMineViewController.m */,
 				1937CE422B98A81E00D453FA /* LSMonthViewController.h */,
 				1937CE562B98A81E00D453FA /* LSMonthViewController.m */,
-				1937CE6A2B98A81E00D453FA /* LSTimeLocationViewController.h */,
-				1937CE4C2B98A81E00D453FA /* LSTimeLocationViewController.m */,
-				1937CE482B98A81E00D453FA /* LSTimeOtherViewController.h */,
-				1937CE5A2B98A81E00D453FA /* LSTimeOtherViewController.m */,
 				1937CE6C2B98A81E00D453FA /* LSTimeViewController.h */,
 				1937CE4A2B98A81E00D453FA /* LSTimeViewController.m */,
 				1937CE682B98A81E00D453FA /* LSTimeZoneMapTipController.h */,
@@ -1368,129 +1405,131 @@
 		1937CF062B98A86A00D453FA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1937CF072B98A86A00D453FA /* LSTime.mm */,
-				1937CF082B98A86A00D453FA /* LSLishuRoleModel.m */,
-				1937CF092B98A86A00D453FA /* LSSolarTermItemModel.m */,
-				1937CF0A2B98A86A00D453FA /* LSPublicHoliday.h */,
-				1937CF0B2B98A86A00D453FA /* LSGeoPosition.m */,
-				1937CF0C2B98A86A00D453FA /* LSEraModel.m */,
-				1937CF0D2B98A86A00D453FA /* LSParentCity.m */,
-				1937CF0E2B98A86A00D453FA /* LSEraItemModel.m */,
-				1937CF0F2B98A86A00D453FA /* LSTibetanFestival.m */,
-				1937CF102B98A86A00D453FA /* LSPlanet.mm */,
-				1937CF112B98A86A00D453FA /* LSCalendarTypeModel.m */,
-				1937CF122B98A86A00D453FA /* LSEclipseModel.mm */,
-				1937CF132B98A86A00D453FA /* LSIslamicHolidays.m */,
-				1937CF142B98A86B00D453FA /* LSDate.h */,
-				1937CF152B98A86B00D453FA /* LSJulianCalendar.mm */,
-				1937CF162B98A86B00D453FA /* LSLocation.h */,
-				1937CF172B98A86B00D453FA /* LSWorkingdayModel.h */,
-				1937CF182B98A86B00D453FA /* LSMoon.mm */,
-				1937CF192B98A86B00D453FA /* LSTimeZoneMapLocation.mm */,
-				1937CF1A2B98A86B00D453FA /* LSLocation.mm */,
-				1937CF1B2B98A86B00D453FA /* LSAccuWeatherHourModel.m */,
-				1937CF1C2B98A86B00D453FA /* LSMoselm.h */,
-				1937CF1D2B98A86B00D453FA /* LSDay.h */,
-				1937CF1E2B98A86B00D453FA /* LSCalendarHoliday.h */,
-				1937CF1F2B98A86B00D453FA /* LSAccuDayWeatherModel.m */,
-				1937CF202B98A86B00D453FA /* LSConstellation.h */,
-				1937CF212B98A86B00D453FA /* LSStaticAstroBody.h */,
-				1937CF222B98A86B00D453FA /* LSDay.mm */,
-				1937CF232B98A86B00D453FA /* LSYear.m */,
-				1937CF242B98A86B00D453FA /* LSSolarEclipseItemModel.h */,
-				1937CF252B98A86B00D453FA /* LSSun.h */,
-				1937CF262B98A86B00D453FA /* LSRiseSetTime.m */,
-				1937CF272B98A86B00D453FA /* LSChineseFestival.m */,
-				1937CF282B98A86B00D453FA /* LSTimeZone.m */,
-				1937CF292B98A86B00D453FA /* LSCalendarGroup.h */,
-				1937CF2A2B98A86B00D453FA /* LSChineseBuddhismFestival.h */,
-				1937CF2B2B98A86B00D453FA /* LSMoon.h */,
-				1937CF2C2B98A86B00D453FA /* LSAccuCurrentWetherModel.m */,
-				1937CF2D2B98A86B00D453FA /* LSHolidayApiCodeModel.m */,
-				1937CF2E2B98A86B00D453FA /* LSAstroSectionModel.m */,
-				1937CF2F2B98A86B00D453FA /* LSCountryOrDistrictModel.h */,
-				1937CF302B98A86B00D453FA /* LSLunarEclipseItemModel.h */,
-				1937CF312B98A86B00D453FA /* LSJewish.h */,
-				1937CF322B98A86B00D453FA /* LSHoliday.m */,
-				1937CF332B98A86B00D453FA /* LSAccuDayAndNightWeatherModel.m */,
-				1937CF342B98A86B00D453FA /* LSFestival.h */,
-				1937CF352B98A86B00D453FA /* LSHolidayRegion.m */,
-				1937CF362B98A86B00D453FA /* LSZangLi.m */,
-				1937CF372B98A86B00D453FA /* LSWorldDay.h */,
-				1937CF382B98A86B00D453FA /* LSStar.mm */,
-				1937CF392B98A86B00D453FA /* LSEra.h */,
-				1937CF3A2B98A86B00D453FA /* LSBuddhistFestival.m */,
-				1937CF3B2B98A86B00D453FA /* LSAdministrativeAreaModel.m */,
-				1937CF3C2B98A86B00D453FA /* LSLunarTermModel.h */,
-				1937CF3D2B98A86B00D453FA /* LSJapanEra.m */,
-				1937CF3E2B98A86B00D453FA /* LSPlanet.h */,
-				1937CF3F2B98A86B00D453FA /* LSLunarTermItemModel.h */,
-				1937CF402B98A86B00D453FA /* LSMonth.h */,
-				1937CF412B98A86B00D453FA /* LSThaiLunarCalendar.m */,
-				1937CF422B98A86B00D453FA /* LSWorkingDayConfig.m */,
-				1937CF432B98A86B00D453FA /* LSEclipseItemModel.h */,
-				1937CF442B98A86B00D453FA /* LSTime.h */,
-				1937CF452B98A86B00D453FA /* LSIslamicHolidays.h */,
-				1937CF462B98A86B00D453FA /* LSCalendarTypeModel.h */,
-				1937CF472B98A86B00D453FA /* LSJewish.mm */,
-				1937CF482B98A86B00D453FA /* LSChristian.mm */,
-				1937CF492B98A86B00D453FA /* LSMoselm.mm */,
-				1937CF4A2B98A86B00D453FA /* LSEraItemModel.h */,
-				1937CF4B2B98A86B00D453FA /* LSTibetanFestival.h */,
-				1937CF4C2B98A86B00D453FA /* LSParentCity.h */,
-				1937CF4D2B98A86B00D453FA /* LSOrthodox.mm */,
-				1937CF4E2B98A86B00D453FA /* LSEraModel.h */,
-				1937CF4F2B98A86B00D453FA /* LSGeoPosition.h */,
-				1937CF502B98A86B00D453FA /* LSEclipseModel.h */,
-				1937CF512B98A86B00D453FA /* LSPublicHoliday.m */,
-				1937CF522B98A86B00D453FA /* LSJulianCalendar.h */,
-				1937CF532B98A86B00D453FA /* LSLishuRoleModel.h */,
-				1937CF542B98A86B00D453FA /* LSSolarTermItemModel.h */,
-				1937CF552B98A86B00D453FA /* LSOrthodox.h */,
-				1937CF562B98A86B00D453FA /* LSConstellation.mm */,
-				1937CF572B98A86B00D453FA /* LSAstroPostion.mm */,
-				1937CF582B98A86B00D453FA /* LSSolarTermModel.h */,
-				1937CF592B98A86B00D453FA /* LSCalendarHoliday.m */,
-				1937CF5A2B98A86B00D453FA /* LSAccuDayWeatherModel.h */,
-				1937CF5B2B98A86B00D453FA /* LSAccuWeatherHourModel.h */,
-				1937CF5C2B98A86B00D453FA /* LSStar.h */,
-				1937CF5D2B98A86B00D453FA /* LSAstroPostion.h */,
-				1937CF5E2B98A86B00D453FA /* LSWorkingdayModel.m */,
-				1937CF5F2B98A86B00D453FA /* LSLunarEclipseItemModel.m */,
-				1937CF602B98A86B00D453FA /* LSCountryOrDistrictModel.m */,
-				1937CF612B98A86B00D453FA /* LSAstroSectionModel.h */,
-				1937CF622B98A86B00D453FA /* LSHolidayApiCodeModel.h */,
 				1937CF632B98A86B00D453FA /* LSAccuCurrentWetherModel.h */,
-				1937CF642B98A86B00D453FA /* LSTimeZone.h */,
-				1937CF652B98A86B00D453FA /* LSChineseFestival.h */,
+				1937CF2C2B98A86B00D453FA /* LSAccuCurrentWetherModel.m */,
+				1937CF7F2B98A86B00D453FA /* LSAccuDayAndNightWeatherModel.h */,
+				1937CF332B98A86B00D453FA /* LSAccuDayAndNightWeatherModel.m */,
+				1937CF5A2B98A86B00D453FA /* LSAccuDayWeatherModel.h */,
+				1937CF1F2B98A86B00D453FA /* LSAccuDayWeatherModel.m */,
+				1937CF5B2B98A86B00D453FA /* LSAccuWeatherHourModel.h */,
+				1937CF1B2B98A86B00D453FA /* LSAccuWeatherHourModel.m */,
+				1937CF762B98A86B00D453FA /* LSAdministrativeAreaModel.h */,
+				1937CF3B2B98A86B00D453FA /* LSAdministrativeAreaModel.m */,
+				1937CF5D2B98A86B00D453FA /* LSAstroPostion.h */,
+				1937CF572B98A86B00D453FA /* LSAstroPostion.mm */,
+				1937CF612B98A86B00D453FA /* LSAstroSectionModel.h */,
+				1937CF2E2B98A86B00D453FA /* LSAstroSectionModel.m */,
+				1937CF772B98A86B00D453FA /* LSBuddhistFestival.h */,
+				1937CF3A2B98A86B00D453FA /* LSBuddhistFestival.m */,
+				1937CF292B98A86B00D453FA /* LSCalendarGroup.h */,
 				1937CF662B98A86B00D453FA /* LSCalendarGroup.m */,
+				1937CF1E2B98A86B00D453FA /* LSCalendarHoliday.h */,
+				1937CF592B98A86B00D453FA /* LSCalendarHoliday.m */,
+				1937CF462B98A86B00D453FA /* LSCalendarTypeModel.h */,
+				1937CF112B98A86A00D453FA /* LSCalendarTypeModel.m */,
+				1937CF2A2B98A86B00D453FA /* LSChineseBuddhismFestival.h */,
 				1937CF672B98A86B00D453FA /* LSChineseBuddhismFestival.m */,
+				1937CF652B98A86B00D453FA /* LSChineseFestival.h */,
+				1937CF272B98A86B00D453FA /* LSChineseFestival.m */,
 				1937CF682B98A86B00D453FA /* LSChristian.h */,
-				1937CF692B98A86B00D453FA /* LSRiseSetTime.h */,
-				1937CF6A2B98A86B00D453FA /* LSYear.h */,
-				1937CF6B2B98A86B00D453FA /* LSSolarEclipseItemModel.m */,
+				1937CF482B98A86B00D453FA /* LSChristian.mm */,
+				1937CF202B98A86B00D453FA /* LSConstellation.h */,
+				1937CF562B98A86B00D453FA /* LSConstellation.mm */,
+				1937CF2F2B98A86B00D453FA /* LSCountryOrDistrictModel.h */,
+				1937CF602B98A86B00D453FA /* LSCountryOrDistrictModel.m */,
+				1937CF142B98A86B00D453FA /* LSDate.h */,
+				1937CF752B98A86B00D453FA /* LSDate.mm */,
+				1937CF1D2B98A86B00D453FA /* LSDay.h */,
+				1937CF222B98A86B00D453FA /* LSDay.mm */,
+				1937CF432B98A86B00D453FA /* LSEclipseItemModel.h */,
+				1937CF6E2B98A86B00D453FA /* LSEclipseItemModel.m */,
+				1937CF502B98A86B00D453FA /* LSEclipseModel.h */,
+				1937CF122B98A86A00D453FA /* LSEclipseModel.mm */,
+				1937CF392B98A86B00D453FA /* LSEra.h */,
+				1937CF7A2B98A86B00D453FA /* LSEra.m */,
+				1937CF4A2B98A86B00D453FA /* LSEraItemModel.h */,
+				1937CF0E2B98A86A00D453FA /* LSEraItemModel.m */,
+				1937CF4E2B98A86B00D453FA /* LSEraModel.h */,
+				1937CF0C2B98A86A00D453FA /* LSEraModel.m */,
+				1937CF342B98A86B00D453FA /* LSFestival.h */,
+				1937CF4F2B98A86B00D453FA /* LSGeoPosition.h */,
+				1937CF0B2B98A86A00D453FA /* LSGeoPosition.m */,
+				1937CF802B98A86B00D453FA /* LSHoliday.h */,
+				1937CF322B98A86B00D453FA /* LSHoliday.m */,
+				1937CF622B98A86B00D453FA /* LSHolidayApiCodeModel.h */,
+				1937CF2D2B98A86B00D453FA /* LSHolidayApiCodeModel.m */,
+				1937CF7D2B98A86B00D453FA /* LSHolidayRegion.h */,
+				1937CF352B98A86B00D453FA /* LSHolidayRegion.m */,
+				1937CF452B98A86B00D453FA /* LSIslamicHolidays.h */,
+				1937CF132B98A86A00D453FA /* LSIslamicHolidays.m */,
+				1937CF742B98A86B00D453FA /* LSJapanEra.h */,
+				1937CF3D2B98A86B00D453FA /* LSJapanEra.m */,
+				1937CF312B98A86B00D453FA /* LSJewish.h */,
+				1937CF472B98A86B00D453FA /* LSJewish.mm */,
+				1937CF522B98A86B00D453FA /* LSJulianCalendar.h */,
+				1937CF152B98A86B00D453FA /* LSJulianCalendar.mm */,
+				1937CF532B98A86B00D453FA /* LSLishuRoleModel.h */,
+				1937CF082B98A86A00D453FA /* LSLishuRoleModel.m */,
+				1937CF162B98A86B00D453FA /* LSLocation.h */,
+				1937CF1A2B98A86B00D453FA /* LSLocation.mm */,
 				1937CF6C2B98A86B00D453FA /* LSLunar.h */,
 				1937CF6D2B98A86B00D453FA /* LSLunar.mm */,
-				1937CF6E2B98A86B00D453FA /* LSEclipseItemModel.m */,
-				1937CF6F2B98A86B00D453FA /* LSWorkingDayConfig.h */,
-				1937CF702B98A86B00D453FA /* LSThaiLunarCalendar.h */,
-				1937CF712B98A86B00D453FA /* LSMonth.m */,
+				1937CF302B98A86B00D453FA /* LSLunarEclipseItemModel.h */,
+				1937CF5F2B98A86B00D453FA /* LSLunarEclipseItemModel.m */,
+				1937CF3F2B98A86B00D453FA /* LSLunarTermItemModel.h */,
 				1937CF722B98A86B00D453FA /* LSLunarTermItemModel.m */,
+				1937CF3C2B98A86B00D453FA /* LSLunarTermModel.h */,
 				1937CF732B98A86B00D453FA /* LSLunarTermModel.m */,
-				1937CF742B98A86B00D453FA /* LSJapanEra.h */,
-				1937CF752B98A86B00D453FA /* LSDate.mm */,
-				1937CF762B98A86B00D453FA /* LSAdministrativeAreaModel.h */,
-				1937CF772B98A86B00D453FA /* LSBuddhistFestival.h */,
-				1937CF782B98A86B00D453FA /* LSZangLi.h */,
-				1937CF792B98A86B00D453FA /* LSWorldDay.m */,
-				1937CF7A2B98A86B00D453FA /* LSEra.m */,
-				1937CF7B2B98A86B00D453FA /* LSTimeZoneMapLocation.h */,
-				1937CF7C2B98A86B00D453FA /* LSStaticAstroBody.mm */,
-				1937CF7D2B98A86B00D453FA /* LSHolidayRegion.h */,
+				1937CF402B98A86B00D453FA /* LSMonth.h */,
+				1937CF712B98A86B00D453FA /* LSMonth.m */,
+				1937CF2B2B98A86B00D453FA /* LSMoon.h */,
+				1937CF182B98A86B00D453FA /* LSMoon.mm */,
+				1937CF1C2B98A86B00D453FA /* LSMoselm.h */,
+				1937CF492B98A86B00D453FA /* LSMoselm.mm */,
+				1937CF552B98A86B00D453FA /* LSOrthodox.h */,
+				1937CF4D2B98A86B00D453FA /* LSOrthodox.mm */,
+				1937CF4C2B98A86B00D453FA /* LSParentCity.h */,
+				1937CF0D2B98A86A00D453FA /* LSParentCity.m */,
+				1937CF3E2B98A86B00D453FA /* LSPlanet.h */,
+				1937CF102B98A86A00D453FA /* LSPlanet.mm */,
+				1937CF0A2B98A86A00D453FA /* LSPublicHoliday.h */,
+				1937CF512B98A86B00D453FA /* LSPublicHoliday.m */,
+				1937CF692B98A86B00D453FA /* LSRiseSetTime.h */,
+				1937CF262B98A86B00D453FA /* LSRiseSetTime.m */,
+				1937CF242B98A86B00D453FA /* LSSolarEclipseItemModel.h */,
+				1937CF6B2B98A86B00D453FA /* LSSolarEclipseItemModel.m */,
+				1937CF542B98A86B00D453FA /* LSSolarTermItemModel.h */,
+				1937CF092B98A86A00D453FA /* LSSolarTermItemModel.m */,
+				1937CF582B98A86B00D453FA /* LSSolarTermModel.h */,
 				1937CF7E2B98A86B00D453FA /* LSSolarTermModel.mm */,
-				1937CF7F2B98A86B00D453FA /* LSAccuDayAndNightWeatherModel.h */,
-				1937CF802B98A86B00D453FA /* LSHoliday.h */,
+				1937CF5C2B98A86B00D453FA /* LSStar.h */,
+				1937CF382B98A86B00D453FA /* LSStar.mm */,
+				1937CF212B98A86B00D453FA /* LSStaticAstroBody.h */,
+				1937CF7C2B98A86B00D453FA /* LSStaticAstroBody.mm */,
+				1937CF252B98A86B00D453FA /* LSSun.h */,
 				1937CF812B98A86B00D453FA /* LSSun.mm */,
+				1937CF4B2B98A86B00D453FA /* LSTibetanFestival.h */,
+				1937CF0F2B98A86A00D453FA /* LSTibetanFestival.m */,
+				1937CF442B98A86B00D453FA /* LSTime.h */,
+				1937CF072B98A86A00D453FA /* LSTime.mm */,
+				1937CF642B98A86B00D453FA /* LSTimeZone.h */,
+				1937CF282B98A86B00D453FA /* LSTimeZone.m */,
+				1937CF7B2B98A86B00D453FA /* LSTimeZoneMapLocation.h */,
+				1937CF192B98A86B00D453FA /* LSTimeZoneMapLocation.mm */,
+				1937CF6F2B98A86B00D453FA /* LSWorkingDayConfig.h */,
+				1937CF422B98A86B00D453FA /* LSWorkingDayConfig.m */,
+				1937CF172B98A86B00D453FA /* LSWorkingdayModel.h */,
+				1937CF5E2B98A86B00D453FA /* LSWorkingdayModel.m */,
+				1937CF372B98A86B00D453FA /* LSWorldDay.h */,
+				1937CF792B98A86B00D453FA /* LSWorldDay.m */,
+				1937CF6A2B98A86B00D453FA /* LSYear.h */,
+				1937CF232B98A86B00D453FA /* LSYear.m */,
+				1937CF782B98A86B00D453FA /* LSZangLi.h */,
+				1937CF362B98A86B00D453FA /* LSZangLi.m */,
+				10B09D9E2BFF5C8A00CD954A /* LSTaiLiModel.h */,
+				10B09D9F2BFF5C8A00CD954A /* LSTaiLiModel.mm */,
+				105068EC2C00A2B200EFAE4C /* LSThaiBuddhistFestival.h */,
+				105068ED2C00A2B200EFAE4C /* LSThaiBuddhistFestival.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1609,41 +1648,22 @@
 		1937D08A2B98B19F00D453FA /* C++ */ = {
 			isa = PBXGroup;
 			children = (
-				1937D08B2B98B19F00D453FA /* ofxMercatorMap.cpp */,
-				1937D08C2B98B19F00D453FA /* HinduCalendar.cpp */,
-				1937D08D2B98B19F00D453FA /* ThaiCalendar.hpp */,
-				1937D08E2B98B19F00D453FA /* maptrans.cpp */,
-				1937D08F2B98B19F00D453FA /* lunar.cpp */,
-				1937D0902B98B19F00D453FA /* TibetanCalendar.cpp */,
 				1937D0912B98B19F00D453FA /* AHAAHelper.cpp */,
-				1937D0922B98B19F00D453FA /* lunar.h */,
-				1937D0932B98B19F00D453FA /* TibetanCalendar.hpp */,
-				1937D0942B98B19F00D453FA /* lunar */,
 				1937D0A02B98B19F00D453FA /* AHAAHelper.hpp */,
+				1937D08C2B98B19F00D453FA /* HinduCalendar.cpp */,
+				1937D0A32B98B19F00D453FA /* HinduCalendar.hpp */,
+				109EDEFA2BF61A350062AB31 /* lunar.cpp */,
+				109EDEF92BF61A2D0062AB31 /* lunar.h */,
+				1937D08E2B98B19F00D453FA /* maptrans.cpp */,
+				1937D0A42B98B19F00D453FA /* maptrans.hpp */,
+				1937D08B2B98B19F00D453FA /* ofxMercatorMap.cpp */,
 				1937D0A12B98B19F00D453FA /* ofxMercatorMap.h */,
 				1937D0A22B98B19F00D453FA /* ThaiCalendar.cpp */,
-				1937D0A32B98B19F00D453FA /* HinduCalendar.hpp */,
-				1937D0A42B98B19F00D453FA /* maptrans.hpp */,
+				1937D08D2B98B19F00D453FA /* ThaiCalendar.hpp */,
+				1937D0902B98B19F00D453FA /* TibetanCalendar.cpp */,
+				1937D0932B98B19F00D453FA /* TibetanCalendar.hpp */,
 			);
 			path = "C++";
-			sourceTree = "<group>";
-		};
-		1937D0942B98B19F00D453FA /* lunar */ = {
-			isa = PBXGroup;
-			children = (
-				1937D0952B98B19F00D453FA /* XL.cpp */,
-				1937D0962B98B19F00D453FA /* eph.cpp */,
-				1937D0972B98B19F00D453FA /* lunar.cpp */,
-				1937D0982B98B19F00D453FA /* XL.h */,
-				1937D0992B98B19F00D453FA /* lunar.h */,
-				1937D09A2B98B19F00D453FA /* SSQ.h */,
-				1937D09B2B98B19F00D453FA /* eph.h */,
-				1937D09C2B98B19F00D453FA /* JD.h */,
-				1937D09D2B98B19F00D453FA /* SSQ.cpp */,
-				1937D09E2B98B19F00D453FA /* JD.cpp */,
-				1937D09F2B98B19F00D453FA /* const.h */,
-			);
-			path = lunar;
 			sourceTree = "<group>";
 		};
 		19D5052A2B983ECE0082DF14 = {
@@ -1667,6 +1687,11 @@
 		19D505352B983ECF0082DF14 /* lishu */ = {
 			isa = PBXGroup;
 			children = (
+				10B09D9D2BFF40A700CD954A /* Network */,
+				1065D52D2BF9AC8500C615B1 /* View */,
+				10A15C402BF89F2400B7D378 /* Model */,
+				10A15C2A2BF84D5500B7D378 /* ViewModel */,
+				10A15C272BF84C5B00B7D378 /* Controller */,
 				1937D08A2B98B19F00D453FA /* C++ */,
 				1937CE272B98A7F800D453FA /* OC */,
 				1937CCC42B98A7D500D453FA /* aaplus */,
@@ -1680,6 +1705,8 @@
 				19D505442B983ED20082DF14 /* Info.plist */,
 				19D5054A2B9847030082DF14 /* LSTabBarViewController.swift */,
 				19D5054C2B9847FB0082DF14 /* LSNavigationViewController.swift */,
+				105FE4AB2BAD75B700A04FD7 /* LSColorManager.swift */,
+				102874952BB02EED00D816B8 /* LSKeyManager.swift */,
 			);
 			path = lishu;
 			sourceTree = "<group>";
@@ -1695,13 +1722,15 @@
 				19D5052F2B983ECF0082DF14 /* Sources */,
 				19D505302B983ECF0082DF14 /* Frameworks */,
 				19D505312B983ECF0082DF14 /* Resources */,
-				431A23AF05FB83C10252B190 /* [CP] Embed Pods Frameworks */,
+				53C37CF95A1A41A8C4F8B233 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = lishu;
+			packageProductDependencies = (
+			);
 			productName = lishu;
 			productReference = 19D505332B983ECF0082DF14 /* lishu.app */;
 			productType = "com.apple.product-type.application";
@@ -1746,6 +1775,9 @@
 				vi,
 			);
 			mainGroup = 19D5052A2B983ECE0082DF14;
+			packageReferences = (
+				10A154F12C055EC000F7D71A /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = 19D505342B983ECF0082DF14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1769,6 +1801,7 @@
 				19D505432B983ED20082DF14 /* LaunchScreen.storyboard in Resources */,
 				1937CCC02B98A7AE00D453FA /* lsconstellation.json in Resources */,
 				19D505402B983ED20082DF14 /* Assets.xcassets in Resources */,
+				10BEB7C72C01BE1900F7F622 /* london.json in Resources */,
 				193E11E92B9C1688008698D2 /* InfoPlist.strings in Resources */,
 				19D5053E2B983ECF0082DF14 /* Main.storyboard in Resources */,
 			);
@@ -1799,7 +1832,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		431A23AF05FB83C10252B190 /* [CP] Embed Pods Frameworks */ = {
+		53C37CF95A1A41A8C4F8B233 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1831,6 +1864,7 @@
 				1937D0A92B98B19F00D453FA /* TibetanCalendar.cpp in Sources */,
 				1937CDFB2B98A7D800D453FA /* AAVSOP87B_MER.cpp in Sources */,
 				1937CDF42B98A7D800D453FA /* AAEquinoxesAndSolstices.cpp in Sources */,
+				10B09DA02BFF5C8A00CD954A /* LSTaiLiModel.mm in Sources */,
 				1937CDE42B98A7D800D453FA /* AAVSOP87E_NEP.cpp in Sources */,
 				1937D0382B98A88D00D453FA /* LSTimeZoneMapOverLayView.m in Sources */,
 				1937CDDC2B98A7D800D453FA /* AAKepler.cpp in Sources */,
@@ -1848,7 +1882,6 @@
 				1937CE7C2B98A81E00D453FA /* LSAstroMonthListViewController.m in Sources */,
 				1937D0392B98A88D00D453FA /* LSWorldClockItemCell.m in Sources */,
 				1937D0252B98A88D00D453FA /* LSCalendarFooterView.m in Sources */,
-				1937CE8C2B98A81E00D453FA /* LSTimeOtherViewController.m in Sources */,
 				1937CF972B98A86C00D453FA /* LSChineseFestival.m in Sources */,
 				1937CDF22B98A7D800D453FA /* AANutation.cpp in Sources */,
 				1937D0202B98A88D00D453FA /* LSDayHolidayCell.m in Sources */,
@@ -1888,13 +1921,11 @@
 				1937D01C2B98A88D00D453FA /* LSDaySunCell.m in Sources */,
 				1937CE182B98A7D800D453FA /* AABinaryStar.cpp in Sources */,
 				1937CDEF2B98A7D800D453FA /* AAVSOP87E_URA.cpp in Sources */,
-				1937D0AF2B98B19F00D453FA /* JD.cpp in Sources */,
 				1937CE932B98A81E00D453FA /* LSCalendarTypefilterViewController.m in Sources */,
 				1937CE0A2B98A7D800D453FA /* AAVSOP87D_JUP.cpp in Sources */,
 				1937CDDF2B98A7D800D453FA /* AAVSOP87C_JUP.cpp in Sources */,
 				1937CDB42B98A7D800D453FA /* AAELPMPP02.cpp in Sources */,
 				1937CE142B98A7D800D453FA /* AAVSOP87D_SAT.cpp in Sources */,
-				1937D0AD2B98B19F00D453FA /* lunar.cpp in Sources */,
 				1937D02C2B98A88D00D453FA /* LSClockView.m in Sources */,
 				1937CFB52B98A86C00D453FA /* LSEclipseItemModel.m in Sources */,
 				1937CDBC2B98A7D800D453FA /* AAVSOP87B_URA.cpp in Sources */,
@@ -1911,6 +1942,7 @@
 				1937CE1E2B98A7D800D453FA /* AAVSOP87B_EAR.cpp in Sources */,
 				19D5054B2B9847030082DF14 /* LSTabBarViewController.swift in Sources */,
 				1937D02D2B98A88D00D453FA /* LSMonthMoonCell.m in Sources */,
+				102874962BB02EED00D816B8 /* LSKeyManager.swift in Sources */,
 				1937CE202B98A7D800D453FA /* AAVSOP87E_JUP.cpp in Sources */,
 				1937CE012B98A7D800D453FA /* AAPhysicalJupiter.cpp in Sources */,
 				1937D01B2B98A88D00D453FA /* LSFilterHeaderView.m in Sources */,
@@ -1919,7 +1951,6 @@
 				1937D0472B98A89B00D453FA /* LSHandler.m in Sources */,
 				1937CE7A2B98A81E00D453FA /* LSConstellationListViewController.m in Sources */,
 				1937CFA12B98A86C00D453FA /* LSBuddhistFestival.m in Sources */,
-				1937CFA42B98A86C00D453FA /* LSThaiLunarCalendar.m in Sources */,
 				1937CE0C2B98A7D800D453FA /* AAMoonPhases.cpp in Sources */,
 				1937CDCA2B98A7D800D453FA /* AAMoonNodes.cpp in Sources */,
 				1937D0292B98A88D00D453FA /* LSMonthMoonHeaderView.m in Sources */,
@@ -1930,6 +1961,7 @@
 				1937D01D2B98A88D00D453FA /* LSWorldClockCell.m in Sources */,
 				1937CE132B98A7D800D453FA /* AAEarth.cpp in Sources */,
 				1937CDF12B98A7D800D453FA /* AAMars.cpp in Sources */,
+				1065D52C2BF9A3F600C615B1 /* LSWKViewController.swift in Sources */,
 				1937CE1C2B98A7D800D453FA /* AAVSOP87E_VEN.cpp in Sources */,
 				1937CDC22B98A7D800D453FA /* AASun.cpp in Sources */,
 				1937CE7B2B98A81E00D453FA /* LSPlanetMonthViewController.m in Sources */,
@@ -1955,6 +1987,7 @@
 				1937CFB02B98A86C00D453FA /* LSCountryOrDistrictModel.m in Sources */,
 				1937CDD92B98A7D800D453FA /* AAUranus.cpp in Sources */,
 				1937CDF32B98A7D800D453FA /* AAVSOP87_URA.cpp in Sources */,
+				105FE4AC2BAD75B700A04FD7 /* LSColorManager.swift in Sources */,
 				1937CF912B98A86C00D453FA /* LSLocation.mm in Sources */,
 				1937CFB12B98A86C00D453FA /* LSCalendarGroup.m in Sources */,
 				1937CE262B98A7D800D453FA /* AAVSOP87A_MER.cpp in Sources */,
@@ -1971,6 +2004,7 @@
 				1937CDB32B98A7D800D453FA /* AAParallax.cpp in Sources */,
 				1937D0232B98A88D00D453FA /* LSYearMoonCell.m in Sources */,
 				1937CDF72B98A7D800D453FA /* AAVSOP87D_MAR.cpp in Sources */,
+				109EDEFB2BF61A350062AB31 /* lunar.cpp in Sources */,
 				1937CDCB2B98A7D800D453FA /* AAVSOP87A_SAT.cpp in Sources */,
 				1937CDC02B98A7D800D453FA /* AAVSOP87_MER.cpp in Sources */,
 				1937CDE12B98A7D800D453FA /* AAVSOP87.cpp in Sources */,
@@ -1985,25 +2019,27 @@
 				1937CF992B98A86C00D453FA /* LSAccuCurrentWetherModel.m in Sources */,
 				1937CF982B98A86C00D453FA /* LSTimeZone.m in Sources */,
 				1937CE082B98A7D800D453FA /* AAMoonNodes2.cpp in Sources */,
-				1937D0AB2B98B19F00D453FA /* XL.cpp in Sources */,
 				1937CDF92B98A7D800D453FA /* AAVSOP87C_MER.cpp in Sources */,
 				1937CE1A2B98A7D800D453FA /* AAVSOP87E_SAT.cpp in Sources */,
 				1937CDED2B98A7D800D453FA /* AAVSOP87B_VEN.cpp in Sources */,
 				1937CDC52B98A7D800D453FA /* AAAberration.cpp in Sources */,
+				10BEB7C32C017E3200F7F622 /* LSDataBaseManager.swift in Sources */,
 				1937CE7D2B98A81E00D453FA /* LSCalendarFilterViewController.m in Sources */,
 				1937CDD32B98A7D800D453FA /* AAVSOP87_EMB.cpp in Sources */,
 				1937D0B02B98B19F00D453FA /* ThaiCalendar.cpp in Sources */,
 				1937CE0E2B98A7D800D453FA /* AARiseTransitSet.cpp in Sources */,
 				1937CDFE2B98A7D800D453FA /* AAMoonMaxDeclinations2.cpp in Sources */,
+				10BEB7C82C01DCC300F7F622 /* LSThaiBuddhistFestival.m in Sources */,
 				1937CDBB2B98A7D800D453FA /* AANearParabolic.cpp in Sources */,
 				1937CFAE2B98A86C00D453FA /* LSWorkingdayModel.m in Sources */,
+				10A15C452BF8A95F00B7D378 /* Workingdaysconfig.swift in Sources */,
 				1937CF932B98A86C00D453FA /* LSAccuDayWeatherModel.m in Sources */,
 				1937CFB32B98A86C00D453FA /* LSSolarEclipseItemModel.m in Sources */,
 				1937CDBE2B98A7D800D453FA /* AAMoonPerigeeApogee2.cpp in Sources */,
 				1937CDEA2B98A7D800D453FA /* AADynamicalTime.cpp in Sources */,
 				1937CE002B98A7D800D453FA /* AAVenus.cpp in Sources */,
-				1937D0AE2B98B19F00D453FA /* SSQ.cpp in Sources */,
 				1937CF842B98A86C00D453FA /* LSSolarTermItemModel.m in Sources */,
+				10A15C492BF8AA9C00B7D378 /* Workingdaysmodel.swift in Sources */,
 				1937CDEC2B98A7D800D453FA /* AAMoonMaxDeclinations.cpp in Sources */,
 				1937D0282B98A88D00D453FA /* LSDatePickerView.m in Sources */,
 				1937CFAA2B98A86C00D453FA /* LSPublicHoliday.m in Sources */,
@@ -2019,14 +2055,11 @@
 				1937CFA92B98A86C00D453FA /* LSOrthodox.mm in Sources */,
 				1937CDDB2B98A7D800D453FA /* AAMoonPhases2.cpp in Sources */,
 				1937CDDE2B98A7D800D453FA /* AAEquationOfTime.cpp in Sources */,
-				1937CE842B98A81E00D453FA /* LSTimeLocationViewController.m in Sources */,
 				1937D0462B98A89B00D453FA /* LSUinitTool.m in Sources */,
 				1937CDBF2B98A7D800D453FA /* AAVSOP87A_VEN.cpp in Sources */,
 				1937CF892B98A86C00D453FA /* LSTibetanFestival.m in Sources */,
 				1937CFB22B98A86C00D453FA /* LSChineseBuddhismFestival.m in Sources */,
-				1937D0AC2B98B19F00D453FA /* eph.cpp in Sources */,
 				1937CE232B98A7D800D453FA /* AACoordinateTransformation.cpp in Sources */,
-				1937D0A82B98B19F00D453FA /* lunar.cpp in Sources */,
 				1937CE162B98A7D800D453FA /* AAVSOP87D_VEN.cpp in Sources */,
 				1937CDF82B98A7D800D453FA /* AAVSOP87A_EMB.cpp in Sources */,
 				1937CE0D2B98A7D800D453FA /* AAJupiter.cpp in Sources */,
@@ -2069,6 +2102,8 @@
 				1937CFAB2B98A86C00D453FA /* LSConstellation.mm in Sources */,
 				1937CFAD2B98A86C00D453FA /* LSCalendarHoliday.m in Sources */,
 				1937CE032B98A7D800D453FA /* AAPrecession.cpp in Sources */,
+				10A15C2E2BF8563100B7D378 /* LSSettingViewController.swift in Sources */,
+				10BEB7C52C0181ED00F7F622 /* LSLocationModel.swift in Sources */,
 				1937CE122B98A7D800D453FA /* stdafx.cpp in Sources */,
 				1937CE152B98A7D800D453FA /* AAEquinoxesAndSolstices2.cpp in Sources */,
 				1937CE022B98A7D800D453FA /* AAVSOP87D_URA.cpp in Sources */,
@@ -2279,7 +2314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2334,7 +2369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -2351,13 +2386,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 9295SUH62C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = lishu/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Clock Almanac needs to access your location information, get the latitude and longitude to request location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -2365,7 +2402,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xueping.lishu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2382,13 +2419,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 9295SUH62C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = lishu/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Clock Almanac needs to access your location information, get the latitude and longitude to request location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -2396,7 +2435,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xueping.lishu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2428,6 +2467,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		10A154F12C055EC000F7D71A /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 19D5052B2B983ECE0082DF14 /* Project object */;
 }

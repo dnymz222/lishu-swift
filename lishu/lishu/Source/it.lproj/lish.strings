@@ -952,3 +952,67 @@
 "xu"="xu ";
 "hai"="hai ";
 
+
+"calendar_tailand_lunar" = "Thai lunar Calendar";
+
+
+"thai_lunar_waxing" = "Khuen";
+"thai_lunar_waning"="Raem";
+"calendar_group_buddhist"="Buddhist Calendar";
+"calendar_coptic" = "Calendario copto";
+"calendar_ethiopic" = "Calendario etiopico";
+"calendar_group_coptic"="Calendario copto";
+
+"thai_lunar_month_1"="duean ai";
+"thai_lunar_month_2"="duean yi";
+"thai_lunar_month_3"="duean 3";
+"thai_lunar_month_4"="duean 4";
+"thai_lunar_month_5"="duean 5";
+"thai_lunar_month_6"="duean 6";
+"thai_lunar_month_7"="duean 7";
+"thai_lunar_month_8"="duean 8";
+"thai_lunar_month_8_leap"="athikamat";
+"thai_lunar_month_9"="duean 9";
+"thai_lunar_month_10"="duean 10";
+"thai_lunar_month_11"="duean 11";
+"thai_lunar_month_12"="duean 12";
+
+
+
+"coptic_month_1"="1:Thout";
+"coptic_month_2"="2:Paopi";
+"coptic_month_3"="3:Hathor";
+"coptic_month_4"="4:Koiak";
+"coptic_month_5"="5:Tobi";
+"coptic_month_6"="6:Meshir";
+"coptic_month_7"="7:Paremhat";
+"coptic_month_8"="8:Parmouti";
+"coptic_month_9"="9:Pashons";
+"coptic_month_10"="10:Paoni";
+"coptic_month_11"="11:Epip";
+"coptic_month_12"="12:Mesori";
+"coptic_month_13"="13:Pikougi Enavot";
+
+
+"ethiopian_month_1"="1:Mäskäräm";
+"ethiopian_month_2"="2:Ṭəqəmt";
+"ethiopian_month_3"="3:Ḫədar";
+"ethiopian_month_4"="4:Taḫśaś";
+"ethiopian_month_5"="5:Ṭərr";
+"ethiopian_month_6"="6:Yäkatit";
+"ethiopian_month_7"="7:Mägabit";
+"ethiopian_month_8"="8:Miyazya";
+"ethiopian_month_9"="9:Gənbo";
+"ethiopian_month_10"="10:Säne";
+"ethiopian_month_11"="11:Ḥamle";
+"ethiopian_month_12"="12:Nähase";
+"ethiopian_month_13"="13:Ṗagume";
+
+"songkran_festival"="Songkran Festival";
+"magha_puja"="Magha Puja";
+"vesak"="Vesak";
+"asalha_puja"="Asalha Puja";
+"wan_khao_phansa"="Wan Khao Phansa";
+"wan_ok_phansa"="Wan Ok Phansa";
+"thot_kathin"="Thot Kathin";
+"loi_krathong"="Loi Krathong";

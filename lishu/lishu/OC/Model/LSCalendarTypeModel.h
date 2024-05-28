@@ -11,6 +11,7 @@
 #import "LSZangLi.h"
 #import "LSLunar.h"
 #import "LSJulianCalendar.h"
+#import "LSTaiLiModel.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -80,17 +81,17 @@ typedef NS_ENUM(NSInteger,LSCalendarType){
 
 
 
-    LSCalendarTypeChineseJapanese,//日本旧历
-    LSCalendarTypeChineseKorean, //朝鲜历
-    LSCalendarTypeChineseVietnamese,//越南历
+//    LSCalendarTypeChineseJapanese,//日本旧历
+//    LSCalendarTypeChineseKorean, //朝鲜历
+//    LSCalendarTypeChineseVietnamese,//越南历
 
 
     LSCalendarTypeThaiLunar,//泰阴历
 
   
 
-    LSCalendarTypeHinduSolar,//古印度阳历
-    LSCalendarTypeHinduLunar,//古印度阴阳历
+//    LSCalendarTypeHinduSolar,//古印度阳历
+//    LSCalendarTypeHinduLunar,//古印度阴阳历
 
     LSCalendarTypeCoptic,//科普特历
     LSCalendarTypeEthiopic,//埃塞俄比亚
@@ -112,10 +113,6 @@ typedef NS_ENUM(NSInteger,LSCalendarGroupType){
     LSCalendarGroupTypeJulian,//儒略历
     LSCalendarGroupTypeCopticAndEthiopic,//
 
-    
-    
-    
-    
 };
 
 
@@ -191,6 +188,7 @@ typedef NS_ENUM(NSInteger,LSCalendarGroupType){
 
 @property(nonatomic,strong)LSLunar *huangli;
 @property(nonatomic,strong)LSZangLi *zangli;
+@property(nonatomic,strong)LSTaiLiModel *taili;
 @property(nonatomic,strong)LSJulianCalendar *julianCalendar;
 
 

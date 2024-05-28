@@ -1,15 +1,13 @@
 PODS:
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
-  - GRDB.swift (6.16.0):
-    - GRDB.swift/standard (= 6.16.0)
-  - GRDB.swift/standard (6.16.0)
+  - FMDB (2.7.9):
+    - FMDB/standard (= 2.7.9)
+  - FMDB/standard (2.7.9)
+  - GRDB.swift (6.24.1):
+    - GRDB.swift/standard (= 6.24.1)
+  - GRDB.swift/standard (6.24.1)
   - Masonry (1.1.0)
   - ProgressHUD (0.0.1)
   - SnapKit (5.6.0)
-  - SwiftyStoreKit (0.16.1)
-  - Toast (4.0.0)
   - WMPageController (2.4.3)
   - YYModel (1.0.4)
 
@@ -19,8 +17,6 @@ DEPENDENCIES:
   - Masonry
   - ProgressHUD (from `./ProgressHUD`)
   - SnapKit (~> 5.6.0)
-  - SwiftyStoreKit
-  - Toast (~> 4.0.0)
   - WMPageController (~> 2.4.0)
   - YYModel
 
@@ -30,8 +26,6 @@ SPEC REPOS:
     - GRDB.swift
     - Masonry
     - SnapKit
-    - SwiftyStoreKit
-    - Toast
     - WMPageController
     - YYModel
 
@@ -40,16 +34,14 @@ EXTERNAL SOURCES:
     :path: "./ProgressHUD"
 
 SPEC CHECKSUMS:
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  GRDB.swift: 7985834461bca2a3eaed615887daadf3864c779b
+  FMDB: aa44149f6fb634b1ac54f64f47064bb0d0c5a032
+  GRDB.swift: 136dcb5d8dddca50aae3ba7d77475f79e7232cd8
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  ProgressHUD: 239e3aedd06255d5e412e561e9113891d9633c47
+  ProgressHUD: 72393201617690035d9632c8d856430d7a6f41ae
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
-  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
-  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   WMPageController: 4c7f2c636675a71aea5eecf8fdc07a0ce86954e3
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: b95120a4255d2395ba58495aca478f4e992df133
+PODFILE CHECKSUM: cc1b811b553466f1d637339cea7490cbcaeb0a13
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.2

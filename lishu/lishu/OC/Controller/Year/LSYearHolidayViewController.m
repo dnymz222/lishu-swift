@@ -24,6 +24,10 @@
 #import "LSChristian.h"
 #import "LSOrthodox.h"
 #import "KeyMacro.h"
+#import "LSTibetanFestival.h"
+#import "LSThaiBuddhistFestival.h"
+#import "LSChineseBuddhismFestival.h"
+
 //#import "LSUnlockCell.h"
 //#import "LSInAppPurchaseViewController.h"
 
@@ -451,6 +455,16 @@
             case LSCalendarTypeChristianHolidays:
                 self.selelctFestival = [[LSChristian alloc] initWithYear:self.selectYear];
                 break;
+            case LSCalendarTypeZangli:
+                self.selelctFestival = [[LSTibetanFestival alloc] initWithYear:self.selectYear];
+                break;
+            case LSCalendarTypeThaiLunar:
+                self.selelctFestival = [[LSThaiBuddhistFestival alloc] initWithYear:self.selectYear];
+                break;
+            case LSCalendarTypeChineseBuddhist:
+                self.selelctFestival = [[LSChineseBuddhismFestival alloc] initWithYear:self.selectYear];
+                break;
+            
                 
             default:
                 break;
@@ -567,8 +581,6 @@
     
     if (0 == self.selectSegmentIndex) {
         
-       
-            
             LSFestivalCell *cell  = [tableView dequeueReusableCellWithIdentifier:@"cell"];
             if (cell == nil) {
                 cell  = [[LSFestivalCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];

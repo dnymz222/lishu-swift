@@ -5,3 +5,5 @@
   Created by xueping on 2024/3/9.
   
 */
+CFBundleDisplayName = "Orologio e Almanacco";
+NSLocationWhenInUseUsageDescription = "Orologio e almanacco devono ottenere i permessi di posizione, ottenere latitudine e longitudine per richiedere informazioni su fuso orario e posizione";

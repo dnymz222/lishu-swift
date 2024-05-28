@@ -6,174 +6,166 @@
   
 */
 
-"language"="en";
-"unit_t" = "F";
 
 
-"tab_time"  = "Time";
-"tab_day" = "Day";
-"tab_month" = "Month";
-"tab_year" = "Year";
-"tab_more" = "More";
 
 
-"leap" = "Leap ";
+
+"language"="th";
+"unit_t" = "C";
+
+
+"tab_time" = "เวลา";
+"tab_day" = "วัน";
+"tab_month" = "เดือน";
+"tab_year" = "ปี";
+"tab_more" = "เพิ่มเติม";
+
+
+"leap" = "ก้าวกระโดด";
 
 "morning" ="a.m.";
 "afternoon" = "p.m.";
 
-"sunrise_sunset"  = "Sunrise And Sunset";
-"civil_dawn_dusk"  = "Dawn And Dusk (Civil)";
-"nautical_dawn_dusk"  = "Dawn And Dusk (Nautical)";
-"astro_dawn_dusk"  = "Dawn And Dusk (Astronomical)";
-"illumination" = "Illumination";
-"sun_rise" = "Sunrise";
-"sun_set" = "Sunset";
-"moon_rise"="Moonrise";
-"moon_set" = "Moonset";
-"moon_age" ="Moonage";
+"sunrise_sunset" = "พระอาทิตย์ขึ้นและพระอาทิตย์ตก";
+"civil_dawn_dusk" = "รุ่งอรุณและค่ำ (พลเรือน)";
+"nautical_dawn_dusk" = "รุ่งเช้าและค่ำ (การเดินเรือ)";
+"astro_dawn_dusk" = "รุ่งเช้าและค่ำ (ทางดาราศาสตร์)";
+"illumination" = "การส่องสว่าง";
+"sun_rise" = "พระอาทิตย์ขึ้น";
+"sun_set" = "พระอาทิตย์ตก";
+"moon_rise"="พระจันทร์ขึ้น";
+"moon_set" = "พระจันทร์ตก";
+"moon_age" ="พระจันทร์";
 
-"planet" = "Planet";
-"constellation" = "Constellation";
-"star" = "Star";
-
-
-
-"apparent_ecliptic_longitude" ="Sun's ecliptic longitude";
-
-"solunar" = "Solunar";
-"calendar" ="Calendar";
-"public_holiday" = "Public Holiday";
-"calendar_festival" = "Calendar Festival";
-"year" = "Year";
-"month" ="Month";
-"day" ="Day";
-"default"="Default:";
-"working_days" =  "Working Days";
-
-
-"holidays" ="Holidays";
-"sun" ="Sun";
-"moon" ="Moon";
-"eclipse" = "Eclipse";
-"solar_eclipse" = "Solar Eclipse";
-"lunar_eclipse" = "Lunar Eclipse";
-"astronomy" ="Astronomy";
-
-"date" = "Date";
-"rise" = "Rise";
-"set" = "Set";
-"transit" = "Transit";
-
-
-"mercury" = "Mercury";
-"venus" = "Venus";
-"mars" ="Mars";
-"jupiter"="Jupiter";
-"saturn"="Saturn";
-"uranus"="Uranus";
-"neptune"="Neptune";
-"pluto"="Pluto";
-
-"dawn_civil" = "Dawn(Civil)";
-"dusk_civil" = "Dusk(Civil)";
-
-
-"days" = "Days";
-"era" = "Era";
+"planet" = "ดาวเคราะห์";
+"constellation" = "กลุ่มดาว";
+"star" = "ดาว";
 
 
 
-"unit" = "Unit";
+"apparent_ecliptic_longitude" ="ลองจิจูดสุริยุปราคาของดวงอาทิตย์";
 
-"select_units" = "Select Units";
-"lan_setting" = "Language Setting";
-"privacy_policy" = "Privacy Policy";
-"terms_of_service" = "Terms of Service";
-"rate_on_app_store" = "Rate On App Store";
-"version"="Version";
-"share_to_friends" = "Share to Friends";
+"solunar" = "โซลูนาร์";
+"calendar" ="ปฏิทิน";
+"public_holiday" = "วันหยุดนักขัตฤกษ์";
+"calendar_festival" = "เทศกาลปฏิทิน";
+"year" = "ปี";
+"month" ="เดือน";
+"day" ="วัน";
+"default"="ค่าเริ่มต้น:";
+"working_days" = "วันทำการ";
+
+
+"holidays" ="วันหยุด";
+"sun" ="ดวงอาทิตย์";
+"moon" = "ดวงจันทร์";
+"eclipse" = "คราส";
+"solar_eclipse" = "สุริยุปราคา";
+"lunar_eclipse" = "จันทรุปราคา";
+"astronomy" = "ดาราศาสตร์";
+
+"date" = "วันที่";
+"rise" = "ลุกขึ้น";
+"set" = "ตั้งค่า";
+"transit" = "ขนส่ง";
+
+
+"mercury" = "ปรอท";
+"venus" = "วีนัส";
+"mars" ="ดาวอังคาร";
+"jupite"="ดาวพฤหัสบดี";
+"saturn"="ดาวเสาร์";
+"uranus"="ดาวยูเรนัส";
+"neptune"="ดาวเนปจูน";
+"pluto"="พลูโต";
+
+"dawn_civil" = "รุ่งอรุณ (พลเรือน)";
+"dusk_civil" = "ค่ำ (พลเรือน)";
+
+
+"days" = "วัน";
+"era" = "ยุค";
+
+
+
+"unit" = "หน่วย";
+
+"select_units" = "เลือกหน่วย";
+"lan_setting" = "การตั้งค่าภาษา";
+"privacy_policy" = "นโยบายความเป็นส่วนตัว";
+"terms_of_service" = "ข้อกำหนดในการให้บริการ";
+"rate_on_app_store" = "ให้คะแนนบน App Store";
+"version"="เวอร์ชัน";
+"share_to_friends" = "แบ่งปันกับเพื่อน";
 
 "app_url" ="https://itunes.apple.com/us/app/id1281770398?mt=8";
-"app_name" = "Clock and Almanac";
+"app_name" = "นาฬิกาและปูม";
 
-"service_url"="http://www.astronomyobserver.net/h5/lishu/user/en";
-"privacy_url" = "http://www.astronomyobserver.net/h5/lishu/privacy/en";
-
-
-
-
-
-"cancel" = "Cancel";
+"service_url"="http://www.ดาราศาสตร์observer.net/h5/lishu/user/en";
+"privacy_url" = "http://www.ดาราศาสตร์observer.net/h5/lishu/privacy/en";
 
 
 
 
 
-"solar_eclipse_total" = "Total eclipse";
-"solar_eclipse_annular" = "Annular eclipse";
-"solar_eclipse_hybrid" = "Hybrid eclipse";
-"solar_eclipse_partical" = "Partial eclipse";
-
-
-
-
-"lunar_eclipse_penumbral" ="Penumbral lunar eclipse";
-"lunar_eclipse_partial" = "Partial lunar eclipse";
-"lunar_eclipse_total" = "Total lunar eclipse";
-"lunar_eclipse_central" ="Central lunar eclipse";
-
-
-
-
-"name" = "Name";
-"current_location" = "Current Location";
-"timezone" = "TimeZone";
-"latitude"="Latitude";
-"longitude" ="Longitude";
-
-"note" = "Note";
-"location_manage_tip" = "Normal users can only add one address";
-"go_to_buy" = "Go to buy";
-
-"lock_tip" = "Not available for normal users";
-"unlock" =  "Unlock";
-
-
-
-"constellation_and_star" = "Constellation and Star";
-"sun" = "Sun";
-"moon" = "Moon";
-"mercury" ="Mercury";
-"venus" ="Venus";
-"mars" = "Mars";
-"jupiter"  = "Jupiter";
-"saturn" = "Saturn";
-"uranus" = "Uranus";
-"neptune" = "Neptune";
-"pluto" = "Pluto";
-"planet" = "Planet";
-
-
-
-
-"location_service" = "The location permission of this application has been closed. If you need to continue using this function, please open the location in the Settings-Privacy-Location Services interface.";
-"go_to_setting" ="go to setting";
-"cancel" = "Cancel";
-
-"none"  = "None";
-"note" = "Note";
-"define" = "Define";
-"got_it" = "Got it";
-"location_manage" = "Location Manage";
-"enter_city_name" = "Please enter the city name";
+"cancel" = "ยกเลิก";
 
 
 
 
 
+"solar_eclipse_total" = "คราสทั้งหมด";
+"solar_eclipse_annular" = "คราสวงแหวน";
+"solar_eclipse_hybrid" = "คราสไฮบริด";
+"solar_eclipse_partical" = "คราสบางส่วน";
 
-"location_manage_max_tip"="You can only add up to 5 locations";
 
-"delete" = "Delete";
 
+
+"lunar_eclipse_penumbral" ="จันทรุปราคาเงามัว";
+"lunar_eclipse_partial" = "จันทรุปราคาบางส่วน";
+"lunar_eclipse_total" = "จันทรุปราคาทั้งหมด";
+"lunar_eclipse_central" ="จันทรุปราคากลาง";
+
+
+
+
+"name" = "ชื่อ";
+"current_location" = "ตำแหน่งปัจจุบัน";
+"timezone" = "เขตเวลา";
+"latitude"="ละติจูด";
+"longitude" ="ลองจิจูด";
+
+"note" = "หมายเหตุ";
+"location_manage_tip" = "ผู้ใช้ปกติสามารถเพิ่มที่อยู่ได้เพียงแห่งเดียวเท่านั้น";
+"go_to_buy" = "ไปซื้อ";
+
+"lock_tip" = "ไม่สามารถใช้งานได้สำหรับผู้ใช้ทั่วไป";
+"unlock" = "ปลดล็อค";
+
+
+
+"constellation_and_star" = "กลุ่มดาวและดวงดาว";
+
+
+
+
+
+"location_service" = "การอนุญาตระบุตำแหน่งของแอปพลิเคชันนี้ถูกปิดแล้ว หากคุณต้องการใช้ฟังก์ชันนี้ต่อไป โปรดเปิดตำแหน่งในอินเทอร์เฟซการตั้งค่า-ความเป็นส่วนตัว-บริการระบุตำแหน่ง";
+"go_to_setting" ="ไปที่การตั้งค่า";
+"cancel" = "ยกเลิก";
+
+"none" = "ไม่มี";
+"note" = "หมายเหตุ";
+"define" = "กำหนด";
+"got_it" = "เข้าใจแล้ว";
+"location_manage" = "จัดการตำแหน่ง";
+"enter_city_name" = "โปรดป้อนชื่อเมือง";
+
+
+
+"location_manage_max_tip"="คุณสามารถเพิ่มสถานที่ได้สูงสุด 5 แห่งเท่านั้น";
+
+"delete" = "ลบ";
+"location"="ที่ตั้ง";

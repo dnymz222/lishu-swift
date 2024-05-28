@@ -12,10 +12,12 @@
 
 class ThaiCalendar {
     
+public:
     int year;
     int month;
     int day;
     bool leap;
+    
     
     ThaiCalendar(double gmtzerotz);
     

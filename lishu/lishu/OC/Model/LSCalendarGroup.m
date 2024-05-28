@@ -31,7 +31,7 @@
                 
             case 0:
                 
-                self.name  =NSLocalizedStringFromTable(@"calendar_group_gregorian", @"lish", nil);
+                self.name = NSLocalizedStringFromTable(@"calendar_group_gregorian", @"lish", nil);
                 
                 break;
             case 1:
@@ -45,7 +45,7 @@
                 
                 break;
             case 3:
-                self.name  =NSLocalizedStringFromTable(@"calendar_group_tailand", @"lish", nil);
+                self.name  =NSLocalizedStringFromTable(@"calendar_group_buddhist", @"lish", nil);
                 
                 break;
             case 4:
@@ -53,14 +53,14 @@
                 
                 break;
             case 5:
-                self.name  =NSLocalizedStringFromTable(@"calendar_group_hebrew", @"lish", nil);
+                self.name  = NSLocalizedStringFromTable(@"calendar_group_hebrew", @"lish", nil);
                 break;
             case 6:
-                self.name  =NSLocalizedStringFromTable(@"calendar_group_indian", @"lish", nil);
+                self.name  = NSLocalizedStringFromTable(@"calendar_group_indian", @"lish", nil);
                 
                 break;
             case 7:
-                self.name  =NSLocalizedStringFromTable(@"calendar_group_persian", @"lish", nil);
+                self.name  = NSLocalizedStringFromTable(@"calendar_group_persian", @"lish", nil);
                 
                 break;
                 

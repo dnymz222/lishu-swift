@@ -29,6 +29,10 @@
 #define workingdays_config_path @"/workingday/config"
 
 
+#define supabase_config_path @"/supabase/config"
+
+
+
 
 
 
@@ -188,6 +192,25 @@ success:(LSSuccessBlock)successBlock
     
     
 }
+
+
+
++ (void)SupabaseConfigWithparamater:(NSDictionary *)paramaters
+                  success:(LSSuccessBlock)successBlock
+                           failed:(LSFailedBlock)failedBlock
+{
+    
+    
+    [LSNetWork sendGetRequestWithPath:supabase_config_path paramater:paramaters success:^(NSURLResponse * _Nonnull response, id  _Nonnull data) {
+        successBlock(response,data);
+    } failed:^(NSError * _Nonnull error) {
+        failedBlock(error);
+    }];
+    
+    
+    
+}
+
 
 
 

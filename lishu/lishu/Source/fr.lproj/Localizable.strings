@@ -162,3 +162,5 @@
 "location_manage_max_tip"="Vous ne pouvez ajouter que jusqu'à 5 emplacements";
 "delete" = "Supprimer";
 
+"location"="Emplacement";
+

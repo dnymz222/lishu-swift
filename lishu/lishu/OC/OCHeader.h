@@ -9,7 +9,7 @@
 #define OCHeader_h
 
 
-#import "LSNavgationController.h"
+//#import "LSNavgationController.h"
 #import "LSTimeViewController.h"
 #import "LSDayViewController.h"
 #import "LSMonthViewController.h"

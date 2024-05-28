@@ -6,10 +6,9 @@
   
 */
 
-CFBundleDisplayName = "時計と年鑑";
+CFBundleDisplayName = "时钟历书";
+NSLocationWhenInUseUsageDescription = "时钟历书需要获取位置权限，获取经纬度来请求时区和位置信息";
 
-
-NSLocationWhenInUseUsageDescription = "時計と年鑑は位置情報の許可を取得し、緯度と経度を取得してタイムゾーンと位置情報を要求する必要があります";
 
 
 

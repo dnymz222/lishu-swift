@@ -13,10 +13,22 @@ target 'lishu' do
   pod "Masonry"
   pod "FMDB"
   pod 'WMPageController', '~> 2.4.0'
-  pod 'Toast', '~> 4.0.0'
-  pod 'SwiftyStoreKit'
+#  pod 'Toast', '~> 4.0.0'
+#  pod 'SwiftyStoreKit'
   pod 'ProgressHUD', :path => './ProgressHUD'
   pod 'SnapKit', '~> 5.6.0'
   pod 'GRDB.swift'
+#  pod 'libwebp'
+  
 
+
+end
+
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+        end
+    end
 end

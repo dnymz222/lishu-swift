@@ -90,7 +90,7 @@
     
     self.workingconfigsArray = [LSDataBaseTool excuteWorkingdaysconfig];
     NSMutableArray *dataArray = [NSMutableArray array];
-    for (int i = 0; i < 9; i++) {
+    for (int i = 0; i < 10; i++) {
         LSCalendarGroup *group = [[LSCalendarGroup alloc] initWithType:i];
         [group createData];
         [dataArray addObject:group  ];
@@ -176,6 +176,9 @@
     
     LSWorkingDayConfig *config = self.workingconfigsArray[self.selectConfigIndex];
     self.selectConfig = config.configs[self.selectSubConfigIndex];
+    
+    
+    self.collectionView.contentInset = UIEdgeInsetsMake(0, 0, 40, 0);
     
     
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receiveBuyVipSuccessNote:) name:purchase_success_note_key object:nil];

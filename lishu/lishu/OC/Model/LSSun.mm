@@ -89,10 +89,10 @@
     
     if (sunlong > startLong) {
         
-        resultjd =  startjd + (sunlong-startLong)*360/365.25;
+        resultjd =  startjd + (sunlong-startLong)*365.25/360;
         
     } else {
-        resultjd = endJd - (endLong - sunlong)*360/365.25;
+        resultjd = endJd - (endLong - sunlong)*365.25/360;
         
     }
     

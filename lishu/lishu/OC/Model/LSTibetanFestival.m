@@ -15,7 +15,7 @@
     if (self) {
         
         self.year = year;
-        self.type = (int)LSCalendarTypeChinese;
+        self.type = (int)LSCalendarTypeZangli;
         
         LSDate *zeroDate = [[LSDate alloc] initWithYear:year month:1 day:1 timezone:@"Asia/Shanghai"];
         int days = [self isLeap:year]?366:365;

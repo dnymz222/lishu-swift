@@ -5,3 +5,5 @@
   Created by xueping on 2024/3/9.
   
 */
+CFBundleDisplayName = "đồng hồ và lịch";
+NSLocationWhenInUseUsageDescription = "đồng hồ và lịch cần có quyền định vị, lấy vĩ độ và kinh độ để yêu cầu múi giờ và thông tin vị trí";

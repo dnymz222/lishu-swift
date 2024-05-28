@@ -153,10 +153,7 @@
     
     self.clanedarArray = [NSMutableArray array];
     
-    
-    
-    
-    for (int i= 0; i < 19; i++) {
+    for (int i= 0; i < 22; i++) {
         LSCalendarTypeModel *model = [[LSCalendarTypeModel alloc] initWithType:(LSCalendarType)i timezone:self.timeZone];
         [model calculcateYear:self.year month:self.month day:self.dayInMonth];
         [model calculateFestivalWithLSYear:lsyear];
