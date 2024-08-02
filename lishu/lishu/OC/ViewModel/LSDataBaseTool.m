@@ -162,10 +162,7 @@ static FMDatabase *__db;
         
         location.isCurrent = (0 == [set intForColumn:@"sortIndex"]);
         
-        
-   
-        
-        
+    
         [array addObject:location];
     }
     [set close];

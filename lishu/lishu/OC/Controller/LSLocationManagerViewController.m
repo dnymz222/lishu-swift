@@ -162,12 +162,9 @@
     if (self.dataArray.count > 1    ) {
         
        
-            
-            if (self.dataArray.count > 5    ) {
-                
+            if (self.dataArray.count > 5) {
                 
                 [ProgressHUD showError:NSLocalizedString(@"location_manage_max_tip", nil)];
-                
                 
             } else{
             

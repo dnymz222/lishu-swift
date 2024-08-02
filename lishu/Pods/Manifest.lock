@@ -1,31 +1,52 @@
 PODS:
+  - CropViewController (2.6.1)
+  - CryptoSwift (1.8.1)
   - FMDB (2.7.9):
     - FMDB/standard (= 2.7.9)
   - FMDB/standard (2.7.9)
-  - GRDB.swift (6.24.1):
-    - GRDB.swift/standard (= 6.24.1)
-  - GRDB.swift/standard (6.24.1)
+  - Kingfisher (7.11.0)
+  - libwebp (1.3.2):
+    - libwebp/demux (= 1.3.2)
+    - libwebp/mux (= 1.3.2)
+    - libwebp/sharpyuv (= 1.3.2)
+    - libwebp/webp (= 1.3.2)
+  - libwebp/demux (1.3.2):
+    - libwebp/webp
+  - libwebp/mux (1.3.2):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.3.2)
+  - libwebp/webp (1.3.2):
+    - libwebp/sharpyuv
   - Masonry (1.1.0)
   - ProgressHUD (0.0.1)
   - SnapKit (5.6.0)
+  - SwiftyStoreKit (0.16.1)
   - WMPageController (2.4.3)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - CropViewController
+  - CryptoSwift
   - FMDB
-  - GRDB.swift
+  - Kingfisher
+  - libwebp
   - Masonry
   - ProgressHUD (from `./ProgressHUD`)
   - SnapKit (~> 5.6.0)
+  - SwiftyStoreKit
   - WMPageController (~> 2.4.0)
   - YYModel
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - CropViewController
+    - CryptoSwift
     - FMDB
-    - GRDB.swift
+    - Kingfisher
+    - libwebp
     - Masonry
     - SnapKit
+    - SwiftyStoreKit
     - WMPageController
     - YYModel
 
@@ -34,14 +55,18 @@ EXTERNAL SOURCES:
     :path: "./ProgressHUD"
 
 SPEC CHECKSUMS:
+  CropViewController: 58fb440f30dac788b129d2a1f24cffdcb102669c
+  CryptoSwift: b9c701d6f5011df23794dbf7f2e480a77835d83d
   FMDB: aa44149f6fb634b1ac54f64f47064bb0d0c5a032
-  GRDB.swift: 136dcb5d8dddca50aae3ba7d77475f79e7232cd8
+  Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
+  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ProgressHUD: 72393201617690035d9632c8d856430d7a6f41ae
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
   WMPageController: 4c7f2c636675a71aea5eecf8fdc07a0ce86954e3
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: cc1b811b553466f1d637339cea7490cbcaeb0a13
+PODFILE CHECKSUM: baeea0459e90914e2a2260beed023547c0888803
 
 COCOAPODS: 1.15.2

@@ -36,7 +36,7 @@ to maintain a single distribution point for the source code.
 #include "AAVenus.h"
 #include "AACoordinateTransformation.h"
 #ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
-#include "AAVSOP87D_VEN.h"
+//#include "AAVSOP87D_VEN.h"
 #endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
 #include <cmath>
 using namespace std;
@@ -221,12 +221,12 @@ const VSOP87Coefficient g_R4VenusCoefficients[] =
 
 double CAAVenus::EclipticLongitude(double JD, bool bHighPrecision) noexcept
 {
-#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
-  if (bHighPrecision)
-    return CAACoordinateTransformation::MapTo0To360Range(CAACoordinateTransformation::RadiansToDegrees(CAAVSOP87D_Venus::L(JD)));
-#else
-  UNREFERENCED_PARAMETER(bHighPrecision);
-#endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
+//#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
+//  if (bHighPrecision)
+//    return CAACoordinateTransformation::MapTo0To360Range(CAACoordinateTransformation::RadiansToDegrees(CAAVSOP87D_Venus::L(JD)));
+//#else
+//  UNREFERENCED_PARAMETER(bHighPrecision);
+//#endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
 
   const double rho = (JD - 2451545) / 365250;
   const double rhosquared = rho*rho;
@@ -279,12 +279,12 @@ double CAAVenus::EclipticLongitude(double JD, bool bHighPrecision) noexcept
 
 double CAAVenus::EclipticLatitude(double JD, bool bHighPrecision) noexcept
 {
-#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
-  if (bHighPrecision)
-    return CAACoordinateTransformation::MapToMinus90To90Range(CAACoordinateTransformation::RadiansToDegrees(CAAVSOP87D_Venus::B(JD)));
-#else
-  UNREFERENCED_PARAMETER(bHighPrecision);
-#endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
+//#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
+//  if (bHighPrecision)
+//    return CAACoordinateTransformation::MapToMinus90To90Range(CAACoordinateTransformation::RadiansToDegrees(CAAVSOP87D_Venus::B(JD)));
+//#else
+//  UNREFERENCED_PARAMETER(bHighPrecision);
+//#endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
 
   const double rho = (JD - 2451545) / 365250;
   const double rhosquared = rho*rho;
@@ -330,12 +330,12 @@ double CAAVenus::EclipticLatitude(double JD, bool bHighPrecision) noexcept
 
 double CAAVenus::RadiusVector(double JD, bool bHighPrecision) noexcept
 {
-#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
-  if (bHighPrecision)
-    return CAAVSOP87D_Venus::R(JD);
-#else
-  UNREFERENCED_PARAMETER(bHighPrecision);
-#endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
+//#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
+//  if (bHighPrecision)
+//    return CAAVSOP87D_Venus::R(JD);
+//#else
+//  UNREFERENCED_PARAMETER(bHighPrecision);
+//#endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
 
   const double rho = (JD - 2451545) / 365250;
   const double rhosquared = rho*rho;

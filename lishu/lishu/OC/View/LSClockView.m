@@ -71,8 +71,8 @@
         
         
         [self.hourView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(self.hourbackView).offset(12.8);
-            make.height.equalTo(@40);
+            make.top.equalTo(self.hourbackView).offset(18);
+            make.height.equalTo(@32);
             make.centerX.equalTo(self.hourbackView);
             make.width.equalTo(@8);
         }];

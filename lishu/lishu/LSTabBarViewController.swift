@@ -22,7 +22,6 @@ class LSTabBarViewController: UITabBarController {
         currentvc.tabBarItem = item0
         
       
-        
        
         
         let dayVc = LSDayViewController()

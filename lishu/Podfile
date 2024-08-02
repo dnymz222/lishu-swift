@@ -17,9 +17,18 @@ target 'lishu' do
 #  pod 'SwiftyStoreKit'
   pod 'ProgressHUD', :path => './ProgressHUD'
   pod 'SnapKit', '~> 5.6.0'
-  pod 'GRDB.swift'
-#  pod 'libwebp'
+#  pod 'GRDB.swift'
+  pod 'libwebp'
+#  pod 'iOS-WebP'
   
+  pod 'Kingfisher'
+  pod 'SwiftyStoreKit'
+#  pod 'ObjectMapper'
+  
+  pod 'CropViewController'
+  pod 'CryptoSwift'
+  
+#  pod 'PhoneNumberKit', '~> 3.7'
 
 
 end

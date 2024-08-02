@@ -45,6 +45,7 @@
 #import "LSClockMapCell.h"
 #import "LSLishuRoleModel.h"
 #import "LSLocationAddFooter.h"
+#import "LSFriendClockCell.h"
 
 
 @interface LSTimeViewController ()<UITableViewDelegate,UITableViewDataSource,CLLocationManagerDelegate,LSDayHeaderViewDelegate,LSLocationAddFooterDelegate>
@@ -100,7 +101,6 @@
 @property(nonatomic,assign)float mapScale;
 
 @property(nonatomic,assign)BOOL ismerTric;
-
 
 @property(nonatomic,strong)LSDate *lsdate;
 
@@ -712,22 +712,24 @@
 
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 2;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    if (0 == section){
+    if (0 == section) {
+        return 1;
+    }else if (1 == section){
         return self.dataArray.count;
     }  else {
         return  1;
     }
-
-    
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath  {
-    if ( 0 == indexPath.section){
+    if (0 == indexPath.section) {
+        return 160;
+    }else if ( 1 == indexPath.section){
         return 88;
     } else {
         return  1195 / self.mapScale;
@@ -738,7 +740,15 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    if( 0 == indexPath.section){
+    
+    if (0 == indexPath.section) {
+        LSFriendClockCell *cell = [tableView dequeueReusableCellWithIdentifier:@"friend"];
+        if (cell == nil) {
+            cell = [[LSFriendClockCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"friend"];
+        }
+        return cell;
+        
+    }else if( 1 == indexPath.section){
         
         LSWorldClockCell *cell  = [tableView dequeueReusableCellWithIdentifier:@"cell"];
         if (cell == nil) {
@@ -747,14 +757,10 @@
             
         }
         
-        
-        
-        
         LSLocation *location  = self.dataArray[indexPath.row];
         [cell configLocation:location isMetric:self.ismerTric];
         
-        
-        
+    
         return cell;
     }  else {
         LSClockMapCell *cell  = [tableView dequeueReusableCellWithIdentifier:@"map"];
@@ -774,7 +780,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section  {
-    if (1 == section) {
+    if (2 == section) {
         return  CGFLOAT_MIN;
     }
     return 44;
@@ -782,7 +788,7 @@
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     
-    if (1 == section){
+    if (2 == section){
         return nil;
     } else {
         
@@ -798,9 +804,11 @@
         
         headerView.tag =  section;
         
-        
-        
-        headerView.titleLabel.text = NSLocalizedString(@"location", nil);
+        if (0 == section) {
+            headerView.titleLabel.text = NSLocalizedString(@"me_and_friends", nil);
+        } else {
+            headerView.titleLabel.text = NSLocalizedString(@"location", nil);
+        }
         
         
         return headerView;
@@ -815,7 +823,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
-    if (1 == section){
+    if (2 == section){
         return  CGFLOAT_MIN;
     } else {
         return 44;
@@ -823,7 +831,7 @@
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
-    if (1 == section){
+    if (2 == section){
         return nil;
     } else {
         LSLocationAddFooter *footer  = [tableView dequeueReusableHeaderFooterViewWithIdentifier:@"footer"];
@@ -838,7 +846,7 @@
 }
 
 - (void)locationAddFooterViewClick:(UIView *)view {
-    if(0 == view.tag){
+    if(1 == view.tag){
         LSLocationManagerViewController *managerVC  = [[LSLocationManagerViewController alloc] init];
         [self.navigationController pushViewController:managerVC animated:YES];
     }
@@ -850,7 +858,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if (0 == indexPath.section){
+    if (1 == indexPath.section){
         
         LSWeatherViewController *weatherVC   =[[LSWeatherViewController alloc] init];
         

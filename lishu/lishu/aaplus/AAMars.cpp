@@ -40,7 +40,7 @@ to maintain a single distribution point for the source code.
 #include "AAMars.h"
 #include "AACoordinateTransformation.h"
 #ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
-#include "AAVSOP87D_MAR.h"
+//#include "AAVSOP87D_MAR.h"
 #endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
 #include <cmath>
 using namespace std;
@@ -435,12 +435,12 @@ const VSOP87Coefficient g_R4MarsCoefficients[] =
 
 double CAAMars::EclipticLongitude(double JD, bool bHighPrecision) noexcept
 {
-#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
-  if (bHighPrecision)
-    return CAACoordinateTransformation::MapTo0To360Range(CAACoordinateTransformation::RadiansToDegrees(CAAVSOP87D_Mars::L(JD)));
-#else
-  UNREFERENCED_PARAMETER(bHighPrecision);
-#endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
+//#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
+//  if (bHighPrecision)
+//    return CAACoordinateTransformation::MapTo0To360Range(CAACoordinateTransformation::RadiansToDegrees(CAAVSOP87D_Mars::L(JD)));
+//#else
+//  UNREFERENCED_PARAMETER(bHighPrecision);
+//#endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
 
   const double rho = (JD - 2451545) / 365250;
   const double rhosquared = rho*rho;
@@ -493,12 +493,12 @@ double CAAMars::EclipticLongitude(double JD, bool bHighPrecision) noexcept
 
 double CAAMars::EclipticLatitude(double JD, bool bHighPrecision) noexcept
 {
-#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
-  if (bHighPrecision)
-    return CAACoordinateTransformation::MapToMinus90To90Range(CAACoordinateTransformation::RadiansToDegrees(CAAVSOP87D_Mars::B(JD)));
-#else
-  UNREFERENCED_PARAMETER(bHighPrecision);
-#endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
+//#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
+//  if (bHighPrecision)
+//    return CAACoordinateTransformation::MapToMinus90To90Range(CAACoordinateTransformation::RadiansToDegrees(CAAVSOP87D_Mars::B(JD)));
+//#else
+//  UNREFERENCED_PARAMETER(bHighPrecision);
+//#endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
 
   const double rho = (JD - 2451545) / 365250;
   const double rhosquared = rho*rho;
@@ -544,12 +544,12 @@ double CAAMars::EclipticLatitude(double JD, bool bHighPrecision) noexcept
 
 double CAAMars::RadiusVector(double JD, bool bHighPrecision) noexcept
 {
-#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
-  if (bHighPrecision)
-    return CAAVSOP87D_Mars::R(JD);
-#else
-  UNREFERENCED_PARAMETER(bHighPrecision);
-#endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
+//#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
+//  if (bHighPrecision)
+//    return CAAVSOP87D_Mars::R(JD);
+//#else
+//  UNREFERENCED_PARAMETER(bHighPrecision);
+//#endif //#ifndef AAPLUS_VSOP87_NO_HIGH_PRECISION
 
   const double rho = (JD - 2451545) / 365250;
   const double rhosquared = rho*rho;

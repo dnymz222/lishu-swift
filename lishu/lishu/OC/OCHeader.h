@@ -17,6 +17,7 @@
 #import "LSMineViewController.h"
 #import "ColorSizeMacro.h"
 #import "LSYearViewController.h"
+#import "LSWebpTool.h"
 
 
 

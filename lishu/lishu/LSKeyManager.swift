@@ -5,7 +5,7 @@
 //  Created by xueping wang on 2024/3/24.
 //
 
-import UIKit
+import Foundation
 import StoreKit
 
 class LSKeyManager  {
@@ -16,13 +16,24 @@ class LSKeyManager  {
 
     
     static let appId: String = "1281770398"
+    static let isTwelveKey: String = "isTwelveKey"
+    
+    var isTwelve: Bool = false
+    
+    init() {
+        
+    }
+    
+    func configTwelve(_ twelve: Bool) {
+        self.isTwelve = twelve;
+    }
     
     
     func isChina() -> Bool {
         #if DEBUG
         #else
            if let country = SKPaymentQueue.default().storefront?.countryCode {
-               if country == "CN" {
+               if country == "CHN" {
                    return true
                }
            }
