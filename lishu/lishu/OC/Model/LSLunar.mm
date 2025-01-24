@@ -8,6 +8,8 @@
 #import "LSLunar.h"
 #include "lunar.h"
 
+
+
 @implementation LSLunar
 
 - (instancetype)initWithYear:(int)year month:(int)month day:(int)day {
@@ -18,6 +20,7 @@
         
         LunarObj  *obj  =  lunar->solar2lunar(year,month,day);
         
+
         self.animal = [NSString stringWithUTF8String:obj->animal.c_str()];
         self.lunarDayInChinese = [NSString stringWithUTF8String:obj->lunarDayChineseName.c_str()];
         self.lunarMonthInChinese = [NSString stringWithUTF8String:obj->lunarMonthChineseName.c_str()];

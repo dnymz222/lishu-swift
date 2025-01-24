@@ -80,19 +80,9 @@ typedef NS_ENUM(NSInteger,LSCalendarType){
      LSCalendarTypeOrthodoxHolidays,//东正教节日
 
 
-
-//    LSCalendarTypeChineseJapanese,//日本旧历
-//    LSCalendarTypeChineseKorean, //朝鲜历
-//    LSCalendarTypeChineseVietnamese,//越南历
-
-
     LSCalendarTypeThaiLunar,//泰阴历
 
   
-
-//    LSCalendarTypeHinduSolar,//古印度阳历
-//    LSCalendarTypeHinduLunar,//古印度阴阳历
-
     LSCalendarTypeCoptic,//科普特历
     LSCalendarTypeEthiopic,//埃塞俄比亚
 

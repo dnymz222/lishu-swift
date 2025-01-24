@@ -55,6 +55,15 @@
 "VE"="委內瑞拉";
 "VI"="越南";
 
+"BY"="白俄羅斯";
+"HR"="克羅埃西亞";
+"EC"="厄瓜多";
+"EE"="愛沙尼亞";
+"GT"="瓜地馬拉";
+"DO"="多明尼加共和國";
+"RS"="塞爾維亞";
+"SI"="斯洛維尼亞";
+
 
 "AR_default" = "";
 "AU_default" ="Australian Capital Territory";

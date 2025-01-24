@@ -274,9 +274,10 @@
 
  double TibetanCalendar::truncatingRemainder(double x, double y){
     
-    double n = floor(x/y);
-    
-     return x- n*y;
+     double fResult = fmod(x, y);
+     if (fResult < 0)
+         fResult += y;
+     return fResult;
     
 }
 

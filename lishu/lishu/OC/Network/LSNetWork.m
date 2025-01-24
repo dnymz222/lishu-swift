@@ -12,9 +12,9 @@
 
 #if DEBUG
 //#define URLrootpath @"http://127.0.0.1:5000/api/v2.0"
-#define URLrootpath @"https://www.xunquan.shop/api/v3.0"
+#define URLrootpath @"https://www.astronomyobserver.net/api/v3.0"
 #else
-#define URLrootpath @"https://www.xunquan.shop/api/v3.0"
+#define URLrootpath @"https://www.astronomyobserver.net/api/v3.0"
 
 #endif
 

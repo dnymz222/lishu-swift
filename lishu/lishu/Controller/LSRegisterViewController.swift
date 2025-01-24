@@ -53,7 +53,7 @@ class LSRegisterViewController: UIViewController {
                         try await   LSSupabaseTool.share.signup()
                     } catch {
     #if DEBUG
-                        print("error\(error)")
+                        print("\(error)")
     #endif
                     }
                 }

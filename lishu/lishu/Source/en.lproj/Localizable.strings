@@ -162,7 +162,7 @@
 
 "location"="Location";
 
-"month_price" = "%@ per month";
-"annual_price" = "%@ per year";
+"about_us"="About us";
+"app_time"="Time";
 
 

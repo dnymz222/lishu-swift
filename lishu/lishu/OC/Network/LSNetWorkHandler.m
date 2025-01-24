@@ -16,7 +16,7 @@
 
 #define accucitysearch_apth @"/accu/city/search"
 
-#define accu_dayweather_path @"/acuu/weather"
+#define accu_dayweather_path @"/accu/weather"
 
 #define accu_houlyweather_path @"/accu/hourly"
 

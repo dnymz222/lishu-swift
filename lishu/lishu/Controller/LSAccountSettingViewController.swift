@@ -45,16 +45,16 @@ class LSAccountSettingViewController: UIViewController {
     @objc
     func logout()  {
         
-        if let user = LSUserManager.share.user {
-            Task{
-                await LSSupabaseTool.share.deleteAccount(user.id.uuidString)
-            }
-        }
-        
-//        Task {
-//            await   LSSupabaseTool.share.logout()
+//        if let user = LSUserManager.share.user {
+//            Task{
+//                await LSSupabaseTool.share.deleteAccount(user.id.uuidString)
+//            }
 //        }
-//      
+        
+        Task {
+            await   LSSupabaseTool.share.logout()
+        }
+      
         
     }
     

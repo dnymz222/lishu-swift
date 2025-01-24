@@ -207,6 +207,11 @@
         
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"config_store"];
         
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"config_store_2"];
+        
+        
+        
+        
         if(![[NSUserDefaults standardUserDefaults] boolForKey:@"config_store_1"]){
             for (int i = 1; i < 22; i++) {
                 LSCalendarTypeModel *calendarModel = [[LSCalendarTypeModel alloc] initWithType:(LSCalendarType)i];
@@ -235,13 +240,27 @@
             [LSDataBaseTool updateCalendarGroupWithType:zangliBuddhist];
             
            
-            
-        
-            
-    
             [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"config_store_1"];
             
         }
+        
+        if (![[NSUserDefaults standardUserDefaults] boolForKey:@"config_store_2"]) {
+            NSString *path = [[NSBundle mainBundle] pathForResource:@"workingconfig.json" ofType:nil];
+            NSData *data = [[NSData alloc] initWithContentsOfFile:path];
+            
+            NSArray *dataArray = [NSJSONSerialization  JSONObjectWithData:data options:kNilOptions error:nil];
+            
+            
+            NSArray *data_configs = [NSArray  yy_modelArrayWithClass:[LSWorkingDayConfig class] json:dataArray ];
+            for (LSWorkingDayConfig *config in data_configs) {
+                [LSDataBaseTool addWorkingDayConfig:config];
+            }
+            
+            [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"config_store_2"];
+        }
+        
+        
+        
     }
     
     
@@ -712,14 +731,12 @@
 
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 3;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    if (0 == section) {
-        return 1;
-    }else if (1 == section){
+   if (0 == section){
         return self.dataArray.count;
     }  else {
         return  1;
@@ -727,9 +744,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath  {
-    if (0 == indexPath.section) {
-        return 160;
-    }else if ( 1 == indexPath.section){
+   if ( 0 == indexPath.section){
         return 88;
     } else {
         return  1195 / self.mapScale;
@@ -741,14 +756,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    if (0 == indexPath.section) {
-        LSFriendClockCell *cell = [tableView dequeueReusableCellWithIdentifier:@"friend"];
-        if (cell == nil) {
-            cell = [[LSFriendClockCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"friend"];
-        }
-        return cell;
-        
-    }else if( 1 == indexPath.section){
+     if( 0 == indexPath.section){
         
         LSWorldClockCell *cell  = [tableView dequeueReusableCellWithIdentifier:@"cell"];
         if (cell == nil) {
@@ -780,7 +788,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section  {
-    if (2 == section) {
+    if (1 == section) {
         return  CGFLOAT_MIN;
     }
     return 44;
@@ -788,7 +796,7 @@
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     
-    if (2 == section){
+    if (1 == section){
         return nil;
     } else {
         
@@ -803,12 +811,9 @@
         
         
         headerView.tag =  section;
-        
-        if (0 == section) {
-            headerView.titleLabel.text = NSLocalizedString(@"me_and_friends", nil);
-        } else {
+  
             headerView.titleLabel.text = NSLocalizedString(@"location", nil);
-        }
+       
         
         
         return headerView;
@@ -823,15 +828,15 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
-    if (2 == section){
+    if (1 == section){
         return  CGFLOAT_MIN;
     } else {
-        return 44;
+        return 48;
     }
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
-    if (2 == section){
+    if (1 == section){
         return nil;
     } else {
         LSLocationAddFooter *footer  = [tableView dequeueReusableHeaderFooterViewWithIdentifier:@"footer"];
@@ -846,7 +851,7 @@
 }
 
 - (void)locationAddFooterViewClick:(UIView *)view {
-    if(1 == view.tag){
+    if(0 == view.tag){
         LSLocationManagerViewController *managerVC  = [[LSLocationManagerViewController alloc] init];
         [self.navigationController pushViewController:managerVC animated:YES];
     }
@@ -858,7 +863,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if (1 == indexPath.section){
+    if (0 == indexPath.section){
         
         LSWeatherViewController *weatherVC   =[[LSWeatherViewController alloc] init];
         

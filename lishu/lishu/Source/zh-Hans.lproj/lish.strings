@@ -55,6 +55,15 @@
 "VE"="委内瑞拉";
 "VI"="越南";
 
+"BY"="白俄罗斯";
+"HR"="克罗地亚";
+"EC"="厄瓜多尔";
+"EE"="爱沙尼亚";
+"GT"="危地马拉";
+"DO"="多米尼加共和国";
+"RS"="塞尔维亚";
+"SI"="斯洛文尼亚";
+
 
 
 
@@ -1168,7 +1177,7 @@
 "ethiopian_month_13"="13:Ṗagume";
 
 "songkran_festival"="泼水节";
-"magha_puja"="萬佛節";
+"magha_puja"="万佛节";
 "vesak"="卫塞节";
 "asalha_puja"="转法轮日";
 "wan_khao_phansa"="结夏安居";

@@ -41,32 +41,29 @@ class LSSettingViewController: UIViewController, UINavigationControllerDelegate 
                                      NSLocalizedString("share_to_friends", comment: ""),
                                      NSLocalizedString("privacy_policy", comment: ""),
                                      NSLocalizedString("terms_of_service", comment: ""),
-                                     NSLocalizedString("version", comment: "")]
+                                     NSLocalizedString("version", comment: ""),
+                                    NSLocalizedString("about_us", comment: ""),
+                               ]
     
     
-    lazy var friendList:[String] = [NSLocalizedString("my_friend", comment: ""),
-                                    NSLocalizedString("block", comment: "")]
+
     
     lazy var loginList:[String] = [NSLocalizedString("account_manager", comment: ""),
-                                    NSLocalizedString("almanac_setting", comment: ""),
-                                    NSLocalizedString("custom_date", comment: "")]
+                                    NSLocalizedString("sign_out", comment: ""),
+                                    NSLocalizedString("delete_account", comment: "")]
     
     
     
     lazy var unloginList:[String] = [NSLocalizedString("sign_in", comment: ""),
                                     NSLocalizedString("create_account", comment: "")]
     
-    
-    lazy var prolist:[String] = [ NSLocalizedString("upgrage_pro", comment: ""),
-                                  NSLocalizedString("restore", comment: "")
-                            
-                                    ]
+
     
     
     
     
 
-    override func viewDidLoad() {
+    override func viewDidLoad()  {
         super.viewDidLoad()
         self.view.backgroundColor = LSColorManager.share.viewBackgroundColor
         
@@ -82,6 +79,20 @@ class LSSettingViewController: UIViewController, UINavigationControllerDelegate 
         self.tableView.snp.makeConstraints { make in
             make.left.right.top.bottom.equalToSuperview()
         }
+        
+        Task{
+            
+            do {
+                
+                let configs:[Workingdaysconfig]  =   try await LSSupabaseTool.share.fectchConfig()
+                print("\(configs)")
+            } catch {
+#if DEBUG
+                print("error\(error)")
+#endif
+            }
+        }
+            
         
 
         
@@ -236,19 +247,13 @@ extension LSSettingViewController: UITableViewDelegate, UITableViewDataSource {
             } else {
                 return unloginList.count
             }
-        } else if 1 == section {
-            return prolist.count
-        }
-        
-        else if 2 == section {
-            return friendList.count
         } else {
             return datalist.count
         }
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return  4
+        return  2
     }
     
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
@@ -294,13 +299,9 @@ extension LSSettingViewController: UITableViewDelegate, UITableViewDataSource {
                 header = LSNormalHeaderView(reuseIdentifier: "header")
             }
             
-            if 1 == section {
-                header?.titleLabel.text = NSLocalizedString("go_pro", comment: "")
-            }else if 2 == section {
-                header?.titleLabel.text = NSLocalizedString("my_friends", comment: "")
-            } else {
+   
                 header?.titleLabel.text = NSLocalizedString("app_setting", comment: "")
-            }
+     
             
             return header!
         }
@@ -338,34 +339,20 @@ extension LSSettingViewController: UITableViewDelegate, UITableViewDataSource {
                 cell?.detailTextLabel?.text  = ""
             }
             
-        } else if 1 == indexPath.section {
-            
-            let string = prolist[indexPath.row]
-            
-            cell?.textLabel?.text = string
-            cell?.detailTextLabel?.text  = ""
-            
         }
         
         
-        else if 2 == indexPath.section {
-            
-            let string = friendList[indexPath.row]
-            
-            cell?.textLabel?.text = string
-            cell?.detailTextLabel?.text  = ""
-            
-        }else if 3 == indexPath.section {
+        if 1 == indexPath.section {
             
             let string = datalist[indexPath.row]
             
             cell?.textLabel?.text = string
             
-            if 2 == indexPath.section  && 6 == indexPath.row {
+            if 1 == indexPath.section  && 6 == indexPath.row {
                 if let text = Bundle.main.infoDictionary?["CFBundleShortVersionString"]  as? String{
                     cell?.detailTextLabel?.text = text
                 }
-            } else if 2 == indexPath.section && 7 == indexPath.row {
+            } else if 1 == indexPath.section && 8 == indexPath.row {
                 cell?.detailTextLabel?.text = "赣ICP备2023011753号-4A"
             }
             else {
@@ -394,6 +381,8 @@ extension LSSettingViewController: UITableViewDelegate, UITableViewDataSource {
                 
             } else {
                 if 0 == indexPath.row {
+                    let vc = LSLoginViewController()
+                    self.navigationController?.pushViewController(vc, animated: true)
                     
                 } else if 1 == indexPath.row {
                     
@@ -402,16 +391,7 @@ extension LSSettingViewController: UITableViewDelegate, UITableViewDataSource {
                 }
             }
             
-        } else if 1 == indexPath.section {
-            if 0 == indexPath.row {
-                let vc = LSPremiumViewController()
-                self.navigationController?.pushViewController(vc, animated: true)
-            }
-            
-        } else if 2 == indexPath.section {
-            
-            
-        }else if 3 == indexPath.section {
+        } else if 1  == indexPath.section {
             if 0 == indexPath.row {
                 self.timeSelect()
             } else if 1 == indexPath.row {
@@ -453,7 +433,15 @@ extension LSSettingViewController: UITableViewDelegate, UITableViewDataSource {
                     let options = [UIApplication.OpenExternalURLOptionsKey.universalLinksOnly: false]
                     UIApplication.shared.open(url,options: options)
                 }
-            } else {
+            } else if 7 == indexPath.row {
+                
+                let urlStr = "https://apps.apple.com/developer/id1045915049"
+                if let url = URL(string: urlStr) {
+                    let options = [UIApplication.OpenExternalURLOptionsKey.universalLinksOnly: false]
+                    UIApplication.shared.open(url,options: options)
+                }
+                
+            }  else {
                 let urlStr = "https://beian.miit.gov.cn"
                 if let url = URL(string: urlStr) {
                     let options = [UIApplication.OpenExternalURLOptionsKey.universalLinksOnly: false]

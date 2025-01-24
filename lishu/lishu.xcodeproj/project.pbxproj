@@ -12,9 +12,6 @@
 		1065D52C2BF9A3F600C615B1 /* LSWKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1065D52B2BF9A3F600C615B1 /* LSWKViewController.swift */; };
 		106CE1C92C15C1E1001C8974 /* LSWebpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 106CE1C82C15C1E1001C8974 /* LSWebpTool.m */; };
 		1091D3E42C1321760071C1EF /* LSUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091D3E32C1321760071C1EF /* LSUserManager.swift */; };
-		1091D3E62C13273F0071C1EF /* LSPremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091D3E52C13273F0071C1EF /* LSPremiumViewController.swift */; };
-		1091D3EA2C132A390071C1EF /* LSFriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091D3E92C132A390071C1EF /* LSFriendListViewController.swift */; };
-		1091D3EC2C132A520071C1EF /* LSBlockListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091D3EB2C132A520071C1EF /* LSBlockListViewController.swift */; };
 		1091D3EE2C132B610071C1EF /* LSNormalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091D3ED2C132B610071C1EF /* LSNormalHeaderView.swift */; };
 		10924E822C12BF0E00326AA7 /* LSAccountSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10924E812C12BF0E00326AA7 /* LSAccountSettingViewController.swift */; };
 		10924E862C12DEE700326AA7 /* LSSupabaseTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10924E852C12DEE700326AA7 /* LSSupabaseTool.swift */; };
@@ -26,9 +23,9 @@
 		10924E922C13116700326AA7 /* LSUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10924E912C13116700326AA7 /* LSUser.swift */; };
 		10924E942C13177700326AA7 /* LSFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10924E932C13177700326AA7 /* LSFriend.swift */; };
 		10924E962C1319F700326AA7 /* LSAlmanac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10924E952C1319F700326AA7 /* LSAlmanac.swift */; };
-		10994D242C1985920058A898 /* LSPurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10994D232C1985920058A898 /* LSPurchaseManager.swift */; };
 		10994D262C1986AF0058A898 /* LSVipUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10994D252C1986AF0058A898 /* LSVipUser.swift */; };
 		10994D282C1994060058A898 /* LSPurchaseProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10994D272C1994060058A898 /* LSPurchaseProductView.swift */; };
+		109B35082D411EE20097F093 /* workingconfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 109B35072D411EE20097F093 /* workingconfig.json */; };
 		109EDEFB2BF61A350062AB31 /* lunar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109EDEFA2BF61A350062AB31 /* lunar.cpp */; };
 		10A15C2E2BF8563100B7D378 /* LSSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A15C2D2BF8563100B7D378 /* LSSettingViewController.swift */; };
 		10A15C452BF8A95F00B7D378 /* Workingdaysconfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A15C442BF8A95F00B7D378 /* Workingdaysconfig.swift */; };
@@ -43,7 +40,6 @@
 		1937CCC02B98A7AE00D453FA /* lsconstellation.json in Resources */ = {isa = PBXBuildFile; fileRef = 1937CCBB2B98A7AD00D453FA /* lsconstellation.json */; };
 		1937CCC12B98A7AE00D453FA /* japanera.json in Resources */ = {isa = PBXBuildFile; fileRef = 1937CCBC2B98A7AE00D453FA /* japanera.json */; };
 		1937CCC22B98A7AE00D453FA /* zangli.json in Resources */ = {isa = PBXBuildFile; fileRef = 1937CCBD2B98A7AE00D453FA /* zangli.json */; };
-		1937CCC32B98A7AE00D453FA /* workingconfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 1937CCBE2B98A7AE00D453FA /* workingconfig.json */; };
 		1937CDB22B98A7D800D453FA /* AAElliptical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCC52B98A7D500D453FA /* AAElliptical.cpp */; };
 		1937CDB32B98A7D800D453FA /* AAParallax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCC62B98A7D500D453FA /* AAParallax.cpp */; };
 		1937CDB42B98A7D800D453FA /* AAELPMPP02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCC72B98A7D500D453FA /* AAELPMPP02.cpp */; };
@@ -284,9 +280,6 @@
 		106CE1C72C15C1E1001C8974 /* LSWebpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWebpTool.h; sourceTree = "<group>"; };
 		106CE1C82C15C1E1001C8974 /* LSWebpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWebpTool.m; sourceTree = "<group>"; };
 		1091D3E32C1321760071C1EF /* LSUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSUserManager.swift; sourceTree = "<group>"; };
-		1091D3E52C13273F0071C1EF /* LSPremiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSPremiumViewController.swift; sourceTree = "<group>"; };
-		1091D3E92C132A390071C1EF /* LSFriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSFriendListViewController.swift; sourceTree = "<group>"; };
-		1091D3EB2C132A520071C1EF /* LSBlockListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSBlockListViewController.swift; sourceTree = "<group>"; };
 		1091D3ED2C132B610071C1EF /* LSNormalHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSNormalHeaderView.swift; sourceTree = "<group>"; };
 		10924E812C12BF0E00326AA7 /* LSAccountSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSAccountSettingViewController.swift; sourceTree = "<group>"; };
 		10924E852C12DEE700326AA7 /* LSSupabaseTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSSupabaseTool.swift; sourceTree = "<group>"; };
@@ -297,9 +290,9 @@
 		10924E912C13116700326AA7 /* LSUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSUser.swift; sourceTree = "<group>"; };
 		10924E932C13177700326AA7 /* LSFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSFriend.swift; sourceTree = "<group>"; };
 		10924E952C1319F700326AA7 /* LSAlmanac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSAlmanac.swift; sourceTree = "<group>"; };
-		10994D232C1985920058A898 /* LSPurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSPurchaseManager.swift; sourceTree = "<group>"; };
 		10994D252C1986AF0058A898 /* LSVipUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSVipUser.swift; sourceTree = "<group>"; };
 		10994D272C1994060058A898 /* LSPurchaseProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSPurchaseProductView.swift; sourceTree = "<group>"; };
+		109B35072D411EE20097F093 /* workingconfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = workingconfig.json; sourceTree = "<group>"; };
 		109EDEF92BF61A2D0062AB31 /* lunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lunar.h; sourceTree = "<group>"; };
 		109EDEFA2BF61A350062AB31 /* lunar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lunar.cpp; sourceTree = "<group>"; };
 		10A15C2D2BF8563100B7D378 /* LSSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSSettingViewController.swift; sourceTree = "<group>"; };
@@ -316,7 +309,6 @@
 		1937CCBB2B98A7AD00D453FA /* lsconstellation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lsconstellation.json; sourceTree = "<group>"; };
 		1937CCBC2B98A7AE00D453FA /* japanera.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = japanera.json; sourceTree = "<group>"; };
 		1937CCBD2B98A7AE00D453FA /* zangli.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zangli.json; sourceTree = "<group>"; };
-		1937CCBE2B98A7AE00D453FA /* workingconfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = workingconfig.json; sourceTree = "<group>"; };
 		1937CCC52B98A7D500D453FA /* AAElliptical.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AAElliptical.cpp; sourceTree = "<group>"; };
 		1937CCC62B98A7D500D453FA /* AAParallax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AAParallax.cpp; sourceTree = "<group>"; };
 		1937CCC72B98A7D500D453FA /* AAELPMPP02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AAELPMPP02.cpp; sourceTree = "<group>"; };
@@ -897,9 +889,6 @@
 				10924E8B2C12F52800326AA7 /* LSLoginViewController.swift */,
 				10924E8D2C12F54B00326AA7 /* LSRegisterViewController.swift */,
 				10924E8F2C12F56500326AA7 /* LSForgetViewController.swift */,
-				1091D3E52C13273F0071C1EF /* LSPremiumViewController.swift */,
-				1091D3E92C132A390071C1EF /* LSFriendListViewController.swift */,
-				1091D3EB2C132A520071C1EF /* LSBlockListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -910,7 +899,6 @@
 				10924E852C12DEE700326AA7 /* LSSupabaseTool.swift */,
 				1091D3E32C1321760071C1EF /* LSUserManager.swift */,
 				10EA36392C1427700042881E /* LSToolManager.swift */,
-				10994D232C1985920058A898 /* LSPurchaseManager.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -950,8 +938,8 @@
 				10BEB7C62C01BE1900F7F622 /* london.json */,
 				1937CCBC2B98A7AE00D453FA /* japanera.json */,
 				1937CCBB2B98A7AD00D453FA /* lsconstellation.json */,
+				109B35072D411EE20097F093 /* workingconfig.json */,
 				1937CCBA2B98A7AD00D453FA /* lsstar.json */,
-				1937CCBE2B98A7AE00D453FA /* workingconfig.json */,
 				1937CCBD2B98A7AE00D453FA /* zangli.json */,
 				1937D0792B98AAB500D453FA /* Localizable.strings */,
 				193E11D62B9C0A1C008698D2 /* lish.strings */,
@@ -1633,11 +1621,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1937CCBF2B98A7AE00D453FA /* lsstar.json in Resources */,
-				1937CCC32B98A7AE00D453FA /* workingconfig.json in Resources */,
 				193E11D42B9C0A1C008698D2 /* lish.strings in Resources */,
 				1937CCC12B98A7AE00D453FA /* japanera.json in Resources */,
 				1937CCC22B98A7AE00D453FA /* zangli.json in Resources */,
 				1937D0772B98AAB500D453FA /* Localizable.strings in Resources */,
+				109B35082D411EE20097F093 /* workingconfig.json in Resources */,
 				19D505432B983ED20082DF14 /* LaunchScreen.storyboard in Resources */,
 				1937CCC02B98A7AE00D453FA /* lsconstellation.json in Resources */,
 				19D505402B983ED20082DF14 /* Assets.xcassets in Resources */,
@@ -1713,7 +1701,6 @@
 				1937CF862B98A86C00D453FA /* LSEraModel.m in Sources */,
 				10924E8C2C12F52800326AA7 /* LSLoginViewController.swift in Sources */,
 				1937CF8B2B98A86C00D453FA /* LSCalendarTypeModel.m in Sources */,
-				1091D3E62C13273F0071C1EF /* LSPremiumViewController.swift in Sources */,
 				1937CE752B98A81E00D453FA /* LSMonthSunViewController.m in Sources */,
 				1937CF8E2B98A86C00D453FA /* LSJulianCalendar.mm in Sources */,
 				1937D02B2B98A88D00D453FA /* LSTimeZoneMapView.m in Sources */,
@@ -1817,7 +1804,6 @@
 				1937CFBC2B98A86C00D453FA /* LSStaticAstroBody.mm in Sources */,
 				1937CFB02B98A86C00D453FA /* LSCountryOrDistrictModel.m in Sources */,
 				1937CDD92B98A7D800D453FA /* AAUranus.cpp in Sources */,
-				1091D3EC2C132A520071C1EF /* LSBlockListViewController.swift in Sources */,
 				105FE4AC2BAD75B700A04FD7 /* LSColorManager.swift in Sources */,
 				1937CF912B98A86C00D453FA /* LSLocation.mm in Sources */,
 				1937CFB12B98A86C00D453FA /* LSCalendarGroup.m in Sources */,
@@ -1855,7 +1841,6 @@
 				1937CE0E2B98A7D800D453FA /* AARiseTransitSet.cpp in Sources */,
 				1937CDFE2B98A7D800D453FA /* AAMoonMaxDeclinations2.cpp in Sources */,
 				10BEB7C82C01DCC300F7F622 /* LSThaiBuddhistFestival.m in Sources */,
-				1091D3EA2C132A390071C1EF /* LSFriendListViewController.swift in Sources */,
 				1937CDBB2B98A7D800D453FA /* AANearParabolic.cpp in Sources */,
 				1937CFAE2B98A86C00D453FA /* LSWorkingdayModel.m in Sources */,
 				10A15C452BF8A95F00B7D378 /* Workingdaysconfig.swift in Sources */,
@@ -1907,7 +1892,6 @@
 				10EA363A2C1427700042881E /* LSToolManager.swift in Sources */,
 				1091D3EE2C132B610071C1EF /* LSNormalHeaderView.swift in Sources */,
 				1937D01E2B98A88D00D453FA /* LSMonthCalendarItemCell.m in Sources */,
-				10994D242C1985920058A898 /* LSPurchaseManager.swift in Sources */,
 				1937CFB82B98A86C00D453FA /* LSLunarTermModel.m in Sources */,
 				1937D0322B98A88D00D453FA /* LSCalendarHeaderView.m in Sources */,
 				1937CDCF2B98A7D800D453FA /* AAMoon.cpp in Sources */,
