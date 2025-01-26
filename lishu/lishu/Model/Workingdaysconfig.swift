@@ -14,4 +14,5 @@ struct Workingdaysconfig: Decodable {
     let default_configuration: String?
     let flag: String?
     let website: String?
+    
 }

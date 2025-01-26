@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  lishu
+
+  Created by xueping wang on 2025/1/25.
+  
+*/
+
+"calendar_group_chinese"  = "Calendário chinês";
+"calendar_group_gregorian"  = "Calendário gregoriano";
+"calendar_group_japanese"  = "Calendário japonês";
+"calendar_group_indian"  = "Calendário nacional indiano";
+"calendar_group_tailand" = "Calendário tailandês";
+"calendar_group_hebrew" = "Calendário judaico";
+"calendar_group_julian" = "Calendário juliano";
+"calendar_group_islamic"  = "Calendário islâmico";
+"calendar_group_persian" = "Calendário Persa";
+
+"year_widget_title" = "Widget de um ano de calendários diferentes";
+
+"year_widget_des" = "Exibe o número de dias ou a porcentagem de dias que se passaram desde o novo ano de calendários diferentes";
+
+"day_night_title"="Mapa diurno e noturno";
+"day_night_des"="A borda cinza claro é o nascer e o pôr do sol, a borda cinza escuro é o amanhecer e o anoitecer civil";

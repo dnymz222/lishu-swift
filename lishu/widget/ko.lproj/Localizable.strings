@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  lishu
+
+  Created by xueping wang on 2025/1/25.
+  
+*/
+
+"calendar_group_chinese"  = "중국력";
+"calendar_group_gregorian"  = "그레고리력";
+"calendar_group_japanese"  = "일본 달력";
+"calendar_group_indian"  = "인도 국정력";
+"calendar_group_tailand" = "태국력";
+"calendar_group_hebrew" = "히브리력";
+"calendar_group_julian" = "율리우스력";
+"calendar_group_islamic"  = "이슬람력";
+"calendar_group_persian" = "페르시아 달력";
+
+
+"year_widget_title" = "다른 달력의 1년 위젯";
+
+"year_widget_des" = "다른 달력의 새해 이후 경과한 일수 또는 일수의 백분율을 표시합니다";
+
+"day_night_title"="낮과 밤 지도";
+"day_night_des"="밝은 회색 테두리는 일출과 일몰, 진한 회색 테두리는 시민의 새벽과 황혼";

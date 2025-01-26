@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  lishu
+
+  Created by xueping wang on 2025/1/25.
+  
+*/
+
+"calendar_group_chinese"  = "Calendrier chinois";
+"calendar_group_gregorian"  = "Calendrier grégorien";
+"calendar_group_japanese"  = "Calendrier japonais";
+"calendar_group_indian"  = "Calendrier national indien";
+"calendar_group_tailand" = "Calendrier thaïlandais";
+"calendar_group_hebrew" = "Calendrier hébraïque";
+"calendar_group_julian" = "Calendrier julien";
+"calendar_group_islamic"  = "Calendrier hégirien";
+"calendar_group_persian" = "Calendrier persan";
+
+
+"year_widget_title" = "Widget d'un an de différents calendriers";
+
+"year_widget_des" = "Affiche le nombre de jours ou le pourcentage de jours écoulés depuis le nouvel an de différents calendriers";
+
+"day_night_title"="Carte jour et nuit";
+"day_night_des"="La bordure gris clair représente le lever et le coucher du soleil, la bordure gris foncé représente l'aube et le crépuscule civils";

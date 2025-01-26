@@ -27,8 +27,8 @@
         merMap.setup(2004, 1195,-180,-60,180,80);
         CAA2DCoordinate coordinar  = merMap.getLatLonFromScreenLocation(x, y);
         
-        NSLog(@"latitude:%0.4f",coordinar.Y);
-        NSLog(@"longtitude:%0.4f",coordinar.X);
+//        NSLog(@"latitude:%0.4f",coordinar.Y);
+//        NSLog(@"longtitude:%0.4f",coordinar.X);
         
         
         self.location  =[[CLLocation alloc] initWithLatitude:coordinar.Y longitude:coordinar.X];

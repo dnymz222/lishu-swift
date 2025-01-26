@@ -11,6 +11,12 @@
 		105FE4AC2BAD75B700A04FD7 /* LSColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105FE4AB2BAD75B700A04FD7 /* LSColorManager.swift */; };
 		1065D52C2BF9A3F600C615B1 /* LSWKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1065D52B2BF9A3F600C615B1 /* LSWKViewController.swift */; };
 		106CE1C92C15C1E1001C8974 /* LSWebpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 106CE1C82C15C1E1001C8974 /* LSWebpTool.m */; };
+		10882BED2D43D08A00B88056 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10882BEC2D43D08900B88056 /* WidgetKit.framework */; };
+		10882BEF2D43D08A00B88056 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10882BEE2D43D08A00B88056 /* SwiftUI.framework */; };
+		10882BFA2D43D08B00B88056 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 10882BEB2D43D08900B88056 /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		10882C052D43D09E00B88056 /* widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10882C022D43D09E00B88056 /* widget.swift */; };
+		10882C062D43D09E00B88056 /* widgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10882C032D43D09E00B88056 /* widgetBundle.swift */; };
+		10882C072D43D09E00B88056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10882C002D43D09E00B88056 /* Assets.xcassets */; };
 		1091D3E42C1321760071C1EF /* LSUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091D3E32C1321760071C1EF /* LSUserManager.swift */; };
 		1091D3EE2C132B610071C1EF /* LSNormalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1091D3ED2C132B610071C1EF /* LSNormalHeaderView.swift */; };
 		10924E822C12BF0E00326AA7 /* LSAccountSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10924E812C12BF0E00326AA7 /* LSAccountSettingViewController.swift */; };
@@ -32,6 +38,12 @@
 		10A15C492BF8AA9C00B7D378 /* Workingdaysmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A15C482BF8AA9C00B7D378 /* Workingdaysmodel.swift */; };
 		10A49DEF2C11BFF1008DB9A5 /* LSFriendClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A49DEE2C11BFF1008DB9A5 /* LSFriendClockCell.m */; };
 		10B09DA02BFF5C8A00CD954A /* LSTaiLiModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 10B09D9F2BFF5C8A00CD954A /* LSTaiLiModel.mm */; };
+		10B764B02D44B67C003353AB /* YearWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B764AF2D44B67C003353AB /* YearWidget.swift */; };
+		10B764B22D44C10B003353AB /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B764B12D44C10B003353AB /* ImageModel.swift */; };
+		10B764B42D44CDD4003353AB /* YearModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B764B32D44CDD4003353AB /* YearModel.swift */; };
+		10B764B62D44CE00003353AB /* CalendarProgessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B764B52D44CE00003353AB /* CalendarProgessModel.swift */; };
+		10B764B92D44D5FF003353AB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10B764B72D44D5FF003353AB /* Localizable.strings */; };
+		10B764CB2D44E93A003353AB /* YearItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B764CA2D44E93A003353AB /* YearItemView.swift */; };
 		10BEB7C72C01BE1900F7F622 /* london.json in Resources */ = {isa = PBXBuildFile; fileRef = 10BEB7C62C01BE1900F7F622 /* london.json */; };
 		10BEB7C82C01DCC300F7F622 /* LSThaiBuddhistFestival.m in Sources */ = {isa = PBXBuildFile; fileRef = 105068ED2C00A2B200EFAE4C /* LSThaiBuddhistFestival.m */; };
 		10EA36382C13FBD30042881E /* LSProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EA36372C13FBD30042881E /* LSProfileHeaderView.swift */; };
@@ -271,6 +283,30 @@
 		39A39FB75197D5A7E34D8EB0 /* Pods_lishu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A348CA39D6BCDF76D564BE39 /* Pods_lishu.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		10882BF82D43D08B00B88056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D5052B2B983ECE0082DF14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10882BEA2D43D08900B88056;
+			remoteInfo = widgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10882BFF2D43D08B00B88056 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				10882BFA2D43D08B00B88056 /* widgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		102874952BB02EED00D816B8 /* LSKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSKeyManager.swift; sourceTree = "<group>"; };
 		105068EC2C00A2B200EFAE4C /* LSThaiBuddhistFestival.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSThaiBuddhistFestival.h; sourceTree = "<group>"; };
@@ -279,6 +315,13 @@
 		1065D52B2BF9A3F600C615B1 /* LSWKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSWKViewController.swift; sourceTree = "<group>"; };
 		106CE1C72C15C1E1001C8974 /* LSWebpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWebpTool.h; sourceTree = "<group>"; };
 		106CE1C82C15C1E1001C8974 /* LSWebpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWebpTool.m; sourceTree = "<group>"; };
+		10882BEB2D43D08900B88056 /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		10882BEC2D43D08900B88056 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		10882BEE2D43D08A00B88056 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		10882C002D43D09E00B88056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10882C012D43D09E00B88056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10882C022D43D09E00B88056 /* widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widget.swift; sourceTree = "<group>"; };
+		10882C032D43D09E00B88056 /* widgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetBundle.swift; sourceTree = "<group>"; };
 		1091D3E32C1321760071C1EF /* LSUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSUserManager.swift; sourceTree = "<group>"; };
 		1091D3ED2C132B610071C1EF /* LSNormalHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSNormalHeaderView.swift; sourceTree = "<group>"; };
 		10924E812C12BF0E00326AA7 /* LSAccountSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSAccountSettingViewController.swift; sourceTree = "<group>"; };
@@ -302,6 +345,28 @@
 		10A49DEE2C11BFF1008DB9A5 /* LSFriendClockCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSFriendClockCell.m; sourceTree = "<group>"; };
 		10B09D9E2BFF5C8A00CD954A /* LSTaiLiModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTaiLiModel.h; sourceTree = "<group>"; };
 		10B09D9F2BFF5C8A00CD954A /* LSTaiLiModel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LSTaiLiModel.mm; sourceTree = "<group>"; };
+		10B764AF2D44B67C003353AB /* YearWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearWidget.swift; sourceTree = "<group>"; };
+		10B764B12D44C10B003353AB /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		10B764B32D44CDD4003353AB /* YearModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearModel.swift; sourceTree = "<group>"; };
+		10B764B52D44CE00003353AB /* CalendarProgessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarProgessModel.swift; sourceTree = "<group>"; };
+		10B764B82D44D5FF003353AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10B764BA2D44D606003353AB /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		10B764BB2D44D607003353AB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		10B764BC2D44D609003353AB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		10B764BD2D44D60A003353AB /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10B764BE2D44D60B003353AB /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		10B764BF2D44D60C003353AB /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10B764C02D44D60D003353AB /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10B764C12D44D60E003353AB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10B764C22D44D610003353AB /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10B764C32D44D611003353AB /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		10B764C42D44D612003353AB /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		10B764C52D44D614003353AB /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10B764C62D44D616003353AB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10B764C72D44D617003353AB /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		10B764C82D44D618003353AB /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10B764C92D44D61A003353AB /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10B764CA2D44E93A003353AB /* YearItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearItemView.swift; sourceTree = "<group>"; };
 		10BEB7C62C01BE1900F7F622 /* london.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = london.json; sourceTree = "<group>"; };
 		10EA36372C13FBD30042881E /* LSProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSProfileHeaderView.swift; sourceTree = "<group>"; };
 		10EA36392C1427700042881E /* LSToolManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSToolManager.swift; sourceTree = "<group>"; };
@@ -849,6 +914,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		10882BE82D43D08900B88056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10882BEF2D43D08A00B88056 /* SwiftUI.framework in Frameworks */,
+				10882BED2D43D08A00B88056 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19D505302B983ECF0082DF14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -865,6 +939,8 @@
 			isa = PBXGroup;
 			children = (
 				A348CA39D6BCDF76D564BE39 /* Pods_lishu.framework */,
+				10882BEC2D43D08900B88056 /* WidgetKit.framework */,
+				10882BEE2D43D08A00B88056 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -877,6 +953,23 @@
 				10994D272C1994060058A898 /* LSPurchaseProductView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		10882C042D43D09E00B88056 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				10882C002D43D09E00B88056 /* Assets.xcassets */,
+				10882C012D43D09E00B88056 /* Info.plist */,
+				10882C022D43D09E00B88056 /* widget.swift */,
+				10882C032D43D09E00B88056 /* widgetBundle.swift */,
+				10B764AF2D44B67C003353AB /* YearWidget.swift */,
+				10B764B12D44C10B003353AB /* ImageModel.swift */,
+				10B764B32D44CDD4003353AB /* YearModel.swift */,
+				10B764B52D44CE00003353AB /* CalendarProgessModel.swift */,
+				10B764B72D44D5FF003353AB /* Localizable.strings */,
+				10B764CA2D44E93A003353AB /* YearItemView.swift */,
+			);
+			path = widget;
 			sourceTree = "<group>";
 		};
 		10A15C272BF84C5B00B7D378 /* Controller */ = {
@@ -1496,6 +1589,7 @@
 			isa = PBXGroup;
 			children = (
 				19D505352B983ECF0082DF14 /* lishu */,
+				10882C042D43D09E00B88056 /* widget */,
 				19D505342B983ECF0082DF14 /* Products */,
 				138EBCC2EEB1DD9946F08D95 /* Pods */,
 				0D4C518749F456ABA84A94C9 /* Frameworks */,
@@ -1506,6 +1600,7 @@
 			isa = PBXGroup;
 			children = (
 				19D505332B983ECF0082DF14 /* lishu.app */,
+				10882BEB2D43D08900B88056 /* widgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1540,6 +1635,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		10882BEA2D43D08900B88056 /* widgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10882BFC2D43D08B00B88056 /* Build configuration list for PBXNativeTarget "widgetExtension" */;
+			buildPhases = (
+				10882BE72D43D08900B88056 /* Sources */,
+				10882BE82D43D08900B88056 /* Frameworks */,
+				10882BE92D43D08900B88056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widgetExtension;
+			packageProductDependencies = (
+			);
+			productName = widgetExtension;
+			productReference = 10882BEB2D43D08900B88056 /* widgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		19D505322B983ECF0082DF14 /* lishu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19D505472B983ED20082DF14 /* Build configuration list for PBXNativeTarget "lishu" */;
@@ -1549,10 +1663,12 @@
 				19D505302B983ECF0082DF14 /* Frameworks */,
 				19D505312B983ECF0082DF14 /* Resources */,
 				53C37CF95A1A41A8C4F8B233 /* [CP] Embed Pods Frameworks */,
+				10882BFF2D43D08B00B88056 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				10882BF92D43D08B00B88056 /* PBXTargetDependency */,
 			);
 			name = lishu;
 			packageProductDependencies = (
@@ -1569,9 +1685,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
+				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					10882BEA2D43D08900B88056 = {
+						CreatedOnToolsVersion = 16.1;
+					};
 					19D505322B983ECF0082DF14 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -1611,11 +1730,21 @@
 			projectRoot = "";
 			targets = (
 				19D505322B983ECF0082DF14 /* lishu */,
+				10882BEA2D43D08900B88056 /* widgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		10882BE92D43D08900B88056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10882C072D43D09E00B88056 /* Assets.xcassets in Resources */,
+				10B764B92D44D5FF003353AB /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19D505312B983ECF0082DF14 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1680,6 +1809,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		10882BE72D43D08900B88056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B764B02D44B67C003353AB /* YearWidget.swift in Sources */,
+				10882C052D43D09E00B88056 /* widget.swift in Sources */,
+				10B764CB2D44E93A003353AB /* YearItemView.swift in Sources */,
+				10B764B42D44CDD4003353AB /* YearModel.swift in Sources */,
+				10882C062D43D09E00B88056 /* widgetBundle.swift in Sources */,
+				10B764B22D44C10B003353AB /* ImageModel.swift in Sources */,
+				10B764B62D44CE00003353AB /* CalendarProgessModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		19D5052F2B983ECF0082DF14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1937,7 +2080,39 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		10882BF92D43D08B00B88056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10882BEA2D43D08900B88056 /* widgetExtension */;
+			targetProxy = 10882BF82D43D08B00B88056 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		10B764B72D44D5FF003353AB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10B764B82D44D5FF003353AB /* en */,
+				10B764BA2D44D606003353AB /* zh-HK */,
+				10B764BB2D44D607003353AB /* zh-Hans */,
+				10B764BC2D44D609003353AB /* zh-Hant */,
+				10B764BD2D44D60A003353AB /* fr */,
+				10B764BE2D44D60B003353AB /* fr-CA */,
+				10B764BF2D44D60C003353AB /* it */,
+				10B764C02D44D60D003353AB /* de */,
+				10B764C12D44D60E003353AB /* ja */,
+				10B764C22D44D610003353AB /* ko */,
+				10B764C32D44D611003353AB /* pt-PT */,
+				10B764C42D44D612003353AB /* pt-BR */,
+				10B764C52D44D614003353AB /* ru */,
+				10B764C62D44D616003353AB /* es */,
+				10B764C72D44D617003353AB /* es-419 */,
+				10B764C82D44D618003353AB /* th */,
+				10B764C92D44D61A003353AB /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		1937D0792B98AAB500D453FA /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2061,6 +2236,71 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		10882BFD2D43D08B00B88056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9295SUH62C;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueping.lishu.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10882BFE2D43D08B00B88056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9295SUH62C;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueping.lishu.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		19D505452B983ED20082DF14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2250,6 +2490,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		10882BFC2D43D08B00B88056 /* Build configuration list for PBXNativeTarget "widgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10882BFD2D43D08B00B88056 /* Debug */,
+				10882BFE2D43D08B00B88056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		19D5052E2B983ECE0082DF14 /* Build configuration list for PBXProject "lishu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

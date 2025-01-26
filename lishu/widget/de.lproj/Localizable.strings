@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  lishu
+
+  Created by xueping wang on 2025/1/25.
+  
+*/
+
+"calendar_group_chinese"  = "Chinesischer Kalender";
+"calendar_group_gregorian"  = "Gregorianischer Kalender";
+"calendar_group_japanese"  = "Japanischer Kalender";
+"calendar_group_indian"  = "Indischer Nationalkalender";
+"calendar_group_tailand" = "Thailändischer Kalender";
+"calendar_group_hebrew" = "Jüdischer Kalender";
+"calendar_group_julian" = "Julianischer Kalender";
+"calendar_group_islamic"  = "Islamischer Kalender";
+"calendar_group_persian" = "Persischer Kalender";
+
+"year_widget_title" = "Ein-Jahres-Widget verschiedener Kalender";
+
+"year_widget_des" = "Zeigt die Anzahl der Tage oder den Prozentsatz der Tage an, die seit dem neuen Jahr verschiedener Kalender vergangen sind";
+
+"day_night_title"="Tag- und Nachtkarte";
+"day_night_des"="Hellgrauer Rand stellt Sonnenaufgang und Sonnenuntergang dar, dunkelgrauer Rand stellt bürgerliche Morgen- und Abenddämmerung dar";

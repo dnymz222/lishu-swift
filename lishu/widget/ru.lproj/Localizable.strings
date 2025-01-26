@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  lishu
+
+  Created by xueping wang on 2025/1/25.
+  
+*/
+
+"calendar_group_chinese"  = "Китайский календарь";
+"calendar_group_gregorian"  = "Григорианский календарь";
+"calendar_group_japanese"  = "японский календарь";
+"calendar_group_indian"  = "Единый национальный календарь Индии";
+"calendar_group_tailand" = "Тайский календарь";
+"calendar_group_hebrew" = "Еврейский календарь";
+"calendar_group_julian" = "Юлианский календарь";
+"calendar_group_islamic"  = "Исламский календарь";
+"calendar_group_persian" = "Иранский календарь";
+
+"year_widget_title" = "Виджет года разных календарей";
+
+"year_widget_des" = "Отображает количество дней или процент дней, прошедших с нового года разных календарей";
+
+"day_night_title" = "Карта дня и ночи";
+"day_night_des" = "Светло-серая рамка — восход и закат солнца, темно-серая рамка — гражданский рассвет и закат";

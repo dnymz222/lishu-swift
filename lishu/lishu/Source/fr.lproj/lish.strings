@@ -953,6 +953,7 @@
 "calendar_holiday_orthodox" = "Fête de l'Église Orthodoxe";
 "calendar_persian_iran" = "Calendrier persan (Iran)";
 "calendar_persian_afghan" = "Calendrier persan (Afghan)";
+
 "calendar_group_chinese"  = "Calendrier chinois";
 "calendar_group_gregorian"  = "Calendrier grégorien";
 "calendar_group_japanese"  = "Calendrier japonais";

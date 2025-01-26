@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  lishu
+
+  Created by xueping wang on 2025/1/25.
+  
+*/
+
+
+"calendar_group_chinese"  = "中国暦";
+"calendar_group_gregorian"  = "グレゴリオ暦";
+"calendar_group_japanese"  = "日本のカレンダー";
+"calendar_group_indian"  = "インド国定暦";
+"calendar_group_tailand" = "タイ暦";
+"calendar_group_hebrew" = "ユダヤ暦";
+"calendar_group_julian" = "ユリウス暦";
+"calendar_group_islamic"  = "ヒジュラ暦";
+"calendar_group_persian" = "ペルシャ暦";
+
+
+"year_widget_title" = "さまざまなカレンダーの 1 年間のウィジェット";
+
+"year_widget_des" = "さまざまなカレンダーの新年から経過した日数または日数のパーセンテージを表示します";
+
+"day_night_title" = "昼と夜のマップ";
+"day_night_des" = "明るい灰色の境界線は日の出と日の入り、暗い灰色の境界線は民間の夜明けと夕暮れです";

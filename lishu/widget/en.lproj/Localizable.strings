@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  lishu
+
+  Created by xueping wang on 2025/1/25.
+  
+*/
+
+
+"calendar_group_chinese"  = "Chinese Calendar";
+"calendar_group_gregorian"  = "Gregorian Calender";
+"calendar_group_japanese"  = "Japannese Calendar";
+"calendar_group_indian"  = "Indian Calendar";
+"calendar_group_tailand" = "Thai calendar";
+"calendar_group_hebrew" = "Hebrew calendar";
+"calendar_group_julian" = "Julian Calendar";
+"calendar_group_islamic"  = "Islamic Calendar";
+"calendar_group_persian" = "Persian Calendar";
+
+"year_widget_title" = "One year widget of different calendars";
+
+"year_widget_des" = "Displays the number of days or percentage of days that have passed since the new year of different calendars";
+
+"day_night_title"="Day and night map";
+"day_night_des"="Light gray border is the sun rise and sunset,Dark gray border is the civil dawn and dusk";
+
+
+
+

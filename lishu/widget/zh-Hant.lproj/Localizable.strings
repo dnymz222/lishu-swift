@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  lishu
+
+  Created by xueping wang on 2025/1/25.
+  
+*/
+
+"calendar_group_chinese" = "農曆";
+"calendar_group_gregorian" = "公曆";
+"calendar_group_japanese" = "日本歷";
+"calendar_group_indian" = "印度歷";
+"calendar_group_tailand" = "泰國歷";
+"calendar_group_hebrew" = "希伯來歷";
+"calendar_group_julian" = "儒略歷";
+"calendar_group_islamic" = "伊斯蘭歷";
+"calendar_group_persian" = "波斯歷";
+
+
+"year_widget_title" = "一年不同日曆的小工具";
+
+"year_widget_des" = "顯示不同日曆的新年以來已經過去的天數或天數百分比";
+
+"day_night_title"="晝夜地圖";
+"day_night_des"="淺灰色邊框為日出和日落,深灰色邊框為民用黎明和黃昏";

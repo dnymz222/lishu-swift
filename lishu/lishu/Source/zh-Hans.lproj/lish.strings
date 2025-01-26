@@ -1088,6 +1088,7 @@
 "calendar_group_julian" = "儒略历";
 "calendar_group_islamic" = "伊斯兰历";
 "calendar_group_persian" = "波斯历";
+"calendar_group_coptic"="科普特历";
 
 
 
@@ -1129,7 +1130,7 @@
 "calendar_group_buddhist"="佛历";
 "calendar_coptic" = "科普特历";
 "calendar_ethiopic" = "埃塞俄比亚历";
-"calendar_group_coptic"="科普特历";
+
 
 "thai_lunar_month_1"="duean ai";
 "thai_lunar_month_2"="duean yi";

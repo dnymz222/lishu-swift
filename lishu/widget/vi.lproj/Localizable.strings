@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  lishu
+
+  Created by xueping wang on 2025/1/25.
+  
+*/
+
+"calendar_group_chinese"  = "Nông lịch";
+"calendar_group_gregorian"  = "Lịch Gregorius";
+"calendar_group_japanese"  = "Lịch nhật bản";
+"calendar_group_indian"  = "Indian Calendar";
+"calendar_group_tailand" = "TLịch Thái Lan";
+"calendar_group_hebrew" = "Lịch Do Thái";
+"calendar_group_julian" = "Lịch Juliusr";
+"calendar_group_islamic"  = "Lịch Hồi giáo";
+"calendar_group_persian" = "Lịch Iran";
+
+"year_widget_title" = "Tiện ích một năm của các lịch khác nhau";
+"year_widget_des" = "Hiển thị số ngày hoặc phần trăm ngày đã trôi qua kể từ năm mới của các lịch khác nhau";
+
+"day_night_title"="Bản đồ ngày và đêm";
+"day_night_des"="Viền xám nhạt là mặt trời mọc và lặn,Viền xám đậm là bình minh và hoàng hôn dân sự";

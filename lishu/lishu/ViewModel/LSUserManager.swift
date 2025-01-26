@@ -20,6 +20,7 @@ class LSUserManager: NSObject {
     override init() {
         
     
+    
     }
     
     func checkUser() {

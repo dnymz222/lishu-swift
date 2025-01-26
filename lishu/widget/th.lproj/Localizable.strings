@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  lishu
+
+  Created by xueping wang on 2025/1/25.
+  
+*/
+
+"calendar_group_chinese" = "ปฏิทินจีน";
+"calendar_group_gregorian" = "ปฏิทินเกรโกเรียน";
+"calendar_group_japanese" = "ปฏิทินญี่ปุ่น";
+"calendar_group_indian" = "ปฏิทินอินเดีย";
+"calendar_group_tailand" = "ปฏิทินไทย";
+"calendar_group_hebrew" = "ปฏิทินภาษาฮีบรู";
+"calendar_group_julian" = "ปฏิทินจูเลียน";
+"calendar_group_islamic" = "ปฏิทินอิสลาม";
+"calendar_group_persian" = "ปฏิทินเปอร์เซีย";
+
+
+"year_widget_title" = "วิดเจ็ตหนึ่งปีของปฏิทินต่างๆ";
+
+"year_widget_des" = "แสดงจำนวนวันหรือเปอร์เซ็นต์ของวันที่ผ่านไปนับตั้งแต่ปีใหม่ของปฏิทินต่างๆ";
+
+"day_night_title"="แผนที่กลางวันและกลางคืน";
+"day_night_des"="ขอบสีเทาอ่อนคือพระอาทิตย์ขึ้นและตก ขอบสีเทาเข้มคือรุ่งอรุณและพลบค่ำ";
