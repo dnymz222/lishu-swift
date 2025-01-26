@@ -15,6 +15,7 @@
 "calendar_group_julian" = "율리우스력";
 "calendar_group_islamic"  = "이슬람력";
 "calendar_group_persian" = "페르시아 달력";
+"calendar_group_coptic"="콥트 달력";
 
 
 "year_widget_title" = "다른 달력의 1년 위젯";

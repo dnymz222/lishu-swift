@@ -162,3 +162,7 @@
 "location_manage_max_tip"="Vous ne pouvez ajouter que jusqu'à 5 emplacements";
 "delete" = "Supprimer";
 "location"="Emplacement";
+
+"about_us" = "À propos de nous";
+"app_time" = "Heure";
+"select_time" = "Sélectionner l'heure";

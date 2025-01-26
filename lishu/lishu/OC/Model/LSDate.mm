@@ -7,7 +7,7 @@
 
 #import "LSDate.h"
 #include "AA+.h"
-#import "LSTimeZoneMapLocation.h"
+//#import "LSTimeZoneMapLocation.h"
 
 
 @implementation LSDate
@@ -422,212 +422,212 @@
 }
     
 
-- (void)calculateLocation {
-    
-    self.locationArray = [NSMutableArray array];
-    
-   
-    
-      double JDSun = CAADynamicalTime::UTC2TT(self.JD);
-    self.TTJD  = JDSun;
-
-       double SunLong = CAASun::ApparentEclipticLongitude(JDSun, false);
-      // double SunLong2 = CAASun::ApparentEclipticLongitude(JDSun, true);
-       double SunLat = CAASun::ApparentEclipticLatitude(JDSun, false);
-       //double SunLat2 = CAASun::ApparentEclipticLatitude(JDSun, true);
-       CAA2DCoordinate Equatorial = CAACoordinateTransformation::Ecliptic2Equatorial(SunLong, SunLat, CAANutation::TrueObliquityOfEcliptic(JDSun));
-    
-    const double SunRad = CAAEarth::RadiusVector(JDSun, false);
-    
-    self.sunRad  =SunRad;
-
-
-    double AST = CAASidereal::ApparentGreenwichSiderealTime(self.JD);
-    
-    
-    double hour  =AST- Equatorial.X;
-    
-    double degress  = 90 + Equatorial.Y;
-    
-//    double sunradain  =CAACoordinateTransformation::DegreesToRadians(degress);
+//- (void)calculateLocation {
+//    
+//    self.locationArray = [NSMutableArray array];
+//    
+//   
+//    
+//      double JDSun = CAADynamicalTime::UTC2TT(self.JD);
+//    self.TTJD  = JDSun;
 //
-//    double hourdegree   = CAACoordinateTransformation::HoursToDegrees(hour);
+//       double SunLong = CAASun::ApparentEclipticLongitude(JDSun, false);
+//      // double SunLong2 = CAASun::ApparentEclipticLongitude(JDSun, true);
+//       double SunLat = CAASun::ApparentEclipticLatitude(JDSun, false);
+//       //double SunLat2 = CAASun::ApparentEclipticLatitude(JDSun, true);
+//       CAA2DCoordinate Equatorial = CAACoordinateTransformation::Ecliptic2Equatorial(SunLong, SunLat, CAANutation::TrueObliquityOfEcliptic(JDSun));
+//    
+//    const double SunRad = CAAEarth::RadiusVector(JDSun, false);
+//    
+//    self.sunRad  =SunRad;
 //
 //
-    int fix  = Equatorial.Y > 0 ? 1:-1;
-    
-    self.fix   =fix;
-    
-    for (int i =  0; i < 360+1; i ++) {
-        
-        double longtitude =  -180 +i;
-        
-        int check = 0; //0:初始化 1：(heigt<-0.8) 2：height > -0.8    3: 完成
-        
-        int latitude =0;
-        
-        while (check < 3) {
-            if (1 == check) {
-                if (fix > 0) {
-                    ++latitude;
-                } else {
-                    --latitude;
-                }
-                
-            } else if(2 == check){
-                if (fix >0 ) {
-                    --latitude;
-                } else {
-                    ++latitude;
-                }
-            }
-            
-            CAA2DCoordinate sun  = [self calculatetimeLineWithLongtitude:longtitude latitude:latitude Equatoria:Equatorial];
-            if (0 == check) {
-                if (sun.X < -0.8) {
-                    check = 1;
-                } else {
-                    check = 2;
-                }
-            }
-            
-            if (check == 1) {
-                if (sun.X > -0.8) {
-                    check=3;
-                }
-            } else {
-                if (sun.X < -0.8) {
-                    check = 3;
-                }
-            }
-            if (latitude > 79) {
-                break;
-            }
-            
-            if (latitude < -59) {
-                break;
-            }
-        }
-        
-        CLLocation *loc = [[CLLocation alloc] initWithLatitude:latitude longitude:longtitude];
-        
-        LSTimeZoneMapLocation *location = [[LSTimeZoneMapLocation alloc] initWithLocation:loc];
-        [self.locationArray addObject:location];
-        
-        
-        
-        
-    
-        
-        
-    }
-    
-
-}
-
-
-- (void)calculateTwlightLocation {
-    
-    self.twlightLocationArray = [NSMutableArray array];
-    
-   
-    
-      double JDSun = CAADynamicalTime::UTC2TT(self.JD);
-    self.TTJD  = JDSun;
-
-       double SunLong = CAASun::ApparentEclipticLongitude(JDSun, false);
-      // double SunLong2 = CAASun::ApparentEclipticLongitude(JDSun, true);
-       double SunLat = CAASun::ApparentEclipticLatitude(JDSun, false);
-       //double SunLat2 = CAASun::ApparentEclipticLatitude(JDSun, true);
-       CAA2DCoordinate Equatorial = CAACoordinateTransformation::Ecliptic2Equatorial(SunLong, SunLat, CAANutation::TrueObliquityOfEcliptic(JDSun));
-    
-    const double SunRad = CAAEarth::RadiusVector(JDSun, false);
-    
-    self.sunRad  =SunRad;
-
-
-    double AST = CAASidereal::ApparentGreenwichSiderealTime(self.JD);
-    
-    
-    double hour  =AST- Equatorial.X;
-    
-    double degress  = 90 + Equatorial.Y;
-    
-//    double sunradain  =CAACoordinateTransformation::DegreesToRadians(degress);
+//    double AST = CAASidereal::ApparentGreenwichSiderealTime(self.JD);
+//    
+//    
+//    double hour  =AST- Equatorial.X;
+//    
+//    double degress  = 90 + Equatorial.Y;
+//    
+////    double sunradain  =CAACoordinateTransformation::DegreesToRadians(degress);
+////
+////    double hourdegree   = CAACoordinateTransformation::HoursToDegrees(hour);
+////
+////
+//    int fix  = Equatorial.Y > 0 ? 1:-1;
+//    
+//    self.fix   =fix;
+//    
+//    for (int i =  0; i < 360+1; i ++) {
+//        
+//        double longtitude =  -180 +i;
+//        
+//        int check = 0; //0:初始化 1：(heigt<-0.8) 2：height > -0.8    3: 完成
+//        
+//        int latitude =0;
+//        
+//        while (check < 3) {
+//            if (1 == check) {
+//                if (fix > 0) {
+//                    ++latitude;
+//                } else {
+//                    --latitude;
+//                }
+//                
+//            } else if(2 == check){
+//                if (fix >0 ) {
+//                    --latitude;
+//                } else {
+//                    ++latitude;
+//                }
+//            }
+//            
+//            CAA2DCoordinate sun  = [self calculatetimeLineWithLongtitude:longtitude latitude:latitude Equatoria:Equatorial];
+//            if (0 == check) {
+//                if (sun.X < -0.8) {
+//                    check = 1;
+//                } else {
+//                    check = 2;
+//                }
+//            }
+//            
+//            if (check == 1) {
+//                if (sun.X > -0.8) {
+//                    check=3;
+//                }
+//            } else {
+//                if (sun.X < -0.8) {
+//                    check = 3;
+//                }
+//            }
+//            if (latitude > 79) {
+//                break;
+//            }
+//            
+//            if (latitude < -59) {
+//                break;
+//            }
+//        }
+//        
+//        CLLocation *loc = [[CLLocation alloc] initWithLatitude:latitude longitude:longtitude];
+//        
+//        LSTimeZoneMapLocation *location = [[LSTimeZoneMapLocation alloc] initWithLocation:loc];
+//        [self.locationArray addObject:location];
+//        
+//        
+//        
+//        
+//    
+//        
+//        
+//    }
+//    
 //
-//    double hourdegree   = CAACoordinateTransformation::HoursToDegrees(hour);
-//
-//
-    int fix  = Equatorial.Y > 0 ? 1:-1;
-    
-    self.fix   =fix;
-    
-    for (int i =  0; i < 360+1; i ++) {
-        
-        double longtitude =  -180 +i;
-        
-        int check = 0; //0:初始化 1：(heigt<-0.8) 2：height > -0.8    3: 完成
-        
-        int latitude =0;
-        
-        while (check < 3) {
-            if (1 == check) {
-                if (fix > 0) {
-                    ++latitude;
-                } else {
-                    --latitude;
-                }
-                
-            } else if(2 == check){
-                if (fix >0 ) {
-                    --latitude;
-                } else {
-                    ++latitude;
-                }
-            }
-            
-            CAA2DCoordinate sun  = [self calculatetimeLineWithLongtitude:longtitude latitude:latitude Equatoria:Equatorial];
-            if (0 == check) {
-                if (sun.X < -6) {
-                    check = 1;
-                } else {
-                    check = 2;
-                }
-            }
-            
-            if (check == 1) {
-                if (sun.X > -6) {
-                    check=3;
-                }
-            } else {
-                if (sun.X < -8) {
-                    check = 3;
-                }
-            }
-            if (latitude > 79) {
-                break;
-            }
-            
-            if (latitude < -59) {
-                break;
-            }
-        }
-        
-        CLLocation *loc = [[CLLocation alloc] initWithLatitude:latitude longitude:longtitude];
-        
-        LSTimeZoneMapLocation *location = [[LSTimeZoneMapLocation alloc] initWithLocation:loc];
-        [self.twlightLocationArray addObject:location];
-        
-        
-        
-        
-    
-        
-        
-    }
-    
+//}
 
-}
+
+//- (void)calculateTwlightLocation {
+//    
+//    self.twlightLocationArray = [NSMutableArray array];
+//    
+//   
+//    
+//      double JDSun = CAADynamicalTime::UTC2TT(self.JD);
+//    self.TTJD  = JDSun;
+//
+//       double SunLong = CAASun::ApparentEclipticLongitude(JDSun, false);
+//      // double SunLong2 = CAASun::ApparentEclipticLongitude(JDSun, true);
+//       double SunLat = CAASun::ApparentEclipticLatitude(JDSun, false);
+//       //double SunLat2 = CAASun::ApparentEclipticLatitude(JDSun, true);
+//       CAA2DCoordinate Equatorial = CAACoordinateTransformation::Ecliptic2Equatorial(SunLong, SunLat, CAANutation::TrueObliquityOfEcliptic(JDSun));
+//    
+//    const double SunRad = CAAEarth::RadiusVector(JDSun, false);
+//    
+//    self.sunRad  =SunRad;
+//
+//
+//    double AST = CAASidereal::ApparentGreenwichSiderealTime(self.JD);
+//    
+//    
+//    double hour  =AST- Equatorial.X;
+//    
+//    double degress  = 90 + Equatorial.Y;
+//    
+////    double sunradain  =CAACoordinateTransformation::DegreesToRadians(degress);
+////
+////    double hourdegree   = CAACoordinateTransformation::HoursToDegrees(hour);
+////
+////
+//    int fix  = Equatorial.Y > 0 ? 1:-1;
+//    
+//    self.fix   =fix;
+//    
+//    for (int i =  0; i < 360+1; i ++) {
+//        
+//        double longtitude =  -180 +i;
+//        
+//        int check = 0; //0:初始化 1：(heigt<-0.8) 2：height > -0.8    3: 完成
+//        
+//        int latitude =0;
+//        
+//        while (check < 3) {
+//            if (1 == check) {
+//                if (fix > 0) {
+//                    ++latitude;
+//                } else {
+//                    --latitude;
+//                }
+//                
+//            } else if(2 == check){
+//                if (fix >0 ) {
+//                    --latitude;
+//                } else {
+//                    ++latitude;
+//                }
+//            }
+//            
+//            CAA2DCoordinate sun  = [self calculatetimeLineWithLongtitude:longtitude latitude:latitude Equatoria:Equatorial];
+//            if (0 == check) {
+//                if (sun.X < -6) {
+//                    check = 1;
+//                } else {
+//                    check = 2;
+//                }
+//            }
+//            
+//            if (check == 1) {
+//                if (sun.X > -6) {
+//                    check=3;
+//                }
+//            } else {
+//                if (sun.X < -8) {
+//                    check = 3;
+//                }
+//            }
+//            if (latitude > 79) {
+//                break;
+//            }
+//            
+//            if (latitude < -59) {
+//                break;
+//            }
+//        }
+//        
+//        CLLocation *loc = [[CLLocation alloc] initWithLatitude:latitude longitude:longtitude];
+//        
+//        LSTimeZoneMapLocation *location = [[LSTimeZoneMapLocation alloc] initWithLocation:loc];
+//        [self.twlightLocationArray addObject:location];
+//        
+//        
+//        
+//        
+//    
+//        
+//        
+//    }
+//    
+//
+//}
 
 
 - (NSString *)localTimeString {

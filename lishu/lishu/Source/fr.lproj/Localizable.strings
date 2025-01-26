@@ -164,3 +164,7 @@
 
 "location"="Emplacement";
 
+
+"about_us" = "À propos de nous";
+"app_time" = "Heure";
+"select_time" = "Sélectionner l'heure";

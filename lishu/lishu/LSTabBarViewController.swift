@@ -91,6 +91,12 @@ class LSTabBarViewController: UITabBarController {
         } else {
             // Fallback on earlier versions
         }
+        
+        if #available(iOS 18.0, *) {
+            if UIDevice.current.model.contains("iPad") {
+                traitOverrides.horizontalSizeClass = .compact
+            }
+        }
     
         
         self.tabBar.isTranslucent = false

@@ -15,6 +15,7 @@
 "calendar_group_julian" = "Юлианский календарь";
 "calendar_group_islamic"  = "Исламский календарь";
 "calendar_group_persian" = "Иранский календарь";
+"calendar_group_coptic"="Коптский календарь";
 
 "year_widget_title" = "Виджет года разных календарей";
 

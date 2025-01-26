@@ -1021,9 +1021,9 @@
 "thai_lunar_waxing" = "Khuen";
 "thai_lunar_waning"="Raem";
 "calendar_group_buddhist"="Phật lịch";
-"calendar_coptic" = "Coptic Calendar";
-"calendar_ethiopic" = "Ethiopian calendar";
-"calendar_group_coptic"="Coptic Calendar";
+"calendar_coptic" = "Lịch Copt";
+"calendar_ethiopic" = "Lịch Ethiopia";
+"calendar_group_coptic"="Lịch Copt";
 
 "thai_lunar_month_1"="duean ai";
 "thai_lunar_month_2"="duean yi";

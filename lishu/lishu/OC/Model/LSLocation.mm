@@ -408,7 +408,7 @@
     SunHorizontal.Y += CAARefraction::RefractionFromTrue(SunHorizontal.Y, 1013, 10);
 
     
-    NSLog(@"x:%0.1f",SunTopo.X);
+//    NSLog(@"x:%0.1f",SunTopo.X);
  
 
 

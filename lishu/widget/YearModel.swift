@@ -18,6 +18,10 @@ class YearModel {
         progessModels.append(CalendarProgessModel(date: date, .chinese))
         progessModels.append(CalendarProgessModel(date: date, .hebrew))
         progessModels.append(CalendarProgessModel(date: date, .islamicCivil))
+        progessModels.append(CalendarProgessModel(date: date, .indian))
+        progessModels.append(CalendarProgessModel(date: date, .coptic))
+        progessModels.append(CalendarProgessModel(date: date, .persian))
+        progessModels.append(CalendarProgessModel(date: date, .iso8601))
         
     }
     

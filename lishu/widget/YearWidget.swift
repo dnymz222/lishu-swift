@@ -44,17 +44,54 @@ struct YearSimpleEntry: TimelineEntry {
 
 struct YearWidgetEntryView : View {
     var entry: YearProvider.Entry
+    
+    @Environment(\.widgetFamily) var family: WidgetFamily
 
     var body: some View {
-        HStack {
-            
-            YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height - 10), progressModel: entry.yearModel.progessModels[0]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height - 10)
-            
-            YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height - 10), progressModel: entry.yearModel.progessModels[1]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height - 10)
-            
-            YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height - 10), progressModel: entry.yearModel.progessModels[2]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height - 10)
-            
-            YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height - 10), progressModel: entry.yearModel.progessModels[3]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height - 10)
+        
+        VStack {
+            if family == .systemMedium {
+                HStack {
+                        YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height - 10), progressModel: entry.yearModel.progessModels[0]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height - 10)
+                        
+                        YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height - 10), progressModel: entry.yearModel.progessModels[1]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height - 10)
+                        
+                        YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height - 10), progressModel: entry.yearModel.progessModels[2]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height - 10)
+                        
+                        YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height - 10), progressModel: entry.yearModel.progessModels[3]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height - 10)
+                 
+                    
+                }
+                
+            } else {
+                HStack {
+                    YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height * 0.5 - 8), progressModel: entry.yearModel.progessModels[0]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height * 0.5 - 8)
+                        
+                    YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height * 0.5 - 8), progressModel: entry.yearModel.progessModels[1]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height * 0.5 - 8)
+                        
+                    YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height * 0.5 - 8), progressModel: entry.yearModel.progessModels[2]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height * 0.5 - 8)
+                        
+                    YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height * 0.5 - 8), progressModel: entry.yearModel.progessModels[3]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height * 0.5 - 8)
+                 
+                    
+                }
+                
+                HStack {
+                    YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height * 0.5 - 8), progressModel: entry.yearModel.progessModels[4]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height * 0.5 - 8)
+                        
+                    YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height * 0.5 - 8), progressModel: entry.yearModel.progessModels[5]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height * 0.5 - 8)
+                        
+                    YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height * 0.5 - 8), progressModel: entry.yearModel.progessModels[6]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height * 0.5 - 8)
+                        
+                    YearItemView(size: CGSize(width: (entry.size.width - 40.0) / 4.0, height: entry.size.height * 0.5 - 8), progressModel: entry.yearModel.progessModels[7]).frame(width:(entry.size.width - 40.0) / 4.0,  height:   entry.size.height * 0.5 - 8)
+                 
+                    
+                }
+                
+                
+                
+                
+            }
             
         }.frame(width: entry.size.width,height: entry.size.height).background(Color("ThemeColor"))
     }
@@ -74,7 +111,7 @@ struct YearWidget: Widget {
                     .background()
             }
         }
-        .supportedFamilies([.systemMedium])
+        .supportedFamilies([.systemMedium,.systemLarge])
         .configurationDisplayName(NSLocalizedString("year_widget_title", comment: ""))
         .description(NSLocalizedString("year_widget_des", comment: ""))
     }

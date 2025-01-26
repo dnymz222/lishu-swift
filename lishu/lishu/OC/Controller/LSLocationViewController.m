@@ -57,6 +57,7 @@
 //    [textfield setValue:[UIFont systemFontOfSize:12.f] forKeyPath:@"_placeholderLabel.font"];
     
     self.searchBar.placeholder  = NSLocalizedString(@"enter_city_name", nil);
+    self.searchBar.overrideUserInterfaceStyle =  UIUserInterfaceStyleLight;
     
     
     self.navigationItem.titleView = view;

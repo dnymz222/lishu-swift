@@ -15,6 +15,7 @@
 "calendar_group_julian" = "Calendario juliano";
 "calendar_group_islamic"  = "Calendario musulmán";
 "calendar_group_persian" = "Persian Calendar";
+"calendar_group_coptic"="Calendario copto";
 
 
 "year_widget_title" = "Widget de un año de diferentes calendarios";

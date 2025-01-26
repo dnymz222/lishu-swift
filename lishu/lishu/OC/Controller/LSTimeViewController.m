@@ -10,7 +10,7 @@
 #import <Masonry/Masonry.h>
 #import <MapKit/MapKit.h>
 #import "ColorSizeMacro.h"
-#import "LSTimeZoneMapLocation.h"
+
 #import "LSTimeZoneMapView.h"
 #import "LSDate.h"
 #import "LSLandscapeMapViewController.h"
@@ -46,6 +46,7 @@
 #import "LSLishuRoleModel.h"
 #import "LSLocationAddFooter.h"
 #import "LSFriendClockCell.h"
+#import "LSNightDayTool.h"
 
 
 @interface LSTimeViewController ()<UITableViewDelegate,UITableViewDataSource,CLLocationManagerDelegate,LSDayHeaderViewDelegate,LSLocationAddFooterDelegate>
@@ -104,6 +105,10 @@
 
 @property(nonatomic,strong)LSDate *lsdate;
 
+@property(nonatomic,strong)UIImage *dayNightImage;
+
+
+
 
 
 
@@ -147,9 +152,10 @@
     self.moon   =[[LSMoon alloc] init];
     
     LSDate *lsdate  = [[LSDate alloc] initWithDate:[NSDate dateWithTimeInterval:0 sinceDate:[NSDate date]]];
-    [lsdate calculateLocation];
-    [lsdate calculateTwlightLocation];
+//    [lsdate calculateLocation];
+//    [lsdate calculateTwlightLocation];
     self.lsdate = lsdate;
+    
     
     
     [self addTimer];
@@ -168,7 +174,7 @@
     
 
     
-    float scale  = 2004/(swidth);
+    float scale  = 720/(swidth);
 
 
     self.mapScale  = scale;
@@ -179,6 +185,18 @@
 //        make.bottom.equalTo(self.mapView.mas_top);
     }];
     
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        
+        LSNightDayTool *daynightTool = [[LSNightDayTool alloc] initWihDate:[NSDate date]];
+        
+        
+        
+        self.dayNightImage = [daynightTool generateImage:1];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.tableView reloadData];
+        });
+    });
 
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:self.leftButton];
@@ -443,13 +461,26 @@
     
     
     
-    if (timestamp -self.lastUpdateMapTimestmap > 15*60) {
+    if (timestamp -self.lastUpdateMapTimestmap > 5*60) {
         self.lastUpdateMapTimestmap  = timestamp;
         
         LSDate *lsdate  = [[LSDate alloc] initWithDate:date];
-        [lsdate calculateLocation];
-        [lsdate calculateTwlightLocation];
+//        [lsdate calculateLocation];
+//        [lsdate calculateTwlightLocation];
         self.lsdate = lsdate;
+        
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+            
+            LSNightDayTool *daynightTool = [[LSNightDayTool alloc] initWihDate:[NSDate date]];
+        
+            self.dayNightImage = [daynightTool generateImage:1];
+            
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self.tableView reloadData];
+            });
+            
+        });
+        
         
         self.selectMapDate = date;
         
@@ -747,7 +778,7 @@
    if ( 0 == indexPath.section){
         return 88;
     } else {
-        return  1195 / self.mapScale;
+        return  338 / self.mapScale;
     }
     
 }
@@ -778,10 +809,12 @@
             cell.accessoryType =  UITableViewCellAccessoryNone;
             
         }
-        if(self.lsdate){
-            [cell.mapview configLocationArray:self.lsdate.locationArray scale:self.mapScale fix:self.lsdate.fix];
-      
-            [cell.mapview configTwilightLocationArray:self.lsdate.twlightLocationArray scale:self.mapScale fix:self.lsdate.fix];
+        if(self.dayNightImage){
+            
+            [cell.mapview.overlayView setImage:self.dayNightImage];
+//            [cell.mapview configLocationArray:self.lsdate.locationArray scale:self.mapScale fix:self.lsdate.fix];
+//      
+//            [cell.mapview configTwilightLocationArray:self.lsdate.twlightLocationArray scale:self.mapScale fix:self.lsdate.fix];
         }
         return cell;
     }

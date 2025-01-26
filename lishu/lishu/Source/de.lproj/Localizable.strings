@@ -164,3 +164,7 @@
 "location_manage_max_tip"="Sie können nur bis zu 5 Standorte hinzufügen";
 "delete" = "Löschen";
 "location"="Standort";
+
+"about_us"="Über uns";
+"app_time"="Zeit";
+"select_time" = "Zeit auswählen";

@@ -82,9 +82,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (double)julianDay;
 
-- (void)calculateLocation;
-
-- (void)calculateTwlightLocation;
+//- (void)calculateLocation;
+//
+//- (void)calculateTwlightLocation;
 
 - (NSString *)localTimeString;
 

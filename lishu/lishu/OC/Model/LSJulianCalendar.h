@@ -16,6 +16,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign)long month;
 @property(nonatomic,assign)long day;
 
+@property(nonatomic,assign)long gyear;
+@property(nonatomic,assign)long gmonth;
+@property(nonatomic,assign)long gday;
+
 - (instancetype)initWithYear:(int)year month:(int)month day:(int)day;//用格里高历初始化
 
 

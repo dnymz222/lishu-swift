@@ -12,9 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 @interface LSTimeZoneMapView : UIView
 
 
-- (void)configLocationArray:(NSArray *)locations scale:(double)scale fix:(int)fix ;
+@property(nonatomic,strong)UIImageView *overlayView;
 
-- (void)configTwilightLocationArray:(NSArray *)locations scale:(double)scale fix:(int)fix ;
+
+//- (void)configLocationArray:(NSArray *)locations scale:(double)scale fix:(int)fix ;
+//
+//- (void)configTwilightLocationArray:(NSArray *)locations scale:(double)scale fix:(int)fix ;
 
 @end
 

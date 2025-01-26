@@ -18,15 +18,22 @@
 {
     self  =[super init];
     if (self) {
-        
         self.jd = jd;
-        
     }
     
     return self;
     
 }
 
+
+- (instancetype)initWithDate:(NSDate *)date {
+    self = [super init];
+    if (self) {
+        LSDate *lsdate = [[LSDate alloc] initWithDate:date];
+        self.jd = [lsdate julianDay];
+    }
+    return self;
+}
 
 
 - (void)calculateSun {
@@ -46,8 +53,12 @@
      self.RA = suneq_long;
      self.Dec = Equatorial.Y;
     
+    double AST = CAASidereal::ApparentGreenwichSiderealTime(self.jd);
+    
     
     self.R = CAAEarth::RadiusVector(self.jd, false);
+    
+    self.AST = AST;
     
     
        
@@ -173,6 +184,29 @@
     
     
 }
+
+- (double)calculateSunHeightWithLatitude:(double)latitude longitude:(double)longitude {
+    
+    double JDSun = self.jd;
+    const double SunRad = self.R;
+
+       double Longitude = -longitude; //West is considered positive
+       double Latitude = latitude;
+       double Height = 1706;
+       const CAA2DCoordinate SunTopo = CAAParallax::Equatorial2Topocentric(self.RA, self.Dec, SunRad, Longitude, Latitude, Height, JDSun);
+   
+   
+       double AST = self.AST;
+       double LongtitudeAsHourAngle = CAACoordinateTransformation::DegreesToHours(Longitude);
+       double LocalHourAngle = AST - LongtitudeAsHourAngle - SunTopo.X;
+       CAA2DCoordinate SunHorizontal = CAACoordinateTransformation::Equatorial2Horizontal(LocalHourAngle, SunTopo.Y, Latitude);
+       SunHorizontal.Y += CAARefraction::RefractionFromTrue(SunHorizontal.Y, 1013, 10);
+
+  
+   
+   return SunHorizontal.Y;
+}
+
 
 
 @end

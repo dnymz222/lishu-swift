@@ -1020,7 +1020,7 @@
 "calendar_group_buddhist"="불멸기원";
 "calendar_coptic" = "Coptic Calendar";
 "calendar_ethiopic" = "에티오피아력";
-"calendar_group_coptic"="Coptic Calendar";
+"calendar_group_coptic"="콥트 달력";
 
 "thai_lunar_month_1"="duean ai";
 "thai_lunar_month_2"="duean yi";

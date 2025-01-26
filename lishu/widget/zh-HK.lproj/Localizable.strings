@@ -15,6 +15,7 @@
 "calendar_group_julian" = "儒略歷";
 "calendar_group_islamic" = "伊斯蘭歷";
 "calendar_group_persian" = "波斯歷";
+"calendar_group_coptic"="科普特曆";
 
 "year_widget_title" = "一年不同日曆的小工具";
 

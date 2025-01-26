@@ -152,3 +152,8 @@
 "location_manage_max_tip"="Puoi aggiungere solo fino a 5 località";
 "delete" = "Elimina";
 "location"="Posizione";
+
+
+"about_us"="Chi siamo";
+"app_time"="Orario";
+"select_time" = "Seleziona orario";

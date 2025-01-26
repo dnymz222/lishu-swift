@@ -24,6 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,assign)double jd;
 
+@property(nonatomic,assign)double AST;
+
 
 
 @property(nonatomic,strong)LSRiseSetTime *riseSet;
@@ -35,6 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithJD:(double)jd;
 
+- (instancetype)initWithDate:(NSDate *)date;
 
 
 
@@ -47,6 +50,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (double)calculateSunLongWithStartJd:(double)startjd  endJd:(double)endJd startLong:(double)startLong endLong:(double)endLong targetSunLong:(double)sunlong;
 
 - (void)calculateSunRiseSetWithlocation:(LSGeoPosition *)location date:(NSDate *)date timezone:(NSString *)timezone ;
+
+
+- (double)calculateSunHeightWithLatitude:(double)latitude longitude:(double)longitude;
 
 
 

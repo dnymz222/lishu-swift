@@ -16,6 +16,7 @@
 "calendar_group_julian" = "ユリウス暦";
 "calendar_group_islamic"  = "ヒジュラ暦";
 "calendar_group_persian" = "ペルシャ暦";
+"calendar_group_coptic"="コプト暦";
 
 
 "year_widget_title" = "さまざまなカレンダーの 1 年間のウィジェット";

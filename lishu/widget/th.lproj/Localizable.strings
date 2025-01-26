@@ -15,6 +15,7 @@
 "calendar_group_julian" = "ปฏิทินจูเลียน";
 "calendar_group_islamic" = "ปฏิทินอิสลาม";
 "calendar_group_persian" = "ปฏิทินเปอร์เซีย";
+"calendar_group_coptic"="ปฏิทินคอปติก";
 
 
 "year_widget_title" = "วิดเจ็ตหนึ่งปีของปฏิทินต่างๆ";

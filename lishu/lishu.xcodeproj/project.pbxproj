@@ -7,10 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102755702D46099C00A85BDA /* LSNightDayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1027556F2D46099C00A85BDA /* LSNightDayTool.m */; };
+		102755712D461E8500A85BDA /* LSNightDayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1027556F2D46099C00A85BDA /* LSNightDayTool.m */; };
+		102755722D461E9D00A85BDA /* LSDate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF752B98A86B00D453FA /* LSDate.mm */; };
+		102755732D461EB400A85BDA /* AHAAHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0912B98B19F00D453FA /* AHAAHelper.cpp */; };
+		102755742D461ECC00A85BDA /* AAAberration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCE12B98A7D500D453FA /* AAAberration.cpp */; };
+		102755752D461ED200A85BDA /* AAAngularSeparation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD7D2B98A7D600D453FA /* AAAngularSeparation.cpp */; };
+		102755762D461ED800A85BDA /* AABinaryStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD962B98A7D600D453FA /* AABinaryStar.cpp */; };
+		102755772D461EDE00A85BDA /* AACoordinateTransformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CDAD2B98A7D700D453FA /* AACoordinateTransformation.cpp */; };
+		102755782D461EE500A85BDA /* AADate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCE22B98A7D500D453FA /* AADate.cpp */; };
+		102755792D461EEB00A85BDA /* AADiameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD872B98A7D600D453FA /* AADiameters.cpp */; };
+		1027557A2D461EF300A85BDA /* AADynamicalTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD2D2B98A7D600D453FA /* AADynamicalTime.cpp */; };
+		1027557B2D461F0100A85BDA /* AAEarth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD8C2B98A7D600D453FA /* AAEarth.cpp */; };
+		1027557C2D461F2100A85BDA /* AAEaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD742B98A7D600D453FA /* AAEaster.cpp */; };
+		1027557D2D461F2700A85BDA /* AAEclipses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD092B98A7D600D453FA /* AAEclipses.cpp */; };
+		1027557E2D461F2C00A85BDA /* AAEclipticalElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CDAE2B98A7D700D453FA /* AAEclipticalElements.cpp */; };
+		1027557F2D461F3300A85BDA /* AAElementsPlanetaryOrbit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD3D2B98A7D600D453FA /* AAElementsPlanetaryOrbit.cpp */; };
+		102755802D461F3900A85BDA /* AAElliptical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCC52B98A7D500D453FA /* AAElliptical.cpp */; };
+		102755812D461F4000A85BDA /* AAELP2000.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCE52B98A7D500D453FA /* AAELP2000.cpp */; };
+		102755822D461F4600A85BDA /* AAELPMPP02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCC72B98A7D500D453FA /* AAELPMPP02.cpp */; };
+		102755832D461F4D00A85BDA /* AAEquationOfTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD122B98A7D600D453FA /* AAEquationOfTime.cpp */; };
+		102755842D461F6100A85BDA /* AAEquinoxesAndSolstices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD4C2B98A7D600D453FA /* AAEquinoxesAndSolstices.cpp */; };
+		102755852D461F6700A85BDA /* AAEquinoxesAndSolstices2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD902B98A7D600D453FA /* AAEquinoxesAndSolstices2.cpp */; };
+		102755862D461F6D00A85BDA /* AAFK5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD022B98A7D600D453FA /* AAFK5.cpp */; };
+		102755872D461F7300A85BDA /* AAGalileanMoons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCE72B98A7D500D453FA /* AAGalileanMoons.cpp */; };
+		102755882D461F7900A85BDA /* AAGlobe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCCB2B98A7D500D453FA /* AAGlobe.cpp */; };
+		102755892D461F7F00A85BDA /* AAIlluminatedFraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCCA2B98A7D500D453FA /* AAIlluminatedFraction.cpp */; };
+		1027558A2D461F8400A85BDA /* AAInterpolate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CDA92B98A7D700D453FA /* AAInterpolate.cpp */; };
+		1027558B2D461F8A00A85BDA /* AAJewishCalendar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCF02B98A7D500D453FA /* AAJewishCalendar.cpp */; };
+		1027558C2D461F9000A85BDA /* AAJupiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD802B98A7D600D453FA /* AAJupiter.cpp */; };
+		1027558D2D461F9500A85BDA /* AAKepler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD0E2B98A7D600D453FA /* AAKepler.cpp */; };
+		1027558E2D461F9B00A85BDA /* AAMars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD3F2B98A7D600D453FA /* AAMars.cpp */; };
+		1027558F2D461FA100A85BDA /* AAMercury.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCDF2B98A7D500D453FA /* AAMercury.cpp */; };
+		102755902D461FA600A85BDA /* AAMoon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCF12B98A7D500D453FA /* AAMoon.cpp */; };
+		102755912D461FAC00A85BDA /* AAMoonIlluminatedFraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD262B98A7D600D453FA /* AAMoonIlluminatedFraction.cpp */; };
+		102755922D461FB100A85BDA /* AAMoonMaxDeclinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD362B98A7D600D453FA /* AAMoonMaxDeclinations.cpp */; };
+		102755932D461FB700A85BDA /* AAMoonMaxDeclinations2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD652B98A7D600D453FA /* AAMoonMaxDeclinations2.cpp */; };
+		102755942D461FBE00A85BDA /* AAMoonNodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCE82B98A7D500D453FA /* AAMoonNodes.cpp */; };
+		102755952D461FC300A85BDA /* AAMoonNodes2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD782B98A7D600D453FA /* AAMoonNodes2.cpp */; };
+		102755962D461FC800A85BDA /* AAMoonPerigeeApogee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD762B98A7D600D453FA /* AAMoonPerigeeApogee.cpp */; };
+		102755972D461FCD00A85BDA /* AAMoonPerigeeApogee2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCD92B98A7D500D453FA /* AAMoonPerigeeApogee2.cpp */; };
+		102755982D461FD400A85BDA /* AAMoonPhases.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD7F2B98A7D600D453FA /* AAMoonPhases.cpp */; };
+		102755992D461FDA00A85BDA /* AAMoonPhases2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD0C2B98A7D600D453FA /* AAMoonPhases2.cpp */; };
+		1027559A2D461FE200A85BDA /* AAMoslemCalendar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCD82B98A7D500D453FA /* AAMoslemCalendar.cpp */; };
+		1027559B2D461FE700A85BDA /* AANearParabolic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCD52B98A7D500D453FA /* AANearParabolic.cpp */; };
+		1027559C2D461FEE00A85BDA /* AANeptune.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCFD2B98A7D600D453FA /* AANeptune.cpp */; };
+		1027559D2D461FF400A85BDA /* AANodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD1B2B98A7D600D453FA /* AANodes.cpp */; };
+		1027559E2D461FFA00A85BDA /* AANutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD452B98A7D600D453FA /* AANutation.cpp */; };
+		1027559F2D46200000A85BDA /* AAParabolic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCEF2B98A7D500D453FA /* AAParabolic.cpp */; };
+		102755A02D46200500A85BDA /* AAParallactic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD932B98A7D600D453FA /* AAParallactic.cpp */; };
+		102755A12D46200A00A85BDA /* AAParallax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCC62B98A7D500D453FA /* AAParallax.cpp */; };
+		102755A22D46201100A85BDA /* AAPhysicalJupiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD6D2B98A7D600D453FA /* AAPhysicalJupiter.cpp */; };
+		102755A32D46201600A85BDA /* AAPhysicalMars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCDD2B98A7D500D453FA /* AAPhysicalMars.cpp */; };
+		102755A42D46201B00A85BDA /* AAPhysicalMoon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD4D2B98A7D600D453FA /* AAPhysicalMoon.cpp */; };
+		102755A52D46202000A85BDA /* AAPhysicalSun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD752B98A7D600D453FA /* AAPhysicalSun.cpp */; };
+		102755A62D46202600A85BDA /* AAPlanetaryPhenomena.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD222B98A7D600D453FA /* AAPlanetaryPhenomena.cpp */; };
+		102755A72D46202C00A85BDA /* AAPlanetPerihelionAphelion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCE42B98A7D500D453FA /* AAPlanetPerihelionAphelion.cpp */; };
+		102755A82D46203100A85BDA /* AAPluto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCD12B98A7D500D453FA /* AAPluto.cpp */; };
+		102755A92D46203700A85BDA /* AAPrecession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD712B98A7D600D453FA /* AAPrecession.cpp */; };
+		102755AA2D46203C00A85BDA /* AARefraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD162B98A7D600D453FA /* AARefraction.cpp */; };
+		102755AB2D46204300A85BDA /* AARiseTransitSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD812B98A7D600D453FA /* AARiseTransitSet.cpp */; };
+		102755AC2D46204800A85BDA /* AARiseTransitSet2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD992B98A7D700D453FA /* AARiseTransitSet2.cpp */; };
+		102755AD2D46204D00A85BDA /* AASaturn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD692B98A7D600D453FA /* AASaturn.cpp */; };
+		102755AE2D46205400A85BDA /* AASaturnMoons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CDA12B98A7D700D453FA /* AASaturnMoons.cpp */; };
+		102755AF2D46205900A85BDA /* AASaturnRings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCCF2B98A7D500D453FA /* AASaturnRings.cpp */; };
+		102755B02D46205E00A85BDA /* AASidereal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD502B98A7D600D453FA /* AASidereal.cpp */; };
+		102755B12D46206400A85BDA /* AAStellarMagnitudes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD832B98A7D600D453FA /* AAStellarMagnitudes.cpp */; };
+		102755B22D46206A00A85BDA /* AASun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CCDE2B98A7D500D453FA /* AASun.cpp */; };
+		102755B32D46206F00A85BDA /* AAUranus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD082B98A7D600D453FA /* AAUranus.cpp */; };
+		102755B42D46207400A85BDA /* AAVenus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937CD6B2B98A7D600D453FA /* AAVenus.cpp */; };
+		102755B52D46212900A85BDA /* LSSun.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF812B98A86B00D453FA /* LSSun.mm */; };
+		102755B62D46214100A85BDA /* LSRiseSetTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF262B98A86B00D453FA /* LSRiseSetTime.m */; };
+		102755B82D462CC300A85BDA /* LSJulianCalendar.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF152B98A86B00D453FA /* LSJulianCalendar.mm */; };
 		102874962BB02EED00D816B8 /* LSKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102874952BB02EED00D816B8 /* LSKeyManager.swift */; };
 		105FE4AC2BAD75B700A04FD7 /* LSColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105FE4AB2BAD75B700A04FD7 /* LSColorManager.swift */; };
 		1065D52C2BF9A3F600C615B1 /* LSWKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1065D52B2BF9A3F600C615B1 /* LSWKViewController.swift */; };
-		106CE1C92C15C1E1001C8974 /* LSWebpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 106CE1C82C15C1E1001C8974 /* LSWebpTool.m */; };
 		10882BED2D43D08A00B88056 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10882BEC2D43D08900B88056 /* WidgetKit.framework */; };
 		10882BEF2D43D08A00B88056 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10882BEE2D43D08A00B88056 /* SwiftUI.framework */; };
 		10882BFA2D43D08B00B88056 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 10882BEB2D43D08900B88056 /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -172,7 +243,6 @@
 		1937CF8D2B98A86C00D453FA /* LSIslamicHolidays.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF132B98A86A00D453FA /* LSIslamicHolidays.m */; };
 		1937CF8E2B98A86C00D453FA /* LSJulianCalendar.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF152B98A86B00D453FA /* LSJulianCalendar.mm */; };
 		1937CF8F2B98A86C00D453FA /* LSMoon.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF182B98A86B00D453FA /* LSMoon.mm */; };
-		1937CF902B98A86C00D453FA /* LSTimeZoneMapLocation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF192B98A86B00D453FA /* LSTimeZoneMapLocation.mm */; };
 		1937CF912B98A86C00D453FA /* LSLocation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF1A2B98A86B00D453FA /* LSLocation.mm */; };
 		1937CF922B98A86C00D453FA /* LSAccuWeatherHourModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF1B2B98A86B00D453FA /* LSAccuWeatherHourModel.m */; };
 		1937CF932B98A86C00D453FA /* LSAccuDayWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937CF1F2B98A86B00D453FA /* LSAccuDayWeatherModel.m */; };
@@ -253,7 +323,6 @@
 		1937D0352B98A88D00D453FA /* LSMoonGridItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0082B98A88C00D453FA /* LSMoonGridItemCell.m */; };
 		1937D0362B98A88D00D453FA /* LSNormalHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0092B98A88C00D453FA /* LSNormalHeaderView.m */; };
 		1937D0372B98A88D00D453FA /* LSHourWeatherItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937D00B2B98A88C00D453FA /* LSHourWeatherItemView.m */; };
-		1937D0382B98A88D00D453FA /* LSTimeZoneMapOverLayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937D00F2B98A88C00D453FA /* LSTimeZoneMapOverLayView.m */; };
 		1937D0392B98A88D00D453FA /* LSWorldClockItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0112B98A88C00D453FA /* LSWorldClockItemCell.m */; };
 		1937D03A2B98A88D00D453FA /* LSMonthMoonItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0122B98A88C00D453FA /* LSMonthMoonItemCell.m */; };
 		1937D03B2B98A88D00D453FA /* LSDayMoonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0132B98A88C00D453FA /* LSDayMoonCell.m */; };
@@ -264,9 +333,7 @@
 		1937D0472B98A89B00D453FA /* LSHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0422B98A89B00D453FA /* LSHandler.m */; };
 		1937D0482B98A89C00D453FA /* LSDataBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0442B98A89B00D453FA /* LSDataBaseTool.m */; };
 		1937D0772B98AAB500D453FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1937D0792B98AAB500D453FA /* Localizable.strings */; };
-		1937D0A52B98B19F00D453FA /* ofxMercatorMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D08B2B98B19F00D453FA /* ofxMercatorMap.cpp */; };
 		1937D0A62B98B19F00D453FA /* HinduCalendar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D08C2B98B19F00D453FA /* HinduCalendar.cpp */; };
-		1937D0A72B98B19F00D453FA /* maptrans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D08E2B98B19F00D453FA /* maptrans.cpp */; };
 		1937D0A92B98B19F00D453FA /* TibetanCalendar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0902B98B19F00D453FA /* TibetanCalendar.cpp */; };
 		1937D0AA2B98B19F00D453FA /* AHAAHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0912B98B19F00D453FA /* AHAAHelper.cpp */; };
 		1937D0B02B98B19F00D453FA /* ThaiCalendar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1937D0A22B98B19F00D453FA /* ThaiCalendar.cpp */; };
@@ -308,13 +375,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1027556E2D46099C00A85BDA /* LSNightDayTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSNightDayTool.h; sourceTree = "<group>"; };
+		1027556F2D46099C00A85BDA /* LSNightDayTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSNightDayTool.m; sourceTree = "<group>"; };
+		102755B72D4621F700A85BDA /* WigetOCHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WigetOCHeader.h; sourceTree = "<group>"; };
 		102874952BB02EED00D816B8 /* LSKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSKeyManager.swift; sourceTree = "<group>"; };
 		105068EC2C00A2B200EFAE4C /* LSThaiBuddhistFestival.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSThaiBuddhistFestival.h; sourceTree = "<group>"; };
 		105068ED2C00A2B200EFAE4C /* LSThaiBuddhistFestival.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSThaiBuddhistFestival.m; sourceTree = "<group>"; };
 		105FE4AB2BAD75B700A04FD7 /* LSColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSColorManager.swift; sourceTree = "<group>"; };
 		1065D52B2BF9A3F600C615B1 /* LSWKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSWKViewController.swift; sourceTree = "<group>"; };
-		106CE1C72C15C1E1001C8974 /* LSWebpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSWebpTool.h; sourceTree = "<group>"; };
-		106CE1C82C15C1E1001C8974 /* LSWebpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSWebpTool.m; sourceTree = "<group>"; };
 		10882BEB2D43D08900B88056 /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		10882BEC2D43D08900B88056 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		10882BEE2D43D08A00B88056 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -607,7 +675,6 @@
 		1937CF162B98A86B00D453FA /* LSLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLocation.h; sourceTree = "<group>"; };
 		1937CF172B98A86B00D453FA /* LSWorkingdayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWorkingdayModel.h; sourceTree = "<group>"; };
 		1937CF182B98A86B00D453FA /* LSMoon.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LSMoon.mm; sourceTree = "<group>"; };
-		1937CF192B98A86B00D453FA /* LSTimeZoneMapLocation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LSTimeZoneMapLocation.mm; sourceTree = "<group>"; };
 		1937CF1A2B98A86B00D453FA /* LSLocation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LSLocation.mm; sourceTree = "<group>"; };
 		1937CF1B2B98A86B00D453FA /* LSAccuWeatherHourModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSAccuWeatherHourModel.m; sourceTree = "<group>"; };
 		1937CF1C2B98A86B00D453FA /* LSMoselm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMoselm.h; sourceTree = "<group>"; };
@@ -703,7 +770,6 @@
 		1937CF782B98A86B00D453FA /* LSZangLi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSZangLi.h; sourceTree = "<group>"; };
 		1937CF792B98A86B00D453FA /* LSWorldDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWorldDay.m; sourceTree = "<group>"; };
 		1937CF7A2B98A86B00D453FA /* LSEra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSEra.m; sourceTree = "<group>"; };
-		1937CF7B2B98A86B00D453FA /* LSTimeZoneMapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTimeZoneMapLocation.h; sourceTree = "<group>"; };
 		1937CF7C2B98A86B00D453FA /* LSStaticAstroBody.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LSStaticAstroBody.mm; sourceTree = "<group>"; };
 		1937CF7D2B98A86B00D453FA /* LSHolidayRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSHolidayRegion.h; sourceTree = "<group>"; };
 		1937CF7E2B98A86B00D453FA /* LSSolarTermModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LSSolarTermModel.mm; sourceTree = "<group>"; };
@@ -748,7 +814,6 @@
 		1937CFE72B98A88C00D453FA /* LSEraCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSEraCell.m; sourceTree = "<group>"; };
 		1937CFE82B98A88C00D453FA /* LSWorldClockItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWorldClockItemCell.h; sourceTree = "<group>"; };
 		1937CFE92B98A88C00D453FA /* LSYearMoonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSYearMoonCell.m; sourceTree = "<group>"; };
-		1937CFEA2B98A88C00D453FA /* LSTimeZoneMapOverLayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTimeZoneMapOverLayView.h; sourceTree = "<group>"; };
 		1937CFEB2B98A88C00D453FA /* LSLocationAddFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLocationAddFooter.m; sourceTree = "<group>"; };
 		1937CFEC2B98A88C00D453FA /* LSCalendarFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCalendarFooterView.m; sourceTree = "<group>"; };
 		1937CFED2B98A88C00D453FA /* LSEclipseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSEclipseCell.m; sourceTree = "<group>"; };
@@ -785,7 +850,6 @@
 		1937D00C2B98A88C00D453FA /* LSCalendarFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCalendarFooterView.h; sourceTree = "<group>"; };
 		1937D00D2B98A88C00D453FA /* LSLocationAddFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLocationAddFooter.h; sourceTree = "<group>"; };
 		1937D00E2B98A88C00D453FA /* LSYearMoonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSYearMoonCell.h; sourceTree = "<group>"; };
-		1937D00F2B98A88C00D453FA /* LSTimeZoneMapOverLayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTimeZoneMapOverLayView.m; sourceTree = "<group>"; };
 		1937D0102B98A88C00D453FA /* LSEraCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSEraCell.h; sourceTree = "<group>"; };
 		1937D0112B98A88C00D453FA /* LSWorldClockItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWorldClockItemCell.m; sourceTree = "<group>"; };
 		1937D0122B98A88C00D453FA /* LSMonthMoonItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSMonthMoonItemCell.m; sourceTree = "<group>"; };
@@ -851,18 +915,14 @@
 		1937D0872B98AAD400D453FA /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		1937D0882B98AAD600D453FA /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1937D0892B98AAD700D453FA /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		1937D08B2B98B19F00D453FA /* ofxMercatorMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxMercatorMap.cpp; sourceTree = "<group>"; };
 		1937D08C2B98B19F00D453FA /* HinduCalendar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HinduCalendar.cpp; sourceTree = "<group>"; };
 		1937D08D2B98B19F00D453FA /* ThaiCalendar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ThaiCalendar.hpp; sourceTree = "<group>"; };
-		1937D08E2B98B19F00D453FA /* maptrans.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maptrans.cpp; sourceTree = "<group>"; };
 		1937D0902B98B19F00D453FA /* TibetanCalendar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TibetanCalendar.cpp; sourceTree = "<group>"; };
 		1937D0912B98B19F00D453FA /* AHAAHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AHAAHelper.cpp; sourceTree = "<group>"; };
 		1937D0932B98B19F00D453FA /* TibetanCalendar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TibetanCalendar.hpp; sourceTree = "<group>"; };
 		1937D0A02B98B19F00D453FA /* AHAAHelper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AHAAHelper.hpp; sourceTree = "<group>"; };
-		1937D0A12B98B19F00D453FA /* ofxMercatorMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxMercatorMap.h; sourceTree = "<group>"; };
 		1937D0A22B98B19F00D453FA /* ThaiCalendar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThaiCalendar.cpp; sourceTree = "<group>"; };
 		1937D0A32B98B19F00D453FA /* HinduCalendar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HinduCalendar.hpp; sourceTree = "<group>"; };
-		1937D0A42B98B19F00D453FA /* maptrans.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = maptrans.hpp; sourceTree = "<group>"; };
 		193E11D52B9C0A1C008698D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/lish.strings; sourceTree = "<group>"; };
 		193E11D72B9C0A21008698D2 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/lish.strings"; sourceTree = "<group>"; };
 		193E11D82B9C0A23008698D2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/lish.strings"; sourceTree = "<group>"; };
@@ -968,6 +1028,7 @@
 				10B764B52D44CE00003353AB /* CalendarProgessModel.swift */,
 				10B764B72D44D5FF003353AB /* Localizable.strings */,
 				10B764CA2D44E93A003353AB /* YearItemView.swift */,
+				102755B72D4621F700A85BDA /* WigetOCHeader.h */,
 			);
 			path = widget;
 			sourceTree = "<group>";
@@ -1429,8 +1490,6 @@
 				1937CF072B98A86A00D453FA /* LSTime.mm */,
 				1937CF642B98A86B00D453FA /* LSTimeZone.h */,
 				1937CF282B98A86B00D453FA /* LSTimeZone.m */,
-				1937CF7B2B98A86B00D453FA /* LSTimeZoneMapLocation.h */,
-				1937CF192B98A86B00D453FA /* LSTimeZoneMapLocation.mm */,
 				1937CF6F2B98A86B00D453FA /* LSWorkingDayConfig.h */,
 				1937CF422B98A86B00D453FA /* LSWorkingDayConfig.m */,
 				1937CF172B98A86B00D453FA /* LSWorkingdayModel.h */,
@@ -1533,8 +1592,6 @@
 				1937D0152B98A88C00D453FA /* LSSunMoonClockView.m */,
 				1937CFF92B98A88C00D453FA /* LSTimeHeaderView.h */,
 				1937CFD62B98A88C00D453FA /* LSTimeHeaderView.m */,
-				1937CFEA2B98A88C00D453FA /* LSTimeZoneMapOverLayView.h */,
-				1937D00F2B98A88C00D453FA /* LSTimeZoneMapOverLayView.m */,
 				1937CFCB2B98A88C00D453FA /* LSTimeZoneMapView.h */,
 				1937CFF62B98A88C00D453FA /* LSTimeZoneMapView.m */,
 				1937D0062B98A88C00D453FA /* LSWorldClockCell.h */,
@@ -1558,8 +1615,8 @@
 				1937D0422B98A89B00D453FA /* LSHandler.m */,
 				1937D0432B98A89B00D453FA /* LSUinitTool.h */,
 				1937D0402B98A89B00D453FA /* LSUinitTool.m */,
-				106CE1C72C15C1E1001C8974 /* LSWebpTool.h */,
-				106CE1C82C15C1E1001C8974 /* LSWebpTool.m */,
+				1027556E2D46099C00A85BDA /* LSNightDayTool.h */,
+				1027556F2D46099C00A85BDA /* LSNightDayTool.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1573,10 +1630,6 @@
 				1937D0A32B98B19F00D453FA /* HinduCalendar.hpp */,
 				109EDEFA2BF61A350062AB31 /* lunar.cpp */,
 				109EDEF92BF61A2D0062AB31 /* lunar.h */,
-				1937D08E2B98B19F00D453FA /* maptrans.cpp */,
-				1937D0A42B98B19F00D453FA /* maptrans.hpp */,
-				1937D08B2B98B19F00D453FA /* ofxMercatorMap.cpp */,
-				1937D0A12B98B19F00D453FA /* ofxMercatorMap.h */,
 				1937D0A22B98B19F00D453FA /* ThaiCalendar.cpp */,
 				1937D08D2B98B19F00D453FA /* ThaiCalendar.hpp */,
 				1937D0902B98B19F00D453FA /* TibetanCalendar.cpp */,
@@ -1813,13 +1866,84 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				102755B22D46206A00A85BDA /* AASun.cpp in Sources */,
+				102755792D461EEB00A85BDA /* AADiameters.cpp in Sources */,
+				102755772D461EDE00A85BDA /* AACoordinateTransformation.cpp in Sources */,
+				102755B62D46214100A85BDA /* LSRiseSetTime.m in Sources */,
+				1027557C2D461F2100A85BDA /* AAEaster.cpp in Sources */,
+				102755842D461F6100A85BDA /* AAEquinoxesAndSolstices.cpp in Sources */,
+				102755A72D46202C00A85BDA /* AAPlanetPerihelionAphelion.cpp in Sources */,
+				102755812D461F4000A85BDA /* AAELP2000.cpp in Sources */,
+				102755762D461ED800A85BDA /* AABinaryStar.cpp in Sources */,
+				102755722D461E9D00A85BDA /* LSDate.mm in Sources */,
+				102755712D461E8500A85BDA /* LSNightDayTool.m in Sources */,
+				102755902D461FA600A85BDA /* AAMoon.cpp in Sources */,
+				1027557E2D461F2C00A85BDA /* AAEclipticalElements.cpp in Sources */,
+				102755882D461F7900A85BDA /* AAGlobe.cpp in Sources */,
 				10B764B02D44B67C003353AB /* YearWidget.swift in Sources */,
+				1027558C2D461F9000A85BDA /* AAJupiter.cpp in Sources */,
+				102755822D461F4600A85BDA /* AAELPMPP02.cpp in Sources */,
+				102755802D461F3900A85BDA /* AAElliptical.cpp in Sources */,
+				102755A52D46202000A85BDA /* AAPhysicalSun.cpp in Sources */,
+				1027557B2D461F0100A85BDA /* AAEarth.cpp in Sources */,
+				102755AF2D46205900A85BDA /* AASaturnRings.cpp in Sources */,
 				10882C052D43D09E00B88056 /* widget.swift in Sources */,
+				102755922D461FB100A85BDA /* AAMoonMaxDeclinations.cpp in Sources */,
+				102755B82D462CC300A85BDA /* LSJulianCalendar.mm in Sources */,
+				102755AA2D46203C00A85BDA /* AARefraction.cpp in Sources */,
+				102755A62D46202600A85BDA /* AAPlanetaryPhenomena.cpp in Sources */,
+				102755972D461FCD00A85BDA /* AAMoonPerigeeApogee2.cpp in Sources */,
+				102755832D461F4D00A85BDA /* AAEquationOfTime.cpp in Sources */,
+				102755A42D46201B00A85BDA /* AAPhysicalMoon.cpp in Sources */,
+				102755962D461FC800A85BDA /* AAMoonPerigeeApogee.cpp in Sources */,
+				102755952D461FC300A85BDA /* AAMoonNodes2.cpp in Sources */,
+				102755A22D46201100A85BDA /* AAPhysicalJupiter.cpp in Sources */,
+				102755A32D46201600A85BDA /* AAPhysicalMars.cpp in Sources */,
+				102755862D461F6D00A85BDA /* AAFK5.cpp in Sources */,
+				102755982D461FD400A85BDA /* AAMoonPhases.cpp in Sources */,
+				102755A92D46203700A85BDA /* AAPrecession.cpp in Sources */,
 				10B764CB2D44E93A003353AB /* YearItemView.swift in Sources */,
+				102755B12D46206400A85BDA /* AAStellarMagnitudes.cpp in Sources */,
+				102755B02D46205E00A85BDA /* AASidereal.cpp in Sources */,
+				102755B52D46212900A85BDA /* LSSun.mm in Sources */,
+				102755AC2D46204800A85BDA /* AARiseTransitSet2.cpp in Sources */,
 				10B764B42D44CDD4003353AB /* YearModel.swift in Sources */,
 				10882C062D43D09E00B88056 /* widgetBundle.swift in Sources */,
+				1027559A2D461FE200A85BDA /* AAMoslemCalendar.cpp in Sources */,
+				102755A82D46203100A85BDA /* AAPluto.cpp in Sources */,
+				102755942D461FBE00A85BDA /* AAMoonNodes.cpp in Sources */,
 				10B764B22D44C10B003353AB /* ImageModel.swift in Sources */,
+				1027557D2D461F2700A85BDA /* AAEclipses.cpp in Sources */,
+				102755732D461EB400A85BDA /* AHAAHelper.cpp in Sources */,
+				102755B42D46207400A85BDA /* AAVenus.cpp in Sources */,
+				102755742D461ECC00A85BDA /* AAAberration.cpp in Sources */,
+				1027559F2D46200000A85BDA /* AAParabolic.cpp in Sources */,
+				1027559E2D461FFA00A85BDA /* AANutation.cpp in Sources */,
+				1027559B2D461FE700A85BDA /* AANearParabolic.cpp in Sources */,
+				102755752D461ED200A85BDA /* AAAngularSeparation.cpp in Sources */,
+				1027558D2D461F9500A85BDA /* AAKepler.cpp in Sources */,
+				102755AE2D46205400A85BDA /* AASaturnMoons.cpp in Sources */,
+				102755A12D46200A00A85BDA /* AAParallax.cpp in Sources */,
+				1027557F2D461F3300A85BDA /* AAElementsPlanetaryOrbit.cpp in Sources */,
+				102755992D461FDA00A85BDA /* AAMoonPhases2.cpp in Sources */,
+				1027558E2D461F9B00A85BDA /* AAMars.cpp in Sources */,
+				102755AD2D46204D00A85BDA /* AASaturn.cpp in Sources */,
+				1027559D2D461FF400A85BDA /* AANodes.cpp in Sources */,
+				102755932D461FB700A85BDA /* AAMoonMaxDeclinations2.cpp in Sources */,
+				102755892D461F7F00A85BDA /* AAIlluminatedFraction.cpp in Sources */,
+				102755912D461FAC00A85BDA /* AAMoonIlluminatedFraction.cpp in Sources */,
 				10B764B62D44CE00003353AB /* CalendarProgessModel.swift in Sources */,
+				1027559C2D461FEE00A85BDA /* AANeptune.cpp in Sources */,
+				1027558A2D461F8400A85BDA /* AAInterpolate.cpp in Sources */,
+				1027557A2D461EF300A85BDA /* AADynamicalTime.cpp in Sources */,
+				102755852D461F6700A85BDA /* AAEquinoxesAndSolstices2.cpp in Sources */,
+				102755782D461EE500A85BDA /* AADate.cpp in Sources */,
+				1027558F2D461FA100A85BDA /* AAMercury.cpp in Sources */,
+				102755A02D46200500A85BDA /* AAParallactic.cpp in Sources */,
+				102755AB2D46204300A85BDA /* AARiseTransitSet.cpp in Sources */,
+				102755B32D46206F00A85BDA /* AAUranus.cpp in Sources */,
+				102755872D461F7300A85BDA /* AAGalileanMoons.cpp in Sources */,
+				1027558B2D461F8A00A85BDA /* AAJewishCalendar.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1834,7 +1958,6 @@
 				1937D0A92B98B19F00D453FA /* TibetanCalendar.cpp in Sources */,
 				1937CDF42B98A7D800D453FA /* AAEquinoxesAndSolstices.cpp in Sources */,
 				10B09DA02BFF5C8A00CD954A /* LSTaiLiModel.mm in Sources */,
-				1937D0382B98A88D00D453FA /* LSTimeZoneMapOverLayView.m in Sources */,
 				1937CDDC2B98A7D800D453FA /* AAKepler.cpp in Sources */,
 				1937CE802B98A81E00D453FA /* LSWorkingDayConfigFilterViewController.m in Sources */,
 				10924E8E2C12F54B00326AA7 /* LSRegisterViewController.swift in Sources */,
@@ -1854,7 +1977,6 @@
 				1937CF972B98A86C00D453FA /* LSChineseFestival.m in Sources */,
 				1937CDF22B98A7D800D453FA /* AANutation.cpp in Sources */,
 				1937D0202B98A88D00D453FA /* LSDayHolidayCell.m in Sources */,
-				1937D0A52B98B19F00D453FA /* ofxMercatorMap.cpp in Sources */,
 				1937D01F2B98A88D00D453FA /* LSFilterCell.m in Sources */,
 				1937CFAC2B98A86C00D453FA /* LSAstroPostion.mm in Sources */,
 				1937CE762B98A81E00D453FA /* LSCalendarMonthViewController.m in Sources */,
@@ -1928,9 +2050,9 @@
 				1937CE8D2B98A81E00D453FA /* LSYearEclipseViewController.m in Sources */,
 				1937CE072B98A7D800D453FA /* AAMoonPerigeeApogee.cpp in Sources */,
 				1937CF9A2B98A86C00D453FA /* LSHolidayApiCodeModel.m in Sources */,
-				1937D0A72B98B19F00D453FA /* maptrans.cpp in Sources */,
 				1937CE832B98A81E00D453FA /* LSLocationManagerViewController.m in Sources */,
 				19D505372B983ECF0082DF14 /* AppDelegate.swift in Sources */,
+				102755702D46099C00A85BDA /* LSNightDayTool.m in Sources */,
 				1937CE102B98A7D800D453FA /* AADiameters.cpp in Sources */,
 				1937D0332B98A88D00D453FA /* LSDayCalendarCell.m in Sources */,
 				1937CDBA2B98A7D800D453FA /* AAPluto.cpp in Sources */,
@@ -2022,7 +2144,6 @@
 				1937CE862B98A81E00D453FA /* LSWkWiewViewController.m in Sources */,
 				1937CDB72B98A7D800D453FA /* AAIlluminatedFraction.cpp in Sources */,
 				1937CE892B98A81E00D453FA /* LSTimeDetailViewController.m in Sources */,
-				1937CF902B98A86C00D453FA /* LSTimeZoneMapLocation.mm in Sources */,
 				1937CE062B98A7D800D453FA /* AAPhysicalSun.cpp in Sources */,
 				10994D282C1994060058A898 /* LSPurchaseProductView.swift in Sources */,
 				1937D03E2B98A88D00D453FA /* LSFestivalCell.m in Sources */,
@@ -2067,7 +2188,6 @@
 				1937D0272B98A88D00D453FA /* LSClockMapCell.m in Sources */,
 				1937CF942B98A86C00D453FA /* LSDay.mm in Sources */,
 				1937CDC62B98A7D800D453FA /* AADate.cpp in Sources */,
-				106CE1C92C15C1E1001C8974 /* LSWebpTool.m in Sources */,
 				1937D0192B98A88D00D453FA /* LSClockPersonCell.m in Sources */,
 				1937CDC92B98A7D800D453FA /* AAGalileanMoons.cpp in Sources */,
 				1937D0362B98A88D00D453FA /* LSNormalHeaderView.m in Sources */,
@@ -2247,6 +2367,11 @@
 				DEVELOPMENT_TEAM = 9295SUH62C;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"AAPLUS_VSOP87_NO_HIGH_PRECISION=1",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = widget;
@@ -2264,6 +2389,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = widget/WigetOCHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2280,6 +2406,7 @@
 				DEVELOPMENT_TEAM = 9295SUH62C;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_PREPROCESSOR_DEFINITIONS = "AAPLUS_VSOP87_NO_HIGH_PRECISION=1";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = widget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = widget;
@@ -2296,6 +2423,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = widget/WigetOCHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

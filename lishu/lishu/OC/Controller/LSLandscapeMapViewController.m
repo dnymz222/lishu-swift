@@ -11,6 +11,7 @@
 #import <Masonry/Masonry.h>
 #import "ColorSizeMacro.h"
 #import "LSTimeZoneMapTipController.h"
+#import "LSNightDayTool.h"
 
 
 @interface LSLandscapeMapViewController ()<UIScrollViewDelegate>
@@ -56,9 +57,9 @@
 
     
     
-    CGFloat scale   =1195/(height-navheight);
+    CGFloat scale   = 1104/(height-navheight);
     [self.scrollView addSubview:self.mapView];
-    CGFloat mapwidth   = 2004/scale;
+    CGFloat mapwidth   = 2160/scale;
     self.mapView.frame =  CGRectMake(0, 0, mapwidth, height-navheight);
     self.scrollView.contentSize = CGSizeMake(mapwidth, height-navheight);
 //    [self.mapView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -67,12 +68,25 @@
 //        make.width.equalTo(@(2004/scale));
 //    }];
     
-    LSDate *lsdate  = [[LSDate alloc] initWithDate:self.date];
-    [lsdate calculateLocation];
-    [lsdate calculateTwlightLocation];
-    [self.mapView configLocationArray:lsdate.locationArray scale:scale fix:lsdate.fix];
-    [self.mapView configTwilightLocationArray:lsdate.twlightLocationArray scale:scale fix:lsdate.fix];
+//    LSDate *lsdate  = [[LSDate alloc] initWithDate:self.date];
+//    [lsdate calculateLocation];
+//    [lsdate calculateTwlightLocation];
+//    [self.mapView configLocationArray:lsdate.locationArray scale:scale fix:lsdate.fix];
+//    [self.mapView configTwilightLocationArray:lsdate.twlightLocationArray scale:scale fix:lsdate.fix];
     // Do any additional setup after loading the view.
+    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        
+        LSNightDayTool *daynightTool = [[LSNightDayTool alloc] initWihDate:self.date];
+        
+        
+        
+        UIImage *  dayNightImage = [daynightTool generateImage:2];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.mapView.overlayView setImage: dayNightImage];
+        });
+    });
 }
 
 -(LSTimeZoneMapView *)mapView {
